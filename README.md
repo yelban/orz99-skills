@@ -53,6 +53,18 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 - 修正翻譯腔：連續「的」字拆開
 - 口語化：「予以」→「給」、「該」→「這個」
 
+### codex-plan
+
+使用 Codex 5.3（xhigh reasoning）建立詳細實作計畫。
+
+**Triggers:**
+- `/codex-plan <what you want to plan>`
+
+**Features:**
+- 自動詢問釐清問題（3-6 題）
+- 使用 gpt-5.3-codex 模型 + xhigh 推理
+- 輸出結構化計畫含 Phase/Task/依賴/測試策略
+
 ## License
 
 MIT
