@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文章閱讀</title>
+<script src="marked.min.js"></script>
+<style>
+  :root {
+    --unit: 8px;
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --c-bg: #ffffff;
+    --c-surface: #f8fafc;
+    --c-text: #0f172a;
+    --c-text-secondary: #475569;
+    --c-text-muted: #94a3b8;
+    --c-border: #e2e8f0;
+    --c-accent: #2563eb;
+    --c-accent-soft: #dbeafe;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
+    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.04);
+    --ease: cubic-bezier(0.4, 0, 0.2, 1);
+    --duration: 200ms;
+  }
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition-duration: 0.01ms !important; }
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, "Noto Sans TC", sans-serif;
+    font-size: 17px;
+    color: var(--c-text);
+    background: var(--c-bg);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* ── Top Bar ── */
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--c-border);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 780px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .topbar-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--c-accent);
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 99px;
+    background: var(--c-accent-soft);
+    transition: background var(--duration) var(--ease), box-shadow var(--duration) var(--ease);
+    flex-shrink: 0;
+  }
+  .topbar-back:hover {
+    background: #bfdbfe;
+    box-shadow: var(--shadow-sm);
+  }
+  .topbar-back:focus-visible {
+    outline: 2px solid var(--c-accent);
+    outline-offset: 2px;
+  }
+  .topbar-back svg { width: 16px; height: 16px; }
+  .topbar-filename {
+    font-size: 0.88rem;
+    color: var(--c-text-muted);
+    font-family: "SF Mono", "Fira Code", "Consolas", monospace;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* ── Article ── */
+  .article-wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  /* ── Loading / Error ── */
+  .status {
+    text-align: center;
+    padding: 80px 24px;
+    color: var(--c-text-muted);
+    font-size: 1.05rem;
+  }
+  .status.error {
+    color: #dc2626;
+  }
+  .status-icon {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  /* ── Markdown Styles ── */
+  .article h1, .article h2, .article h3, .article h4, .article h5, .article h6 {
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+    color: var(--c-text);
+  }
+  .article h1 {
+    font-size: 1.8rem;
+    letter-spacing: -0.025em;
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--c-border);
+  }
+  .article h2 {
+    font-size: 1.4rem;
+    letter-spacing: -0.02em;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--c-border);
+  }
+  .article h3 { font-size: 1.15rem; }
+  .article h4 { font-size: 1rem; }
+
+  .article p {
+    margin-bottom: 1em;
+    line-height: 1.8;
+  }
+
+  .article ul, .article ol {
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+  }
+  .article li {
+    margin-bottom: 0.4em;
+    line-height: 1.8;
+  }
+  .article li > ul, .article li > ol {
+    margin-top: 0.4em;
+    margin-bottom: 0;
+  }
+
+  .article a {
+    color: var(--c-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color var(--duration) var(--ease);
+  }
+  .article a:hover { color: #1d4ed8; }
+
+  .article strong { font-weight: 700; }
+  .article em { font-style: italic; }
+
+  /* ── Inline Code ── */
+  .article code {
+    font-family: "SF Mono", "Fira Code", "Consolas", monospace;
+    font-size: 0.88em;
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--radius-sm);
+    padding: 2px 6px;
+  }
+
+  /* ── Code Blocks ── */
+  .article pre {
+    margin-bottom: 1.2em;
+    background: #1e293b;
+    color: #e2e8f0;
+    border-radius: var(--radius-md);
+    padding: 20px;
+    overflow-x: auto;
+    line-height: 1.6;
+    box-shadow: var(--shadow-sm);
+  }
+  .article pre code {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 0.88rem;
+    color: inherit;
+  }
+
+  /* ── Blockquotes ── */
+  .article blockquote {
+    margin-bottom: 1.2em;
+    padding: 12px 20px;
+    border-left: 4px solid var(--c-accent);
+    background: var(--c-accent-soft);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    color: var(--c-text-secondary);
+  }
+  .article blockquote p:last-child { margin-bottom: 0; }
+
+  /* ── Tables ── */
+  .article table {
+    width: 100%;
+    margin-bottom: 1.2em;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+  .article th, .article td {
+    border: 1px solid var(--c-border);
+    padding: 10px 14px;
+    text-align: left;
+    line-height: 1.6;
+  }
+  .article th {
+    background: var(--c-surface);
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--c-text-secondary);
+  }
+  .article tr:hover { background: #f8fafc; }
+
+  /* ── Images ── */
+  .article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    margin: 8px 0;
+  }
+
+  /* ── Horizontal Rule ── */
+  .article hr {
+    border: none;
+    border-top: 1px solid var(--c-border);
+    margin: 2em 0;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 768px) {
+    .topbar { padding: 10px 16px; }
+    .article-wrap { padding: 32px 16px 64px; }
+    .article h1 { font-size: 1.5rem; }
+    .article h2 { font-size: 1.2rem; }
+    .article pre { padding: 14px; font-size: 0.82rem; }
+  }
+
+  @media (max-width: 375px) {
+    .article h1 { font-size: 1.3rem; }
+    .article-wrap { padding: 24px 14px 48px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── Top Bar ── -->
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="topbar-back" href="skill-showcase-v2.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      返回展示頁
+    </a>
+    <span class="topbar-filename" id="filename"></span>
+  </div>
+</nav>
+
+<!-- ── Content ── -->
+<div class="article-wrap">
+  <div id="content">
+    <div class="status" id="loading">載入中…</div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get('file');
+    const contentEl = document.getElementById('content');
+    const filenameEl = document.getElementById('filename');
+
+    if (!file) {
+      contentEl.innerHTML = '<div class="status error"><span class="status-icon">!</span>未指定檔案。請使用 ?file=filename.md 參數。</div>';
+      return;
+    }
+
+    // Sanitize: only allow simple filenames (no path traversal)
+    if (file.includes('/') || file.includes('\\') || file.includes('..')) {
+      contentEl.innerHTML = '<div class="status error"><span class="status-icon">!</span>無效的檔案名稱。</div>';
+      return;
+    }
+
+    filenameEl.textContent = file;
+    document.title = file + ' — 文章閱讀';
+
+    fetch(file)
+      .then(function(res) {
+        if (!res.ok) throw new Error(res.status);
+        return res.text();
+      })
+      .then(function(md) {
+        contentEl.innerHTML = '<div class="article">' + marked.parse(md) + '</div>';
+      })
+      .catch(function() {
+        contentEl.innerHTML = '<div class="status error"><span class="status-icon">!</span>找不到檔案：' + file + '<br><br><a href="skill-showcase-v2.html" style="color:#2563eb">返回展示頁</a></div>';
+      });
+  })();
+</script>
+
+</body>
+</html>

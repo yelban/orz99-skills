@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skills 效果展示 — good-writing-zh &amp; humanizer-tw</title>
+<style>
+  :root {
+    --c-ai: #f3f4f6;
+    --c-ai-border: #d1d5db;
+    --c-gw: #ecfdf5;
+    --c-gw-border: #a7f3d0;
+    --c-ht: #eff6ff;
+    --c-ht-border: #bfdbfe;
+    --c-note: #fffbeb;
+    --c-note-border: #fcd34d;
+    --c-text: #1f2937;
+    --c-muted: #6b7280;
+    --c-bg: #ffffff;
+    --radius: 8px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", "Noto Sans SC", sans-serif;
+    color: var(--c-text);
+    background: #f9fafb;
+    line-height: 1.7;
+    padding: 0 16px;
+  }
+
+  /* ── Header ── */
+  .header {
+    max-width: 960px;
+    margin: 48px auto 0;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .header .subtitle {
+    color: var(--c-muted);
+    font-size: 0.95rem;
+    margin-bottom: 32px;
+  }
+
+  /* ── Flow Diagram ── */
+  .flow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .flow-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 24px;
+    border-radius: var(--radius);
+    min-width: 160px;
+  }
+  .flow-step.ai { background: var(--c-ai); border: 1px solid var(--c-ai-border); }
+  .flow-step.gw { background: var(--c-gw); border: 1px solid var(--c-gw-border); }
+  .flow-step.ht { background: var(--c-ht); border: 1px solid var(--c-ht-border); }
+  .flow-step .step-num {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--c-muted);
+    margin-bottom: 4px;
+  }
+  .flow-step .step-name {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .flow-step .step-desc {
+    font-size: 0.8rem;
+    color: var(--c-muted);
+    margin-top: 2px;
+  }
+  .flow-arrow {
+    font-size: 1.5rem;
+    color: var(--c-muted);
+    padding: 0 8px;
+    flex-shrink: 0;
+  }
+
+  /* ── Stats ── */
+  .stats {
+    max-width: 960px;
+    margin: 0 auto 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .stat-card {
+    padding: 20px;
+    border-radius: var(--radius);
+    text-align: center;
+  }
+  .stat-card.ai { background: var(--c-ai); border: 1px solid var(--c-ai-border); }
+  .stat-card.gw { background: var(--c-gw); border: 1px solid var(--c-gw-border); }
+  .stat-card.ht { background: var(--c-ht); border: 1px solid var(--c-ht-border); }
+  .stat-card .stat-label {
+    font-size: 0.8rem;
+    color: var(--c-muted);
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+  .stat-card .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .stat-card .stat-tags {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+  }
+  .stat-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 99px;
+    background: rgba(0,0,0,0.06);
+    color: var(--c-muted);
+  }
+
+  /* ── Section ── */
+  .section {
+    max-width: 960px;
+    margin: 0 auto 48px;
+  }
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e5e7eb;
+  }
+  .section-num {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--c-muted);
+    white-space: nowrap;
+  }
+  .section-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+  }
+  .section-focus {
+    font-size: 0.8rem;
+    color: var(--c-muted);
+    margin-left: auto;
+    white-space: nowrap;
+  }
+
+  /* ── Three-Column Grid ── */
+  .compare {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .col {
+    padding: 16px;
+    border-radius: var(--radius);
+    font-size: 0.9rem;
+  }
+  .col.ai { background: var(--c-ai); border: 1px solid var(--c-ai-border); }
+  .col.gw { background: var(--c-gw); border: 1px solid var(--c-gw-border); }
+  .col.ht { background: var(--c-ht); border: 1px solid var(--c-ht-border); }
+  .col-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--c-muted);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .col-label .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .col.ai .dot { background: #9ca3af; }
+  .col.gw .dot { background: #34d399; }
+  .col.ht .dot { background: #60a5fa; }
+  .col p { margin-bottom: 8px; }
+  .col p:last-child { margin-bottom: 0; }
+
+  /* highlight spans */
+  .hl-del {
+    background: #fecaca;
+    text-decoration: line-through;
+    border-radius: 2px;
+    padding: 0 2px;
+  }
+  .hl-add {
+    background: #bbf7d0;
+    border-radius: 2px;
+    padding: 0 2px;
+    font-weight: 600;
+  }
+  .hl-change {
+    background: #fef08a;
+    border-radius: 2px;
+    padding: 0 2px;
+  }
+
+  /* ── Annotation Card ── */
+  .annotation {
+    background: var(--c-note);
+    border: 1px solid var(--c-note-border);
+    border-radius: var(--radius);
+    padding: 12px 16px;
+    font-size: 0.85rem;
+    color: #92400e;
+    margin-bottom: 12px;
+  }
+  .annotation strong { color: #78350f; }
+
+  /* ── Footer ── */
+  .footer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 0 48px;
+    text-align: center;
+    color: var(--c-muted);
+    font-size: 0.8rem;
+    border-top: 1px solid #e5e7eb;
+  }
+  .footer a { color: var(--c-muted); }
+
+  /* ── Responsive ── */
+  @media (max-width: 768px) {
+    .flow { flex-direction: column; gap: 8px; }
+    .flow-arrow { transform: rotate(90deg); padding: 4px 0; }
+    .stats { grid-template-columns: 1fr; }
+    .compare { grid-template-columns: 1fr; }
+    .section-header { flex-wrap: wrap; }
+    .section-focus { margin-left: 0; }
+    .header h1 { font-size: 1.35rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ════════ Header ════════ -->
+<div class="header">
+  <h1>Skills 效果展示</h1>
+  <p class="subtitle">同一篇文章，經過兩個 skill 各改一輪，看看差在哪裡</p>
+
+  <div class="flow">
+    <div class="flow-step ai">
+      <span class="step-num">Step 0</span>
+      <span class="step-name">AI 原生</span>
+      <span class="step-desc">LLM 直出</span>
+    </div>
+    <span class="flow-arrow">&rarr;</span>
+    <div class="flow-step gw">
+      <span class="step-num">Step 1</span>
+      <span class="step-name">good-writing-zh</span>
+      <span class="step-desc">結構精簡</span>
+    </div>
+    <span class="flow-arrow">&rarr;</span>
+    <div class="flow-step ht">
+      <span class="step-num">Step 2</span>
+      <span class="step-name">humanizer-tw</span>
+      <span class="step-desc">注入人味</span>
+    </div>
+  </div>
+</div>
+
+<!-- ════════ Stats ════════ -->
+<div class="stats">
+  <div class="stat-card ai">
+    <div class="stat-label">AI 原生</div>
+    <div class="stat-value">~3,870 字</div>
+    <div class="stat-tags">
+      <span class="stat-tag">冗詞多</span>
+      <span class="stat-tag">句子長</span>
+      <span class="stat-tag">連接詞堆砌</span>
+    </div>
+  </div>
+  <div class="stat-card gw">
+    <div class="stat-label">good-writing-zh 改寫</div>
+    <div class="stat-value">~3,710 字</div>
+    <div class="stat-tags">
+      <span class="stat-tag">刪冗字</span>
+      <span class="stat-tag">拆長句</span>
+      <span class="stat-tag">去弱詞</span>
+    </div>
+  </div>
+  <div class="stat-card ht">
+    <div class="stat-label">humanizer-tw 去 AI 痕跡</div>
+    <div class="stat-value">~3,780 字</div>
+    <div class="stat-tags">
+      <span class="stat-tag">口語化</span>
+      <span class="stat-tag">注入個性</span>
+      <span class="stat-tag">標題重寫</span>
+    </div>
+  </div>
+</div>
+
+<!-- ════════ Comparison Sections ════════ -->
+
+<!-- ── 1. 開頭介紹 ── -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-num">#1</span>
+    <span class="section-title">開頭介紹</span>
+    <span class="section-focus">口語化 &middot; 語氣轉換</span>
+  </div>
+  <div class="compare">
+    <div class="col ai">
+      <div class="col-label"><span class="dot"></span>AI 原生</div>
+      <p><span class="hl-change">本文整合自</span>兩篇 X 推文，<span class="hl-change">涵蓋技術原理與實戰應用</span>：</p>
+      <p>- Daniel San：<span class="hl-change">技術深入，講</span>運作原理、CLAUDE.md 的重要性、三大核心規則</p>
+      <p>- J.B.：<span class="hl-change">應用導向，行銷場景實戰、操作步驟、避坑指南</span></p>
+    </div>
+    <div class="col gw">
+      <div class="col-label"><span class="dot"></span>good-writing-zh</div>
+      <p><span class="hl-change">本文整合自</span>兩篇 X 推文，<span class="hl-change">涵蓋技術原理與實戰應用</span>：</p>
+      <p>- Daniel San：<span class="hl-change">技術深入，講</span>運作原理、CLAUDE.md 的重要性、三大核心規則</p>
+      <p>- J.B.：<span class="hl-change">應用導向，行銷場景實戰、操作步驟、避坑指南</span></p>
+    </div>
+    <div class="col ht">
+      <div class="col-label"><span class="dot"></span>humanizer-tw</div>
+      <p><span class="hl-add">這篇整合了</span>兩則 X 推文，<span class="hl-add">角度剛好互補</span>：</p>
+      <p>- Daniel San——<span class="hl-add">拆解</span>運作原理，講 CLAUDE.md <span class="hl-add">為什麼是靈魂</span>，歸納三條規則</p>
+      <p>- J.B.——<span class="hl-add">行銷人視角，四種實戰場景、操作步驟、踩過的坑</span></p>
+    </div>
+  </div>
+  <div class="annotation">
+    <strong>humanizer-tw 改了什麼：</strong>
+    「本文整合自」&rarr;「這篇整合了」更口語；「涵蓋技術原理與實戰應用」&rarr;「角度剛好互補」從學術描述變成日常說法；來源描述從列舉功能改為帶有觀點的簡述（「為什麼是靈魂」「踩過的坑」）。good-writing-zh 在這段幾乎沒動——因為原文結構本身沒問題，問題只在語氣。
+  </div>
+</div>
+
+<!-- ── 2. 什麼是 Agent Teams ── -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-num">#2</span>
+    <span class="section-title">什麼是 Agent Teams（定義段）</span>
+    <span class="section-focus">拆句 &middot; 重組結構</span>
+  </div>
+  <div class="compare">
+    <div class="col ai">
+      <div class="col-label"><span class="dot"></span>AI 原生</div>
+      <p>Agent Teams 是 Claude Code 的實驗性功能，讓你同時運行多個 Claude 實例協同工作。<span class="hl-change">不是 prompt 技巧，而是一套全新的多 agent 協作架構：一個 lead（領導者）負責協調，多個 teammates（隊友）平行執行任務，彼此之間能即時溝通。</span></p>
+    </div>
+    <div class="col gw">
+      <div class="col-label"><span class="dot"></span>good-writing-zh</div>
+      <p>Agent Teams 是 Claude Code 的實驗性功能，讓你同時運行多個 Claude 實例協同工作。<span class="hl-add">這不是 prompt 技巧，而是全新的多 agent 協作架構。</span>一個 lead（領導者）負責協調，多個 teammates（隊友）平行執行，彼此即時溝通。</p>
+    </div>
+    <div class="col ht">
+      <div class="col-label"><span class="dot"></span>humanizer-tw</div>
+      <p><span class="hl-add">Claude Code 的實驗性功能。你可以同時跑多個 Claude 實例，讓它們協同工作。</span></p>
+      <p>一個 lead（領導者）負責調度，多個 teammates（隊友）平行執行，彼此即時溝通。<span class="hl-add">不是什麼 prompt 技巧——是一整套多 agent 協作架構。</span></p>
+    </div>
+  </div>
+  <div class="annotation">
+    <strong>good-writing-zh 改了什麼：</strong>冒號長句拆成句號短句（「…架構：一個 lead…」&rarr;「…架構。一個 lead…」），刪冗詞（「一套全新的」&rarr;「全新的」、「彼此之間能」&rarr;「彼此」）。<br>
+    <strong>humanizer-tw 改了什麼：</strong>整段重組——先講功能、再講架構，順序翻轉更像人在解釋事情的方式。「運行」&rarr;「跑」更口語，結尾用破折號替代分號，讀起來更有節奏。
+  </div>
+</div>
+
+<!-- ── 3. subagent vs teammates ── -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-num">#3</span>
+    <span class="section-title">subagent vs teammates 比較</span>
+    <span class="section-focus">精簡 &middot; 口語</span>
+  </div>
+  <div class="compare">
+    <div class="col ai">
+      <div class="col-label"><span class="dot"></span>AI 原生</div>
+      <p><span class="hl-change">與 subagent 不同的是，teammates 不只是回報結果——他們可以互相傳訊、挑戰彼此的結論、在對方的發現基礎上繼續推進。這種協作能力才是真正的突破點。</span></p>
+    </div>
+    <div class="col gw">
+      <div class="col-label"><span class="dot"></span>good-writing-zh</div>
+      <p><span class="hl-add">不像 subagent 只回報結果</span>——teammates 能互相傳訊、挑戰彼此結論、在對方發現的基礎上推進。<span class="hl-add">這才是真正的突破。</span></p>
+    </div>
+    <div class="col ht">
+      <div class="col-label"><span class="dot"></span>humanizer-tw</div>
+      <p><span class="hl-add">跟 subagent 差很多。subagent 做完回報就結束了</span>，teammates 會互相傳訊、挑戰對方結論、接著對方的發現繼續往下做。<span class="hl-add">差別在這裡。</span></p>
+    </div>
+  </div>
+  <div class="annotation">
+    <strong>good-writing-zh 改了什麼：</strong>去弱詞——「這種協作能力才是真正的突破點」濃縮成「這才是真正的突破」，六個字少了但力度反而更強。<br>
+    <strong>humanizer-tw 改了什麼：</strong>「與 subagent 不同的是」這種書面比較句式，改成「跟 subagent 差很多」直白說；結尾「差別在這裡」像在跟你聊天，不像在寫論文。
+  </div>
+</div>
+
+<!-- ── 4. 運作原理核心洞察 ── -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-num">#4</span>
+    <span class="section-title">運作原理核心洞察</span>
+    <span class="section-focus">去弱詞 &middot; 注入觀點</span>
+  </div>
+  <div class="compare">
+    <div class="col ai">
+      <div class="col-label"><span class="dot"></span>AI 原生</div>
+      <p><span class="hl-change">所以協調不是來自對話，而是來自</span><b>結構</b>。<span class="hl-change">這就是為什麼</span> CLAUDE.md <span class="hl-change">至關重要</span>——它是所有 teammates 唯一的共享 runtime context。</p>
+    </div>
+    <div class="col gw">
+      <div class="col-label"><span class="dot"></span>good-writing-zh</div>
+      <p><span class="hl-add">協調靠的是</span><b>結構</b>，不是對話。CLAUDE.md <span class="hl-add">因此至關重要</span>——它是所有 teammates 唯一共享的 runtime context。</p>
+    </div>
+    <div class="col ht">
+      <div class="col-label"><span class="dot"></span>humanizer-tw</div>
+      <p><span class="hl-add">重點來了：</span>協調靠<b>結構</b>，不靠對話。CLAUDE.md 是所有 teammates 唯一共享的 runtime context，<span class="hl-add">寫得好不好直接決定團隊表現。</span></p>
+    </div>
+  </div>
+  <div class="annotation">
+    <strong>good-writing-zh 改了什麼：</strong>「所以協調不是來自對話，而是來自結構」&rarr;「協調靠的是結構，不是對話」——把「不是 A 而是 B」反轉為「是 B 不是 A」，先講重點。刪「這就是為什麼」這類解釋性連接詞。<br>
+    <strong>humanizer-tw 改了什麼：</strong>開頭加「重點來了：」像是作者在提醒你注意；結尾從被動描述（「至關重要」）改成主動判斷（「寫得好不好直接決定團隊表現」），更有立場。
+  </div>
+</div>
+
+<!-- ── 5. 規則 2 標題 + 說明 ── -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-num">#5</span>
+    <span class="section-title">規則 2 標題 + 說明</span>
+    <span class="section-focus">標題重寫 &middot; 直白化</span>
+  </div>
+  <div class="compare">
+    <div class="col ai">
+      <div class="col-label"><span class="dot"></span>AI 原生</div>
+      <p><b><span class="hl-change">規則 2：保持專案上下文精簡且可操作</span></b></p>
+      <p>每個 teammate 啟動時都會載入你的 CLAUDE.md，但他們不會繼承 lead 的對話。<span class="hl-change">如果 CLAUDE.md 內容模糊，每個 teammate 都會浪費 token 獨立重新探索整個 codebase。</span></p>
+    </div>
+    <div class="col gw">
+      <div class="col-label"><span class="dot"></span>good-writing-zh</div>
+      <p><b>規則 2：保持專案上下文精簡且可操作</b></p>
+      <p>每個 teammate 啟動時都會載入 CLAUDE.md，但不繼承 lead 的對話。<span class="hl-add">CLAUDE.md 寫得模糊，每個 teammate 就得花 token 重新探索整個 codebase。</span></p>
+    </div>
+    <div class="col ht">
+      <div class="col-label"><span class="dot"></span>humanizer-tw</div>
+      <p><b><span class="hl-add">規則 2：CLAUDE.md 要精簡、能直接用</span></b></p>
+      <p>每個 teammate 啟動時會載入 CLAUDE.md，但不知道 lead 跟你的對話。<span class="hl-add">CLAUDE.md 寫得含糊，每個 teammate 就得自己花 token 去探索 codebase——三個 teammates 就是三倍浪費。</span></p>
+    </div>
+  </div>
+  <div class="annotation">
+    <strong>good-writing-zh 改了什麼：</strong>精簡冗詞——「都會載入你的」&rarr;「都會載入」、「如果…內容模糊，…都會浪費 token 獨立重新探索」改為條件倒裝「寫得模糊，…就得花 token」更乾脆。<br>
+    <strong>humanizer-tw 改了什麼：</strong>標題從抽象的「保持專案上下文精簡且可操作」改成具體的「CLAUDE.md 要精簡、能直接用」；正文加上「三個 teammates 就是三倍浪費」——用算術讓讀者直覺感受到代價。
+  </div>
+</div>
+
+<!-- ── 6. 常見錯誤 ── -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-num">#6</span>
+    <span class="section-title">常見錯誤標題 + 首條</span>
+    <span class="section-focus">語氣詞替換</span>
+  </div>
+  <div class="compare">
+    <div class="col ai">
+      <div class="col-label"><span class="dot"></span>AI 原生</div>
+      <p><b><span class="hl-change">不要犯的錯</span></b></p>
+      <p>- <b>別用在簡單任務上</b>——單一產出、快速文案修改、序列性工作，<span class="hl-change">用一個 session 就好。協調成本不划算。</span></p>
+    </div>
+    <div class="col gw">
+      <div class="col-label"><span class="dot"></span>good-writing-zh</div>
+      <p><b>不要犯的錯</b></p>
+      <p>- <b>別用在簡單任務上</b>——單一產出、快速文案修改、序列性工作，<span class="hl-add">一個 session 就夠。協調成本不划算。</span></p>
+    </div>
+    <div class="col ht">
+      <div class="col-label"><span class="dot"></span>humanizer-tw</div>
+      <p><b><span class="hl-add">別踩的坑</span></b></p>
+      <p>- <b><span class="hl-add">簡單任務別用 Agent Teams</span></b>——<span class="hl-add">一個 session 能搞定的事，開團隊就是浪費。協調成本比你想的高。</span></p>
+    </div>
+  </div>
+  <div class="annotation">
+    <strong>good-writing-zh 改了什麼：</strong>微調——「用一個 session 就好」&rarr;「一個 session 就夠」更精簡。<br>
+    <strong>humanizer-tw 改了什麼：</strong>標題「不要犯的錯」&rarr;「別踩的坑」——用「踩坑」這個台灣工程圈常用的口語；條目標題從命令句式（「別用在簡單任務上」）改為主詞前置的口語語序（「簡單任務別用 Agent Teams」）；結尾「協調成本不划算」加入「比你想的高」，多了一句對讀者的提醒。
+  </div>
+</div>
+
+<!-- ── 7. 結尾 ── -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-num">#7</span>
+    <span class="section-title">結尾</span>
+    <span class="section-focus">注入個性 vs 平淡收束</span>
+  </div>
+  <div class="compare">
+    <div class="col ai">
+      <div class="col-label"><span class="dot"></span>AI 原生</div>
+      <p><span class="hl-change">對於任何需要平行研究、多元觀點、內建壓力測試的工作——Agent Teams 帶來的效益是倍數級的。</span></p>
+    </div>
+    <div class="col gw">
+      <div class="col-label"><span class="dot"></span>good-writing-zh</div>
+      <p><span class="hl-add">平行研究、多元觀點、內建壓力測試——只要工作需要這些，Agent Teams 的效益就是倍數級。</span></p>
+    </div>
+    <div class="col ht">
+      <div class="col-label"><span class="dot"></span>humanizer-tw</div>
+      <p><span class="hl-add">平行研究、多元觀點、內建壓力測試——你的工作如果需要這些，Agent Teams 會讓你覺得一個人用 Claude 的日子回不去了。</span></p>
+    </div>
+  </div>
+  <div class="annotation">
+    <strong>good-writing-zh 改了什麼：</strong>「對於任何需要…的工作」這個書面框架砍掉，改成「只要工作需要這些」更直接。<br>
+    <strong>humanizer-tw 改了什麼：</strong>「效益是倍數級的」這種 AI 最愛的空洞結語，換成「會讓你覺得一個人用 Claude 的日子回不去了」——有畫面感、有情緒、像一個真的用過的人在跟你說。這就是 humanizer-tw 的核心價值：把正確但無感的句子變成讓人點頭的句子。
+  </div>
+</div>
+
+<!-- ════════ Footer ════════ -->
+<div class="footer">
+  <p>展示文章：<em>Claude Code Agent Teams 完全指南</em></p>
+  <p style="margin-top:4px">
+    Skills：
+    <a href="https://github.com/yelban/orz99-skills">good-writing-zh</a> &middot;
+    <a href="https://github.com/yelban/orz99-skills">humanizer-tw</a>
+  </p>
+</div>
+
+</body>
+</html>
