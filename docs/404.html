@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<base href="/orz99-skills/">
+<base href="/">
 <title>載入中…</title>
 <script src="marked.min.js"></script>
 <style>
@@ -324,11 +324,14 @@
 
 <script>
   (function() {
-    var BASE = '/orz99-skills/';
+    var BASE = '/';
     var path = location.pathname;
 
-    // Strip base path
-    if (path.indexOf(BASE) === 0) {
+    // Strip base path (support both custom domain and github.io)
+    var LEGACY_BASE = '/orz99-skills/';
+    if (path.indexOf(LEGACY_BASE) === 0) {
+      path = path.substring(LEGACY_BASE.length);
+    } else if (path.indexOf(BASE) === 0) {
       path = path.substring(BASE.length);
     }
     // Strip trailing slash
