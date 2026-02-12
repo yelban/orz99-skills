@@ -66,7 +66,7 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 - 使用 gpt-5.3-codex 模型 + xhigh 推理
 - 輸出結構化計畫含 Phase/Task/依賴/測試策略
 
-**Behavioral Constraints（[測試報告](https://skills.orz99.com/view/codex-plan-constraints-benchmark)）：**
+**Behavioral Constraints（[測試報告](./docs/codex-plan-constraints-benchmark.md)）：**
 - 防 scope drift — 只做被要求的事，簡單任務計畫可壓到 17 行
 - 強制先讀 codebase — 先讀完相關檔案再寫計畫，輸出貼合現有架構
 - 控制輸出格式 — bullet point 為主，避免冗長敘述
