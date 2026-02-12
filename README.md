@@ -40,7 +40,7 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 
 去除中文文字中的 AI 生成痕跡，使文字更自然、更有人味、更像台灣人寫的。
 
-針對中文 AI 寫作的獨特問題設計：時代開場白、連接詞濫用、互聯網黑話、翻譯腔、書面語過重、公式化結構、結尾套話。
+針對中文 AI 寫作的獨特問題設計：時代開場白、連接詞濫用、互聯網黑話、翻譯腔、書面語過重、公式化結構、結尾套話、中國用語滲入。
 
 **Triggers:**
 - 「去除 AI 痕跡」「人性化」「humanize」
@@ -52,6 +52,7 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 - 替換互聯網黑話：「賦能」→「幫助」、「痛點」→「問題」
 - 修正翻譯腔：連續「的」字拆開
 - 口語化：「予以」→「給」、「該」→「這個」
+- 攔截中國用語：「信息」→「資訊」、「視頻」→「影片」、「數據」→「資料」
 
 ### codex-plan
 
@@ -63,9 +64,13 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 **Features:**
 - 自動詢問釐清問題（3-6 題）
 - 使用 gpt-5.3-codex 模型 + xhigh 推理
-- 內建行為約束：防 scope drift、強制先讀 codebase、控制輸出格式
-- 精簡推理摘要（model_reasoning_summary=concise）省 token
 - 輸出結構化計畫含 Phase/Task/依賴/測試策略
+
+**Behavioral Constraints（[測試報告](https://skills.orz99.com/view/codex-plan-constraints-benchmark)）：**
+- 防 scope drift — 只做被要求的事，簡單任務計畫可壓到 17 行
+- 強制先讀 codebase — 先讀完相關檔案再寫計畫，輸出貼合現有架構
+- 控制輸出格式 — bullet point 為主，避免冗長敘述
+- 精簡推理摘要 — `model_reasoning_summary=concise` 省 ~30% token
 
 ## License
 
