@@ -6,6 +6,8 @@
 
 GPT-5.3-Codex 比 5.2 更快更積極，容易出現 scope drift 和過度重構。為此在 `codex-plan/SKILL.md` 加入三個行為約束 XML block，並以 `model_reasoning_summary=concise` 精簡推理摘要。
 
+**修改依據來源**：[nicobailon/pi-interactive-shell](https://github.com/nicobailon/pi-interactive-shell) — Codex 5.3 prompting best practices，精選其中 3 個最相關的 XML block 整合。
+
 ## 新增約束
 
 | Block | 用途 |
