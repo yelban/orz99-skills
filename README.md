@@ -63,6 +63,8 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 **Features:**
 - 自動詢問釐清問題（3-6 題）
 - 使用 gpt-5.3-codex 模型 + xhigh 推理
+- 內建行為約束：防 scope drift、強制先讀 codebase、控制輸出格式
+- 精簡推理摘要（model_reasoning_summary=concise）省 token
 - 輸出結構化計畫含 Phase/Task/依賴/測試策略
 
 ## License

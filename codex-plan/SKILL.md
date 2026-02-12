@@ -165,6 +165,33 @@ Break large tasks into smaller ones:
   - "Add Google sign-in button to login UI"
   - "Write integration tests for OAuth flow"
 
+## Behavioral Constraints
+
+<output_verbosity_spec>
+- Default: 3-6 sentences or <=5 bullets for typical answers.
+- Simple yes/no questions: <=2 sentences.
+- Complex multi-step or multi-file tasks:
+  - 1 short overview paragraph
+  - then <=5 bullets tagged: What changed, Where, Risks, Next steps, Open questions.
+- Avoid long narrative paragraphs; prefer compact bullets and short sections.
+- Do not rephrase the user's request unless it changes semantics.
+</output_verbosity_spec>
+
+<design_and_scope_constraints>
+- Implement EXACTLY and ONLY what the user requests.
+- No extra features, no added components, no UX embellishments.
+- Style aligned to the design system at hand.
+- Do NOT invent colors, shadows, tokens, animations, or new UI elements unless requested or necessary.
+- If any instruction is ambiguous, choose the simplest valid interpretation.
+</design_and_scope_constraints>
+
+<context_loading>
+- Read ALL files that will be modified -- in full, not just the sections mentioned in the task.
+- Also read key files they import from or that depend on them.
+- Absorb surrounding patterns, naming conventions, error handling style, and architecture before writing any code.
+- Do not ask clarifying questions about things that are answerable by reading the codebase.
+</context_loading>
+
 ## Instructions
 - Write the complete plan to a file called `codex-plan.md` in the current directory
 - Do NOT ask any clarifying questions - you have all the information needed
@@ -186,6 +213,7 @@ Run this exact command with your crafted prompt:
 codex exec --full-auto --skip-git-repo-check \
   -c model=gpt-5.3-codex \
   -c model_reasoning_effort=xhigh \
+  -c model_reasoning_summary=concise \
   --output-last-message /tmp/codex-plan-result.txt \
   "YOUR_CRAFTED_PROMPT_HERE"
 ```
