@@ -72,6 +72,24 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 - 控制輸出格式 — bullet point 為主，避免冗長敘述
 - 精簡推理摘要 — `model_reasoning_summary=concise` 省 ~30% token
 
+### project-profiler
+
+為任意 git 專案生成 LLM 專用側寫文件（`docs/{project-name}.md`）。
+
+讀者是未來在不同對話中接觸此專案的 LLM，需快速回答：核心抽象是什麼？加功能動哪些模組？最大風險在哪？何時該/不該選這個方案？
+
+**Triggers:**
+- `/project-profiler`
+- 「profile this project」「為專案建側寫」
+
+**Features:**
+- 6-phase 工作流：掃描 → 社群資料 → 平行 subagent 分析 → 條件式區塊偵測 → 合成 → 品質閘門
+- 小專案（≤80k tokens）direct mode：跳過 subagent，Opus 直讀
+- 大專案自動分配 2-4 個 Sonnet subagent 平行分析
+- Python scanner 偵測 tech stack、package metadata、entry points
+- 9 章節模板 + 6 條件式區塊（Storage / Embedding / Infra / KG / Scalability / Concurrency）
+- 品質閘門：禁主觀語言、數字必須 from code、`file:line` 證據
+
 ## License
 
 MIT

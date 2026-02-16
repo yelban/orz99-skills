@@ -11,7 +11,9 @@
     "claude-code",
     "codex",
     "writing",
-    "chinese"
+    "chinese",
+    "project-profiler",
+    "codebase-analysis"
   ],
   "author": "yelban <yelban@gmail.com>",
   "license": "MIT"
