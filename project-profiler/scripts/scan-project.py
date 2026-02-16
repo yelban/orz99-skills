@@ -178,6 +178,7 @@ TEXT_EXTENSIONS = {
     ".prettierrc", ".eslintrc", ".stylelintrc", ".babelrc",
     ".nvmrc", ".ruby-version", ".python-version", ".node-version",
     ".tool-versions", ".mjs", ".cjs", ".mts", ".cts", ".pyi", ".pyx",
+    ".ipynb",
 }
 
 TEXT_NAMES = {
@@ -256,8 +257,15 @@ def scan_directory(
                 return
 
             try:
-                with open(current, "r", encoding="utf-8", errors="ignore") as f:
-                    content = f.read()
+                # Special handling for Jupyter notebooks
+                if current.suffix.lower() == ".ipynb":
+                    content = read_notebook(current)
+                    if content is None:
+                        skipped.append({"path": rel_path, "reason": "notebook_parse_error"})
+                        return
+                else:
+                    with open(current, "r", encoding="utf-8", errors="ignore") as f:
+                        content = f.read()
                 tokens = count_tokens(content, encoding)
 
                 if tokens > max_file_tokens:
@@ -443,6 +451,71 @@ def detect_tech_stack(root: Path) -> dict:
         except Exception:
             pass
 
+    # --- Java ---
+    pom_xml = root / "pom.xml"
+    build_gradle = root / "build.gradle"
+    build_gradle_kts = root / "build.gradle.kts"
+    if pom_xml.exists():
+        languages_detected.append("java")
+        package_manager = package_manager or "maven"
+        try:
+            content = pom_xml.read_text(encoding="utf-8", errors="ignore")
+            if "spring-boot" in content:
+                frameworks.append("spring-boot")
+            if "quarkus" in content:
+                frameworks.append("quarkus")
+        except Exception:
+            pass
+    elif build_gradle.exists() or build_gradle_kts.exists():
+        languages_detected.append("java")
+        package_manager = package_manager or "gradle"
+        gradle_path = build_gradle if build_gradle.exists() else build_gradle_kts
+        try:
+            content = gradle_path.read_text(encoding="utf-8", errors="ignore")
+            if "spring-boot" in content or "org.springframework.boot" in content:
+                frameworks.append("spring-boot")
+            if "quarkus" in content or "io.quarkus" in content:
+                frameworks.append("quarkus")
+        except Exception:
+            pass
+
+    # --- C# / .NET ---
+    sln_files = list(root.glob("*.sln"))
+    csproj_files = list(root.glob("*.csproj"))
+    if sln_files or csproj_files:
+        languages_detected.append("csharp")
+        package_manager = package_manager or "dotnet"
+        for csproj in csproj_files:
+            try:
+                content = csproj.read_text(encoding="utf-8", errors="ignore")
+                if "Microsoft.AspNetCore" in content or "Microsoft.NET.Sdk.Web" in content:
+                    if "aspnet-core" not in frameworks:
+                        frameworks.append("aspnet-core")
+                if "Microsoft.AspNetCore.Components" in content or "Blazor" in content:
+                    if "blazor" not in frameworks:
+                        frameworks.append("blazor")
+            except Exception:
+                pass
+
+    # --- PHP ---
+    composer_json = root / "composer.json"
+    if composer_json.exists():
+        languages_detected.append("php")
+        package_manager = package_manager or "composer"
+        pkg = read_json_file(composer_json)
+        if pkg:
+            all_php_deps = {}
+            all_php_deps.update(pkg.get("require", {}))
+            all_php_deps.update(pkg.get("require-dev", {}))
+            php_fw = {
+                "laravel/framework": "laravel",
+                "symfony/framework-bundle": "symfony",
+                "symfony/symfony": "symfony",
+            }
+            for dep, fw in php_fw.items():
+                if dep in all_php_deps and fw not in frameworks:
+                    frameworks.append(fw)
+
     return {
         "languages_detected": languages_detected,
         "frameworks": frameworks,
@@ -552,6 +625,345 @@ def extract_package_metadata(root: Path) -> dict:
     # Fallback: use directory name
     meta["name"] = root.name
     return meta
+
+
+def extract_all_dependencies(root: Path) -> set[str]:
+    """Extract normalized dependency names from all manifest files."""
+    deps: set[str] = set()
+
+    # package.json
+    pkg_json = root / "package.json"
+    if pkg_json.exists():
+        pkg = read_json_file(pkg_json)
+        if pkg:
+            for section in ("dependencies", "devDependencies"):
+                deps.update(k.lower() for k in pkg.get(section, {}).keys())
+
+    # pyproject.toml — PEP 621 array + poetry table
+    pyproject = root / "pyproject.toml"
+    if pyproject.exists():
+        try:
+            content = pyproject.read_text(encoding="utf-8", errors="ignore")
+            in_deps = False
+            for line in content.splitlines():
+                stripped = line.strip()
+                if re.match(r"^\[(project\.)?dependencies\]", stripped) or re.match(
+                    r"^\[tool\.poetry\.dependencies\]", stripped
+                ):
+                    in_deps = True
+                    continue
+                if in_deps:
+                    if stripped.startswith("["):
+                        in_deps = False
+                        continue
+                    if stripped and not stripped.startswith("#"):
+                        # PEP 621 list item: "  requests>=2.0"
+                        name_match = re.match(r'^["\']?([a-zA-Z0-9_.-]+)', stripped)
+                        if name_match:
+                            deps.add(name_match.group(1).lower())
+        except Exception:
+            pass
+
+    # Cargo.toml
+    cargo = root / "Cargo.toml"
+    if cargo.exists():
+        try:
+            content = cargo.read_text(encoding="utf-8", errors="ignore")
+            in_deps = False
+            for line in content.splitlines():
+                stripped = line.strip()
+                if stripped in ("[dependencies]", "[dev-dependencies]"):
+                    in_deps = True
+                    continue
+                if in_deps:
+                    if stripped.startswith("["):
+                        in_deps = False
+                        continue
+                    if stripped and not stripped.startswith("#") and "=" in stripped:
+                        name = stripped.split("=")[0].strip().lower()
+                        deps.add(name)
+        except Exception:
+            pass
+
+    # go.mod
+    go_mod = root / "go.mod"
+    if go_mod.exists():
+        try:
+            content = go_mod.read_text(encoding="utf-8", errors="ignore")
+            for m in re.finditer(r"^\s+(\S+)\s+v[\d.]+", content, re.MULTILINE):
+                # Use last path segment as dep name
+                parts = m.group(1).split("/")
+                deps.add(parts[-1].lower())
+        except Exception:
+            pass
+
+    # pom.xml (Java Maven)
+    pom_xml = root / "pom.xml"
+    if pom_xml.exists():
+        try:
+            content = pom_xml.read_text(encoding="utf-8", errors="ignore")
+            for m in re.finditer(r"<artifactId>([^<]+)</artifactId>", content):
+                deps.add(m.group(1).lower())
+        except Exception:
+            pass
+
+    # build.gradle / build.gradle.kts (Java Gradle)
+    for gradle_name in ("build.gradle", "build.gradle.kts"):
+        gradle_path = root / gradle_name
+        if gradle_path.exists():
+            try:
+                content = gradle_path.read_text(encoding="utf-8", errors="ignore")
+                for m in re.finditer(r"""['"]([\w.-]+:[\w.-]+):[\w.-]+['"]""", content):
+                    parts = m.group(1).split(":")
+                    deps.add(parts[-1].lower())
+            except Exception:
+                pass
+
+    # composer.json (PHP)
+    composer_json = root / "composer.json"
+    if composer_json.exists():
+        pkg = read_json_file(composer_json)
+        if pkg:
+            for section in ("require", "require-dev"):
+                for k in pkg.get(section, {}).keys():
+                    # Skip php itself and extensions
+                    if k != "php" and not k.startswith("ext-"):
+                        parts = k.split("/")
+                        deps.add(parts[-1].lower())
+
+    # *.csproj (C# .NET)
+    for csproj in root.glob("*.csproj"):
+        try:
+            content = csproj.read_text(encoding="utf-8", errors="ignore")
+            for m in re.finditer(r'<PackageReference\s+Include="([^"]+)"', content):
+                deps.add(m.group(1).lower())
+        except Exception:
+            pass
+
+    return deps
+
+
+def detect_conditional_sections(root: Path, dependency_names: set[str]) -> list[str]:
+    """Detect which conditional sections to include based on dependencies and file presence."""
+    sections: list[str] = []
+
+    # 4.1 Storage Layer
+    storage_deps = {
+        "prisma", "@prisma/client", "sequelize", "typeorm", "drizzle-orm", "drizzle-kit",
+        "knex", "pg", "postgres", "mysql2", "mariadb", "better-sqlite3",
+        "sqlalchemy", "alembic", "django", "tortoise-orm", "peewee",
+        "diesel", "sqlx", "sea-orm", "rusqlite",
+        "gorm", "mongoose", "mongodb", "redis", "ioredis", "aioredis",
+        "dynamodb", "firestore", "firebase-admin", "cassandra-driver", "couchbase",
+    }
+    storage_dirs = ["migrations", "prisma", "alembic", "db/migrate", "src/database", "drizzle"]
+    if dependency_names & storage_deps or any((root / d).exists() for d in storage_dirs):
+        sections.append("Storage")
+
+    # 4.2 Embedding Pipeline (requires both embedding model + vector store)
+    embedding_deps = {
+        "openai", "sentence-transformers", "cohere",
+        "tiktoken", "langchain", "@langchain/core",
+    }
+    vector_deps = {
+        "pinecone", "chromadb", "qdrant-client", "weaviate-client",
+        "pymilvus", "faiss-cpu", "faiss-gpu", "pgvector", "lancedb",
+    }
+    embedding_dirs = ["embeddings", "vectorstore", "vector_store"]
+    has_embedding = bool(dependency_names & embedding_deps)
+    has_vector = bool(dependency_names & vector_deps) or any((root / d).exists() for d in embedding_dirs)
+    if has_embedding and has_vector:
+        sections.append("Embedding")
+
+    # 4.3 Infrastructure Layer
+    infra_files = [
+        "Dockerfile", "docker-compose.yml", "docker-compose.yaml",
+        "compose.yml", "compose.yaml", "vercel.json", "netlify.toml",
+        "fly.toml", "render.yaml", "railway.json", "serverless.yml", "serverless.ts",
+        "cdk.json", "Pulumi.yaml",
+    ]
+    infra_dirs = ["k8s", "kubernetes", ".k8s", "terraform", "CDK", "pulumi"]
+    if any((root / f).exists() for f in infra_files) or any((root / d).is_dir() for d in infra_dirs):
+        sections.append("Infrastructure")
+    else:
+        # Check for *.tf files
+        if list(root.glob("*.tf")):
+            sections.append("Infrastructure")
+
+    # 4.4 Knowledge Graph
+    graph_deps = {
+        "neo4j", "neo4j-driver", "dgraph", "arangodb",
+        "rdflib", "sparqlwrapper", "gremlin", "tinkerpop",
+    }
+    graph_dirs = ["graph", "ontology"]
+    if dependency_names & graph_deps or any((root / d).is_dir() for d in graph_dirs):
+        sections.append("Knowledge Graph")
+
+    # 4.5 Scalability
+    scale_deps = {
+        "bullmq", "bull", "celery", "amqplib", "amqp",
+        "kafkajs", "confluent-kafka", "nats",
+        "rq",
+    }
+    scale_dirs = ["workers", "queues", "jobs", "tasks"]
+    if dependency_names & scale_deps or any((root / d).is_dir() for d in scale_dirs):
+        sections.append("Scalability")
+
+    # 4.6 Concurrency & Multi-Agent
+    concurrency_deps = {
+        "aiohttp", "httpx",
+        "crewai", "autogen", "langgraph",
+    }
+    concurrency_dirs = ["agents", "agent", "crew", "workflows", "orchestrator"]
+    if dependency_names & concurrency_deps or any((root / d).is_dir() for d in concurrency_dirs):
+        sections.append("Concurrency")
+
+    return sections
+
+
+def detect_workspaces(root: Path) -> list[dict]:
+    """Detect monorepo workspace packages."""
+    workspaces: list[dict] = []
+
+    # Node.js workspaces (package.json)
+    pkg_json = root / "package.json"
+    if pkg_json.exists():
+        pkg = read_json_file(pkg_json)
+        if pkg and "workspaces" in pkg:
+            ws = pkg["workspaces"]
+            # Can be list of globs or object with packages key
+            patterns = ws if isinstance(ws, list) else ws.get("packages", [])
+            import glob as globmod
+            for pattern in patterns:
+                for match in sorted(globmod.glob(str(root / pattern))):
+                    match_path = Path(match)
+                    ws_pkg_json = match_path / "package.json"
+                    if ws_pkg_json.exists():
+                        ws_pkg = read_json_file(ws_pkg_json)
+                        workspaces.append({
+                            "name": ws_pkg.get("name", match_path.name) if ws_pkg else match_path.name,
+                            "path": str(match_path.relative_to(root)),
+                            "package_manager": "npm",
+                        })
+
+    # pnpm-workspace.yaml
+    pnpm_ws = root / "pnpm-workspace.yaml"
+    if pnpm_ws.exists() and not workspaces:
+        try:
+            content = pnpm_ws.read_text(encoding="utf-8", errors="ignore")
+            import glob as globmod
+            for line in content.splitlines():
+                line = line.strip().lstrip("- ").strip("'\"")
+                if line and not line.startswith("#") and not line.startswith("packages"):
+                    for match in sorted(globmod.glob(str(root / line))):
+                        match_path = Path(match)
+                        if match_path.is_dir():
+                            ws_pkg_json = match_path / "package.json"
+                            ws_name = match_path.name
+                            if ws_pkg_json.exists():
+                                ws_pkg = read_json_file(ws_pkg_json)
+                                ws_name = ws_pkg.get("name", ws_name) if ws_pkg else ws_name
+                            workspaces.append({
+                                "name": ws_name,
+                                "path": str(match_path.relative_to(root)),
+                                "package_manager": "pnpm",
+                            })
+        except Exception:
+            pass
+
+    # lerna.json
+    lerna_json = root / "lerna.json"
+    if lerna_json.exists() and not workspaces:
+        lerna = read_json_file(lerna_json)
+        if lerna:
+            import glob as globmod
+            for pattern in lerna.get("packages", ["packages/*"]):
+                for match in sorted(globmod.glob(str(root / pattern))):
+                    match_path = Path(match)
+                    if match_path.is_dir():
+                        workspaces.append({
+                            "name": match_path.name,
+                            "path": str(match_path.relative_to(root)),
+                            "package_manager": "lerna",
+                        })
+
+    # Cargo workspace
+    cargo = root / "Cargo.toml"
+    if cargo.exists() and not workspaces:
+        try:
+            content = cargo.read_text(encoding="utf-8", errors="ignore")
+            if "[workspace]" in content:
+                in_members = False
+                for line in content.splitlines():
+                    stripped = line.strip()
+                    if stripped == "members = [" or stripped.startswith("members"):
+                        in_members = True
+                        # Handle single-line: members = ["a", "b"]
+                        bracket_match = re.search(r'members\s*=\s*\[([^\]]+)\]', stripped)
+                        if bracket_match:
+                            for m in re.finditer(r'"([^"]+)"', bracket_match.group(1)):
+                                ws_path = root / m.group(1)
+                                if ws_path.is_dir():
+                                    workspaces.append({
+                                        "name": ws_path.name,
+                                        "path": m.group(1),
+                                        "package_manager": "cargo",
+                                    })
+                            in_members = False
+                        continue
+                    if in_members:
+                        if "]" in stripped:
+                            in_members = False
+                            continue
+                        m = re.search(r'"([^"]+)"', stripped)
+                        if m:
+                            ws_path = root / m.group(1)
+                            if ws_path.is_dir():
+                                workspaces.append({
+                                    "name": ws_path.name,
+                                    "path": m.group(1),
+                                    "package_manager": "cargo",
+                                })
+        except Exception:
+            pass
+
+    # Go workspace (go.work)
+    go_work = root / "go.work"
+    if go_work.exists() and not workspaces:
+        try:
+            content = go_work.read_text(encoding="utf-8", errors="ignore")
+            for m in re.finditer(r"^\s+(\./?\S+)", content, re.MULTILINE):
+                ws_path = root / m.group(1).lstrip("./")
+                if ws_path.is_dir():
+                    workspaces.append({
+                        "name": ws_path.name,
+                        "path": str(ws_path.relative_to(root)),
+                        "package_manager": "go",
+                    })
+        except Exception:
+            pass
+
+    return workspaces
+
+
+def read_notebook(path: Path) -> str | None:
+    """Read a Jupyter notebook, returning only source cell content (no outputs)."""
+    try:
+        with open(path, "r", encoding="utf-8", errors="ignore") as f:
+            nb = json.loads(f.read())
+        cells = nb.get("cells", [])
+        sources = []
+        for cell in cells:
+            cell_type = cell.get("cell_type", "")
+            if cell_type in ("code", "markdown"):
+                source = cell.get("source", [])
+                if isinstance(source, list):
+                    sources.append("".join(source))
+                elif isinstance(source, str):
+                    sources.append(source)
+        return "\n\n".join(sources) if sources else ""
+    except Exception:
+        return None
 
 
 def detect_entry_points(root: Path) -> list[dict]:
@@ -707,6 +1119,118 @@ def format_tree(scan_result: dict, show_tokens: bool = True) -> str:
     return "\n".join(lines)
 
 
+def format_summary(result: dict) -> str:
+    """Format scan results as a concise summary for LLM consumption."""
+    lines = []
+    root_name = Path(result["root"]).name
+    meta = result.get("package_metadata", {})
+    tech = result.get("tech_stack", {})
+    features = result.get("project_features", {})
+
+    # Header
+    lines.append(f"# {meta.get('name') or root_name}")
+    lines.append(f"Total: {result['total_files']} files, {result['total_tokens']:,} tokens")
+    lines.append("")
+
+    # Package metadata
+    lines.append("## Metadata")
+    if meta.get("version"):
+        lines.append(f"- Version: {meta['version']}")
+    if meta.get("license"):
+        lines.append(f"- License: {meta['license']}")
+    if meta.get("description"):
+        lines.append(f"- Description: {meta['description']}")
+    lines.append(f"- Dependencies: {meta.get('dependencies_count', 0)}")
+    lines.append("")
+
+    # Tech stack
+    lines.append("## Tech Stack")
+    if tech.get("languages_detected"):
+        lines.append(f"- Languages: {', '.join(tech['languages_detected'])}")
+    if tech.get("frameworks"):
+        lines.append(f"- Frameworks: {', '.join(tech['frameworks'])}")
+    if tech.get("package_manager"):
+        lines.append(f"- Package Manager: {tech['package_manager']}")
+    lines.append("")
+
+    # Language distribution (top 5)
+    lang_dist = result.get("language_distribution", {}).get("by_tokens", {})
+    if lang_dist:
+        lines.append("## Language Distribution")
+        total = sum(lang_dist.values()) or 1
+        for i, (lang, tokens) in enumerate(lang_dist.items()):
+            if i >= 5:
+                break
+            pct = tokens * 100 / total
+            lines.append(f"- {lang}: {pct:.1f}% ({tokens:,} tokens)")
+        lines.append("")
+
+    # Entry points
+    entries = result.get("entry_points", [])
+    if entries:
+        lines.append("## Entry Points")
+        for e in entries:
+            name = e.get("name", "")
+            label = f" ({name})" if name else ""
+            lines.append(f"- [{e['type']}] {e['path']}{label}")
+        lines.append("")
+
+    # Project features
+    lines.append("## Features")
+    if features.get("has_ci"):
+        lines.append(f"- CI: {features['has_ci']}")
+    lines.append(f"- Tests: {'Yes' if features.get('has_tests') else 'No'}")
+    lines.append(f"- Docker: {'Yes' if features.get('has_dockerfile') else 'No'}")
+    if features.get("has_docker_compose"):
+        lines.append("- Docker Compose: Yes")
+    if features.get("has_codebase_map"):
+        lines.append("- Codebase Map: Yes")
+    lines.append("")
+
+    # Detected conditional sections
+    detected = result.get("detected_sections", [])
+    if detected:
+        lines.append("## Detected Sections")
+        for s in detected:
+            lines.append(f"- {s}")
+        lines.append("")
+
+    # Workspaces
+    workspaces = result.get("workspaces", [])
+    if workspaces:
+        lines.append("## Workspaces")
+        for ws in workspaces:
+            lines.append(f"- {ws['name']} ({ws['path']}) [{ws['package_manager']}]")
+        lines.append("")
+
+    # Top 20 largest files
+    files_sorted = sorted(result["files"], key=lambda x: x["tokens"], reverse=True)
+    lines.append("## Top 20 Files (by tokens)")
+    for f in files_sorted[:20]:
+        lines.append(f"  {f['tokens']:>8}  {f['path']}")
+    lines.append("")
+
+    # Directory structure (depth 3)
+    lines.append("## Directory Structure (depth 3)")
+    dir_tokens: dict[str, int] = {}
+    for f in result["files"]:
+        parts = Path(f["path"]).parts
+        for depth in range(1, min(len(parts), 4)):
+            dir_path = "/".join(parts[:depth])
+            dir_tokens[dir_path] = dir_tokens.get(dir_path, 0) + f["tokens"]
+    # Only show directories (not individual files at root)
+    shown = set()
+    for d in sorted(dir_tokens.keys()):
+        depth = d.count("/")
+        if depth <= 2 and d not in shown:
+            indent = "  " * depth
+            lines.append(f"{indent}{d}/ ({dir_tokens[d]:,} tokens)")
+            shown.add(d)
+    lines.append("")
+
+    return "\n".join(lines)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Scan a project for profiling: file tree, token counts, tech stack, metadata"
@@ -716,8 +1240,8 @@ def main():
         help="Path to scan (default: current directory)",
     )
     parser.add_argument(
-        "--format", choices=["json", "tree", "compact"],
-        default="json", help="Output format (default: json)",
+        "--format", choices=["summary", "json", "tree", "compact"],
+        default="summary", help="Output format (default: summary)",
     )
     parser.add_argument(
         "--max-tokens", type=int, default=50000,
@@ -754,7 +1278,14 @@ def main():
     result["entry_points"] = detect_entry_points(path)
     result["project_features"] = detect_project_features(path)
 
-    if args.format == "json":
+    # New: dependency extraction, conditional sections, workspaces
+    all_deps = extract_all_dependencies(path)
+    result["detected_sections"] = detect_conditional_sections(path, all_deps)
+    result["workspaces"] = detect_workspaces(path)
+
+    if args.format == "summary":
+        print(format_summary(result))
+    elif args.format == "json":
         print(json.dumps(result, indent=2))
     elif args.format == "tree":
         print(format_tree(result, show_tokens=True))

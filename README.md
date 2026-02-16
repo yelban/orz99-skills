@@ -72,23 +72,41 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 - 控制輸出格式 — bullet point 為主，避免冗長敘述
 - 精簡推理摘要 — `model_reasoning_summary=concise` 省 ~30% token
 
-### project-profiler
+### project-profiler (v2.0)
 
 為任意 git 專案生成 LLM 專用側寫文件（`docs/{project-name}.md`）。
 
-讀者是未來在不同對話中接觸此專案的 LLM，需快速回答：核心抽象是什麼？加功能動哪些模組？最大風險在哪？何時該/不該選這個方案？
+不把整包程式碼塞給大模型，而是透過 Map-Reduce pipeline 將專案「語意壓縮」成帶有架構判斷的高密度上下文——400k tokens 的 codebase 壓成 5k tokens 的側寫，讓未來的 LLM 拿到的是心智模型，不是原始碼搜尋結果。
+
+讀者是未來在不同對話中接觸此專案的 LLM，需快速理解：核心抽象是什麼？架構怎麼設計？用了哪些技術棧？加功能動哪些模組？關鍵設計決策及 trade-off？
 
 **Triggers:**
 - `/project-profiler`
 - 「profile this project」「為專案建側寫」
 
-**Features:**
+**Pipeline:**
 - 6-phase 工作流：掃描 → 社群資料 → 平行 subagent 分析 → 條件式區塊偵測 → 合成 → 品質閘門
 - 小專案（≤80k tokens）direct mode：跳過 subagent，Opus 直讀
-- 大專案自動分配 2-4 個 Sonnet subagent 平行分析
-- Python scanner 偵測 tech stack、package metadata、entry points
-- 9 章節模板 + 6 條件式區塊（Storage / Embedding / Infra / KG / Scalability / Concurrency）
-- 品質閘門：禁主觀語言、數字必須 from code、`file:line` 證據
+- 大專案自動分配 2-3 個 Sonnet subagent 平行分析（A: Core+Design, B: Architecture+Patterns, C: Usage+Deployment）
+- Monorepo 感知：偵測 workspace 後按 package 垂直分派，不切碎子專案
+
+**Scanner:**
+- `--format summary` 預設輸出（壓縮 context token，大專案省 2 萬+ tokens）
+- 自動偵測 conditional sections（從依賴清單 + 檔案存在判斷，取代舊版 grep 全專案）
+- Monorepo workspace 偵測（pnpm / npm workspaces / lerna / Cargo workspace / Go workspace）
+- 技術棧偵測：Node / Python / Rust / Go / Java / C# / PHP
+- `.ipynb` 解析（只取 source cells，濾除 output）
+
+**Output:**
+- 10 章節模板（含 Section 8.5 Code Quality & Patterns）+ 6 條件式區塊
+- Mermaid 圖表 + 結構化依賴清單雙格式並列（人類可讀 + LLM 可解析）
+- Core Abstractions 限制 10-15 個（按 fan-in 排序，避免 token 污染）
+- 證據格式 `file:SymbolName`（符號名穩定，不會因下次 commit 失效）
+
+**品質閘門:**
+- 中英文雙語禁主觀語言（22 英文 + 14 中文禁詞）
+- 數字必須 from code、符號驗證、結構驗證
+- 4 核心問題測試 + 證據稽核
 
 ## License
 

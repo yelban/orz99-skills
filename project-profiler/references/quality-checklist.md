@@ -9,6 +9,7 @@
 
 Scan the entire output for these words/phrases. **None may appear:**
 
+**English:**
 ```
 well-designed
 elegant
@@ -34,10 +35,30 @@ intuitive
 intuitively
 ```
 
+**Chinese:**
+```
+優雅
+完美
+強大
+直觀
+無縫
+精心
+巧妙
+出色
+卓越
+先進
+高效
+靈活
+穩健
+簡潔
+```
+
 **Replacement strategy**: Replace with verifiable descriptions.
-- "robust error handling" → "error handling covers N cases (`file:line`)"
-- "elegant abstraction" → "abstraction with N implementations (`file:line`)"
+- "robust error handling" → "error handling covers N cases (`file:ClassName`)"
+- "elegant abstraction" → "abstraction with N implementations (`file:ClassName`)"
 - "well-designed API" → "API exposes N endpoints, N with type validation"
+- "架構優雅" → "架構分 N 層，各層透過 `file:InterfaceName` 解耦"
+- "無縫整合" → "透過 `file:AdapterClass` 整合，N 個介面對接"
 
 ---
 
@@ -46,7 +67,7 @@ intuitively
 Every number in the output must:
 
 - Be formatted as `(N files)`, `(N adapters)`, `(N methods)`, `(N lines)`, etc.
-- Have a traceable source (scanner output, grep count, or `file:line` reference)
+- Have a traceable source (scanner output, grep count, or `file:SymbolName` reference)
 - NOT be rounded estimates — use exact counts
 
 **Check**: Search for patterns like `\d+\s+(files?|adapters?|methods?|types?|modules?|implementations?)`. Each occurrence must have a source.
@@ -86,10 +107,11 @@ The final section must NOT end with generic praise or vague statements like:
 
 Instead, end with a specific, actionable recommendation with file path reference.
 
-### 3.5 Mermaid Diagrams
+### 3.5 Mermaid Diagrams + Structured Dependencies
 - Architecture section MUST contain at least one Mermaid diagram
 - Each diagram node must correspond to an actual module/file
 - No placeholder nodes like "Other" or "Misc"
+- Each Mermaid diagram MUST be followed by a structured dependency list (### X.Xb)
 
 ---
 
@@ -112,7 +134,7 @@ The profile must directly answer these questions. Each must be answerable by rea
 
 ### 5.1 Design Decisions (Section 8)
 Each decision must have:
-- `file:line` evidence pointing to actual code
+- `file:SymbolName` evidence pointing to actual code (class name, function name, or constant)
 - At least one alternative that was NOT chosen
 - A concrete tradeoff (gain vs. loss)
 
@@ -125,9 +147,15 @@ Each recommendation must have:
 
 ### 5.3 Core Abstractions (Section 3)
 Each abstraction must have:
-- Exact file path with line number
+- Exact file path with symbol name (`file:ClassName` or `file:function_name`)
 - Exact method/field count (from code, not estimate)
 - At least one adapter/implementation listed (or "0 — interface only")
+
+### 5.4 Code Quality & Patterns (Section 8.5)
+Each pattern must have:
+- Framework or tool name (not vague "standard library")
+- Coverage fact (number of files, percentage, or "all routes")
+- At least one file path reference
 
 ---
 
@@ -144,11 +172,11 @@ Each abstraction must have:
 
 The orchestrator performs these checks in order:
 
-1. **Grep own output** for banned words (Rule 1)
+1. **Grep own output** for banned words — both English and Chinese (Rule 1)
 2. **Scan numbers** — verify each has a source (Rule 2)
-3. **Check structure** — section summaries, no tree duplication, no extension lists, no generic endings (Rule 3)
+3. **Check structure** — section summaries, no tree duplication, no extension lists, no generic endings, structured deps present (Rule 3)
 4. **Answer test** — for each of the 4 core questions, locate the answer in the output (Rule 4)
-5. **Evidence audit** — verify `file:line` references in Sections 3, 8, 9 (Rule 5)
+5. **Evidence audit** — verify `file:SymbolName` references in Sections 3, 8, 8.5, 9 (Rule 5)
 6. **Metadata match** — compare frontmatter numbers with scanner output (Rule 6)
 
 If any check fails → fix and re-verify before writing final file.

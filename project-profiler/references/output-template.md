@@ -1,8 +1,9 @@
 # Project Profile Output Template
 
-> This template defines the 9-section structure for the generated profile document.
+> This template defines the section structure for the generated profile document.
 > Sections marked [CONDITIONAL] are only included when Phase 3 detection triggers them.
 > All numbers must come from actual code. No subjective language.
+> Evidence uses `file:SymbolName` format (NOT line numbers — they break on next commit).
 
 ---
 
@@ -11,7 +12,7 @@
 ```markdown
 ---
 profiled: {ISO_TIMESTAMP}
-scanner_version: 1.0.0
+scanner_version: 2.0.0
 total_files: {N}
 total_tokens: {N}
 ---
@@ -52,6 +53,12 @@ graph TB
     {MERMAID_TOPOLOGY}
 ```
 
+### 2.1b Module Dependencies (structured)
+
+> Machine-parseable dependency list for LLM readers.
+
+- **{module_name}** (`{path}`): imports [{dep1}, {dep2}, ...]
+
 ### 2.2 Layer Boundaries
 
 | Layer | Modules | Responsibility |
@@ -66,23 +73,29 @@ sequenceDiagram
     {MERMAID_SEQUENCE}
 ```
 
+### 2.3b Data Flow (structured)
+
+> Machine-parseable data flow for LLM readers.
+
+1. **{Operation name}**: {step1_module} → {step2_module} → ... → {result}
+
 ---
 
 ## 3. Core Abstractions
 
-> {N} core types/interfaces identified. Each drives a distinct responsibility boundary.
+> {N} core types/interfaces identified (top 10-15 by architectural significance). Each drives a distinct responsibility boundary.
 
 ### {AbstractionName}
 
 | Field | Value |
 |-------|-------|
 | **Purpose** | {what_it_does, ≤15 words} |
-| **Defined in** | `{file_path}:{line}` |
+| **Defined in** | `{file_path}:ClassName` or `{file_path}:function_name` |
 | **Methods/Fields** | {N} public |
 | **Adapters/Implementations** | {N} ({names, comma-separated}) |
 | **Used by** | {N} files |
 
-{REPEAT FOR EACH CORE ABSTRACTION — no artificial limit}
+{REPEAT FOR EACH CORE ABSTRACTION — 10-15, ranked by architectural significance}
 
 ---
 
@@ -91,7 +104,7 @@ sequenceDiagram
 {Include ONLY sections triggered by Phase 3 detection. Order:}
 
 ### 4.1 Storage Layer
-{Only if DB driver imports or migrations/ detected}
+{Only if DB driver in dependencies or migrations/ detected}
 
 > {db_type}: {N} models, {N} migrations
 
@@ -109,8 +122,8 @@ sequenceDiagram
 
 | Component | Detail |
 |-----------|--------|
-| **Embedding Model** | {model_name} — `{file_path}:{line}` |
-| **Vector Store** | {store_name} — `{file_path}:{line}` |
+| **Embedding Model** | {model_name} — `{file_path}:ClassName` |
+| **Vector Store** | {store_name} — `{file_path}:ClassName` |
 | **Chunking** | {strategy} — chunk size: {N}, overlap: {N} |
 | **Index** | {index_type} |
 
@@ -150,7 +163,7 @@ sequenceDiagram
 | Component | Detail |
 |-----------|--------|
 | **Pattern** | {async/threading/multiprocessing/agent-orchestration} |
-| **Concurrency primitives** | {gather/spawn/pool/channel} — `{file_path}:{line}` |
+| **Concurrency primitives** | {gather/spawn/pool/channel} — `{file_path}:SymbolName` |
 | **Agent count** | {N} agent types (if applicable) |
 
 ---
@@ -163,7 +176,7 @@ sequenceDiagram
 
 | Interface | Entry Point | Example |
 |-----------|------------|---------|
-| {Python SDK / TS SDK / REST / MCP / CLI / Vercel AI SDK / Library} | `{entry_path}` | {one_line_usage} |
+| {Python SDK / TS SDK / REST / MCP / CLI / Vercel AI SDK / Library} | `{entry_path}:ClassName` | {one_line_usage} |
 
 ### 5.2 Configuration
 
@@ -194,10 +207,10 @@ sequenceDiagram
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| {LLM calls per request} | {N} | `{file_path}:{line}` |
-| {Embedding dimensions} | {N} | `{file_path}:{line}` |
-| {Cache strategy} | {type} | `{file_path}:{line}` |
-| {Rate limiting} | {config} | `{file_path}:{line}` |
+| {LLM calls per request} | {N} | `{file_path}:SymbolName` |
+| {Embedding dimensions} | {N} | `{file_path}:SymbolName` |
+| {Cache strategy} | {type} | `{file_path}:SymbolName` |
+| {Rate limiting} | {config} | `{file_path}:SymbolName` |
 
 ---
 
@@ -225,9 +238,22 @@ sequenceDiagram
 | **Choice** | {what_was_chosen} |
 | **Alternatives** | {what_was_NOT_chosen, and why} |
 | **Tradeoffs** | {what_you_gain vs. what_you_lose} |
-| **Evidence** | `{file_path}:{line}` — {code_snippet_or_pattern} |
+| **Evidence** | `{file_path}:ClassName` — {code_snippet_or_pattern} |
 
 {REPEAT for 3-5 decisions}
+
+---
+
+## 8.5 Code Quality & Patterns
+
+> Cross-cutting code quality observations from codebase analysis.
+
+| Aspect | Detail |
+|--------|--------|
+| **Error Handling** | {strategy — e.g., "try/catch at controller layer, custom AppError class in `src/errors.ts:AppError`"} |
+| **Logging** | {framework + coverage — e.g., "winston structured JSON, covers all API routes"} |
+| **Testing** | {framework + coverage + patterns — e.g., "vitest, 47 test files, unit + integration, `tests/`"} |
+| **Type Safety** | {level — e.g., "strict TypeScript, no `any` casts, `tsconfig.json` strict: true"} |
 
 ---
 
@@ -261,4 +287,5 @@ sequenceDiagram
 | 6. Performance & Cost | Yes | May be minimal for non-AI projects |
 | 7. Security & Privacy | Yes | May be minimal for libraries |
 | 8. Design Decisions | Yes | Minimum 3 |
+| 8.5 Code Quality & Patterns | Yes | — |
 | 9. Recommendations | Yes | Minimum 2 |
