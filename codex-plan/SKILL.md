@@ -28,11 +28,34 @@ Identify:
 - What aspects are ambiguous or underspecified?
 - What decisions would significantly impact the plan?
 
+### Fast-path (Trivial Tasks)
+
+If the task is extremely trivial — single file config change, typo fix, <2 files affected, no architectural decisions — **skip Codex**. Write `codex-plan.md` yourself directly with a simplified structure:
+
+```markdown
+# Plan: [Task Name]
+**Generated**: [Date]
+**Estimated Complexity**: Low
+## Overview
+[1-2 sentences]
+## Task
+- **Location**: [file path]
+- **Description**: [what to do]
+- **Acceptance Criteria**: [testable criteria]
+```
+
+Even on fast-path, **still ask at least 1 clarifying question** (Step 2) before writing the plan. After writing, skip to Step 6 (Verify Output).
+
 ---
 
 ## Step 2: Ask Clarifying Questions (REQUIRED)
 
-**Use AskUserQuestion tool** to ask 3-6 targeted questions before generating the plan.
+**Use AskUserQuestion tool** to ask **1-5** targeted questions before generating the plan.
+
+Evaluate task ambiguity first:
+- **Simple/clear tasks** (well-defined scope, obvious approach) → ask **1-2** questions
+- **Complex/ambiguous tasks** (multiple approaches, unclear requirements) → ask **3-5** questions
+- **Never 0** — always ask at least 1 question to confirm understanding
 
 Good clarifying questions:
 - Narrow down scope and requirements
@@ -59,28 +82,62 @@ Good clarifying questions:
 - Expected scale/traffic?
 - Rate limiting, caching, versioning?
 
+**For "fix a bug":**
+- How to reproduce reliably? (steps, environment, frequency)
+- Expected vs actual behavior?
+- Related test coverage? (existing tests that should have caught this)
+- Affected platforms/browsers/environments?
+
+**For "refactoring":**
+- Must external API/interface remain compatible?
+- Existing test coverage to rely on?
+- Performance constraints? (must not regress)
+- Incremental or big-bang? (can we merge partial progress?)
+
+**For "infrastructure/DevOps":**
+- Target environment? (local, staging, production)
+- Existing CI/CD pipeline?
+- Secrets management approach?
+- Rollback requirements? (blue-green, canary, instant)
+
 ---
 
-## Step 3: Gather Context
+## Step 3: Locate Target Files
 
-After getting answers:
-- Read key files in the codebase if applicable
-- Check existing architecture/patterns
-- Note any existing plans or documentation
+**You are the Product Manager and Locator.** Your job is to FIND the relevant files, NOT to plan the implementation.
+
+After getting answers, discover:
+- **Entry points**: main files, CLI entry, route handlers
+- **Files to modify**: specific files the task will touch
+- **Key imports/dependencies**: modules these files depend on
+- **Existing patterns**: naming conventions, error handling style, architecture
+
+Produce a `## Target Files` list for the Codex prompt:
+
+```
+## Target Files to Read
+- `src/auth/login.ts` — current login handler, will be modified
+- `src/middleware/session.ts` — session middleware, imports from login
+- `src/types/user.ts` — User type definition, dependency
+```
+
+**Do NOT summarize file contents** — just list paths with one-line purpose. Codex will read them in full via `<context_loading>`.
 
 ---
 
 ## Step 4: Craft the Codex Prompt
 
 Create a detailed prompt that includes:
-1. **Clear objective** - What plan needs to be created
-2. **All requirements** - Everything learned from clarifying questions
-3. **Constraints** - Technology choices, timeline, team size
-4. **Context** - Relevant codebase info, existing patterns
-5. **Plan structure** - Include the full template below
-6. **Output instructions** - Write to `codex-plan.md` in current directory
+1. **Clear objective** — What plan needs to be created
+2. **All requirements** — Everything learned from clarifying questions
+3. **Constraints** — Technology choices, timeline, team size
+4. **Target Files** — The file paths list from Step 3
+5. **Plan structure** — Read from `references/plan-template.md` and inject its full content
+6. **Output instructions** — Write to `codex-plan.md` in current directory
 
-**CRITICAL:** Tell Codex to NOT ask any clarifying questions - it has all the information it needs and should just write the plan and save the file.
+**CRITICAL:** Tell Codex to NOT ask any clarifying questions — it has all the information it needs and should just write the plan and save the file.
+
+**Adaptive template:** For minor/trivial tasks, tell Codex it MUST omit irrelevant sections (Phases, E2E Tests, Rollback) and may output a flat task list instead, to comply with `<output_verbosity_spec>`.
 
 ### Example Codex Prompt
 
@@ -93,77 +150,18 @@ Create a detailed implementation plan for [TASK DESCRIPTION].
 - [Requirement 3]
 - NOT needed: [Things explicitly excluded]
 
+## Target Files to Read
+- `[path/to/file1]` — [one-line purpose]
+- `[path/to/file2]` — [one-line purpose]
+- `[path/to/file3]` — [one-line purpose]
+
 ## Plan Structure
 
-Use this exact template structure:
+Read and follow the exact template structure from `references/plan-template.md`.
 
-# Plan: [Task Name]
-
-**Generated**: [Date]
-**Estimated Complexity**: [Low/Medium/High]
-
-## Overview
-[Brief summary of what needs to be done and the general approach, including recommended libraries/tools]
-
-## Prerequisites
-- [Dependencies or requirements that must be met first]
-- [Tools, libraries, or access needed]
-
-## Phase 1: [Phase Name]
-**Goal**: [What this phase accomplishes]
-
-### Task 1.1: [Task Name]
-- **Location**: [File paths or components involved]
-- **Description**: [What needs to be done]
-- **Dependencies**: [Task IDs this depends on, e.g., "None" or "1.2, 2.1"]
-- **Complexity**: [1-10]
-- **Test-First Approach**:
-  - [Test to write before implementation]
-  - [What the test should verify]
-- **Acceptance Criteria**:
-  - [Specific, testable criteria]
-
-### Task 1.2: [Task Name]
-[Same structure...]
-
-## Phase 2: [Phase Name]
-[...]
-
-## Testing Strategy
-- **Unit Tests**: [What to unit test, frameworks to use]
-- **Integration Tests**: [API/service integration tests]
-- **E2E Tests**: [Critical user flows to test end-to-end]
-- **Test Coverage Goals**: [Target coverage percentage]
-
-## Dependency Graph
-[Show which tasks can run in parallel vs which must be sequential]
-- Tasks with no dependencies: [list - these can start immediately]
-- Task dependency chains: [show critical path]
-
-## Potential Risks
-- [Things that could go wrong]
-- [Mitigation strategies]
-
-## Rollback Plan
-- [How to undo changes if needed]
-
-### Task Guidelines
-Each task must:
-- Be specific and actionable (not vague)
-- Have clear inputs and outputs
-- Be independently testable
-- Include file paths and specific code locations
-- Include dependencies so parallel execution is possible
-- Include complexity score (1-10)
-
-Break large tasks into smaller ones:
-- Bad: "Implement Google OAuth"
-- Good:
-  - "Add Google OAuth config to environment variables"
-  - "Install and configure passport-google-oauth20 package"
-  - "Create OAuth callback route handler in src/routes/auth.ts"
-  - "Add Google sign-in button to login UI"
-  - "Write integration tests for OAuth flow"
+Adapt the template to task complexity:
+- For minor tasks, OMIT irrelevant sections (e.g., multiple Phases, E2E Tests, Rollback) and use a flat task list instead.
+- For complex tasks, use the full phased structure with all sections.
 
 ## Behavioral Constraints
 
@@ -186,8 +184,8 @@ Break large tasks into smaller ones:
 </design_and_scope_constraints>
 
 <context_loading>
-- Read ALL files that will be modified -- in full, not just the sections mentioned in the task.
-- Also read key files they import from or that depend on them.
+- Start by reading ALL files listed in "Target Files to Read" — in full, not just the sections mentioned in the task.
+- Then expand to key files they import from or that depend on them.
 - Absorb surrounding patterns, naming conventions, error handling style, and architecture before writing any code.
 - Do not ask clarifying questions about things that are answerable by reading the codebase.
 </context_loading>
@@ -225,13 +223,31 @@ cat /tmp/codex-plan-result.txt
 
 ---
 
+## Step 6: Verify Output (REQUIRED)
+
+After Codex finishes (or after writing the plan yourself on fast-path):
+
+1. **Read** the generated `codex-plan.md`
+2. **Check structure**: file exists, is valid Markdown, contains at minimum:
+   - `# Plan:` heading
+   - `## Overview` section
+   - At least one `### Task` entry
+3. **If checks fail** OR `codex exec` returned an error/timeout:
+   - Adjust the prompt (simplify requirements, fix ambiguities)
+   - Retry execution **once**
+4. **If retry also fails**: show the error to the user and explain what went wrong
+5. **If checks pass**: show the plan results to the user
+
+---
+
 ## Important Rules
 
-1. **ALWAYS ask clarifying questions first** - Do not skip Step 2
-2. **ALWAYS use gpt-5.3-codex with xhigh reasoning** - No exceptions
-3. **ALWAYS tell Codex not to ask questions** - It should just execute
+1. **ALWAYS ask at least 1 clarifying question** — Do not skip Step 2 (1-5 questions based on complexity)
+2. **ALWAYS use gpt-5.3-codex with xhigh reasoning** — No exceptions (unless fast-path)
+3. **ALWAYS tell Codex not to ask questions** — It should just execute
 4. **ALWAYS use --full-auto flag**
-5. **Output file**: `codex-plan.md` in current working directory
+5. **ALWAYS verify output in Step 6** — Check structure, retry once on failure
+6. **Output file**: `codex-plan.md` in current working directory
 
 ---
 

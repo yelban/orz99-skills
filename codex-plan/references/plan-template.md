@@ -43,10 +43,19 @@ Use this structure when instructing Codex to generate plans.
 - **E2E Tests**: [Critical user flows to test end-to-end]
 - **Test Coverage Goals**: [Target coverage percentage]
 
+*(Omit categories that do not apply. Mark as N/A rather than inventing tests.)*
+
 ## Dependency Graph
-[Show which tasks can run in parallel vs which must be sequential]
-- Tasks with no dependencies: [list - these can start immediately]
-- Task dependency chains: [show critical path]
+
+```mermaid
+graph TD
+    T1_1[Task 1.1: name] --> T1_2[Task 1.2: name]
+    T2_1[Task 2.1: name]
+    T1_2 --> T2_1
+```
+
+- Tasks with no incoming edges can start immediately.
+- Critical path: longest chain from start to end.
 
 ## Potential Risks
 - [Things that could go wrong]
@@ -54,6 +63,8 @@ Use this structure when instructing Codex to generate plans.
 
 ## Rollback Plan
 - [How to undo changes if needed]
+
+*(If the change is trivially reversible via `git revert`, state that and move on.)*
 ```
 
 ---
@@ -67,6 +78,8 @@ Each task must:
 - Include file paths and specific code locations
 - Include dependencies so parallel execution is possible
 - Include complexity score (1-10)
+
+Do NOT over-fragment. Each task should represent one cohesive logical commit. If a change is <10 lines, it does not need its own Phase.
 
 Break large tasks into smaller ones:
 

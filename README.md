@@ -56,19 +56,23 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 
 ### codex-plan
 
-使用 Codex 5.3（xhigh reasoning）建立詳細實作計畫。
+Claude Opus 擔任 PM 釐清需求、定位檔案，再交由 Codex 5.3（xhigh reasoning）生成結構化實作計畫。
 
 **Triggers:**
 - `/codex-plan <what you want to plan>`
 
 **Features:**
-- 自動詢問釐清問題（3-6 題）
-- 使用 gpt-5.3-codex 模型 + xhigh 推理
-- 輸出結構化計畫含 Phase/Task/依賴/測試策略
+- 動態釐清問題（1-5 題，依任務複雜度調整）
+- Fast-path：極簡任務跳過 Codex，Opus 直接產計畫
+- PM/Locator 角色分工：Opus 找檔案路徑，Codex 深度推理寫計畫
+- Target Files 交接：精確傳遞檔案清單給 Codex，避免盲讀
+- 品質閘門（Step 6）：自動檢查產出結構，失敗重試一次
+- Mermaid 依賴圖：機器可解析的任務依賴 DAG
+- 反碎片化：防止 Codex 過度拆分微型 Task
 
 **Behavioral Constraints（[測試報告](./docs/codex-plan-constraints-benchmark.md)）：**
 - 防 scope drift — 只做被要求的事，簡單任務計畫可壓到 17 行
-- 強制先讀 codebase — 先讀完相關檔案再寫計畫，輸出貼合現有架構
+- 精確上下文載入 — 從 Target Files 開始讀，再展開到相依檔案
 - 控制輸出格式 — bullet point 為主，避免冗長敘述
 - 精簡推理摘要 — `model_reasoning_summary=concise` 省 ~30% token
 
