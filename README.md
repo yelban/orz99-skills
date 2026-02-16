@@ -32,9 +32,12 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 - 「寫好一點」「高品質中文」
 
 **Features:**
-- 字數節奏：三字穩、四字順、五字緩、七字長
-- 改寫技法：刪贅字、拆長句、砍開頭
-- 自動檢查清單
+- 量化節奏規則：氣口（標點間 ≤ 20 字）、錯落（相鄰句長差 > 5 字）、句尾類型控制
+- 5 項改寫技法：刪贅字、拆長句、砍開頭、還原強動詞（余光中去名詞化理論）
+- CoT 改寫流程：`<diagnosis>` → `<planning>` → `<rewrite>`，確保改寫全面一致
+- 10+ 組 before/after 範例驅動 in-context learning
+- 7 項檢查清單（30 字軟限制，排比句/條件句可豁免）
+- 與 humanizer-tw 明確分工：先去機器味，再打磨節奏
 
 ### humanizer-tw
 
