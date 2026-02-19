@@ -117,6 +117,45 @@ Claude Opus 擔任 PM 釐清需求、定位檔案，再交由 Codex 5.3（xhigh 
 - 數字必須 from code、符號驗證、結構驗證
 - 4 核心問題測試 + 證據稽核
 
+### plan-review
+
+互動式計畫審查：在實作前檢視計畫的完整性、方向、風險與範圍。
+
+適用 codex-plan 產出、plan mode 計畫、或任何實作計畫文件。審查計畫本身（任務拆解是否合理），不是 code review。
+
+**Triggers:**
+- `/plan-review [plan file path]`
+- 自動偵測 `codex-plan.md` 或 `.claude/plans/` 最新檔案
+
+**Features:**
+- 4 維度逐段審查：完整性 → 方向性 → 風險 → 範圍
+- 每段用 AskUserQuestion 互動確認，不會一路衝到底
+- 方向性審查強制檢查：現有程式碼是否已能解決問題？避免過度工程陷阱
+- 主動建議補上「NOT in scope」清單，防止實作時 scope creep
+- 深度/快速兩種模式（每段 4 題 vs 1 題）
+- 結構化議題格式：編號 + 選項字母 + 影響/風險/成本矩陣
+- 審查結束產出決策摘要表 + 建議修訂清單
+
+### code-review
+
+互動式程式碼審查：逐段檢視架構、程式品質、測試、效能。
+
+可審查 git diff、指定檔案、或整個 PR。審查已寫好的程式碼，不是計畫審查。
+
+**Triggers:**
+- `/code-review [file path, PR number, or 'diff']`
+- 預設審查所有未提交變更
+
+**Features:**
+- 4 維度逐段審查：架構 → 程式品質 → 測試 → 效能
+- 每段用 AskUserQuestion 互動確認，不會一路衝到底
+- 積極標記 DRY 違規（即使只重複兩次）
+- 檢查 N+1 查詢、記憶體問題、快取機會、演算法複雜度
+- 測試覆蓋：邊界案例、失敗路徑、斷言強度
+- 深度/快速兩種模式（每段 4 題 vs 1 題）
+- 結構化議題格式：編號 + 選項字母 + 成本/風險/影響/維護矩陣
+- 審查結束產出待修項目清單（含 `file:line`），全部 LGTM 時直接通過
+
 ## License
 
 MIT

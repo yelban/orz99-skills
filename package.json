@@ -13,7 +13,9 @@
     "writing",
     "chinese",
     "project-profiler",
-    "codebase-analysis"
+    "codebase-analysis",
+    "plan-review",
+    "code-review"
   ],
   "author": "yelban <yelban@gmail.com>",
   "license": "MIT"
