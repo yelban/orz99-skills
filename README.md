@@ -152,6 +152,36 @@ Claude Opus 擔任 PM 釐清需求、定位檔案，再交由 Codex 5.3（xhigh 
 - 禁止空洞修飾詞（beautiful, masterpiece, stunning 等），只用具體視覺描述
 - AskUserQuestion 互動確認氛圍、構圖、比例
 
+### system-audit
+
+掃描 CLAUDE.md、MEMORY.md 與所有已安裝 skills，找出冗餘指令、臃腫內容、重疊範圍與 token 浪費。
+
+**Triggers:**
+- `/system-audit [focus]`
+- focus 可選：`all`（預設）、`claude`、`memory`、`skills`
+
+**Features:**
+- CLAUDE.md 審查：冗餘指令、臃腫範例、過時內容、跨檔重複
+- MEMORY.md 審查：過時條目、與 CLAUDE.md 重複、接近行數上限
+- Skills 審查：行數 / token 估算總覽、範圍重疊偵測、結構問題
+- Token 預算概覽：每次對話載入量 vs 按需載入量
+- 互動式清理：multiSelect 勾選要執行的清理項目，確認後才動手
+
+### reflect
+
+對話結束前的結構化反思。回顧本次對話，萃取值得長期保留的知識。
+
+**Triggers:**
+- `/reflect`
+- 「反思」「回顧對話」「conversation review」
+
+**Features:**
+- 自動掃描對話中的任務、錯誤、使用者回饋
+- 萃取技術發現、模式識別、錯誤根因、使用者偏好
+- 識別新 skill 機會、現有 skill 改進點
+- 互動式執行：勾選要寫入 memory / 改進 skill / 建新 skill 的項目
+- 先查 MEMORY.md 避免重複記錄
+
 ### code-review
 
 互動式程式碼審查：逐段檢視架構、程式品質、測試、效能。

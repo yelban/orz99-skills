@@ -16,7 +16,9 @@
     "codebase-analysis",
     "plan-review",
     "code-review",
-    "cine-shot"
+    "cine-shot",
+    "system-audit",
+    "reflect"
   ],
   "author": "yelban <yelban@gmail.com>",
   "license": "MIT"
