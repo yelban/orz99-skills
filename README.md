@@ -136,6 +136,22 @@ Claude Opus 擔任 PM 釐清需求、定位檔案，再交由 Codex 5.3（xhigh 
 - 結構化議題格式：編號 + 選項字母 + 影響/風險/成本矩陣
 - 審查結束產出決策摘要表 + 建議修訂清單
 
+### cine-shot
+
+電影感 AI 繪圖提示詞生成器。根據場景描述自動選配攝影機模組與光影預設，產出 Midjourney + Gemini 3 Pro 雙平台 prompt。
+
+**Triggers:**
+- `/cine-shot <scene description>`
+- 「cinematic prompt」「電影感提示詞」
+
+**Features:**
+- 核心公式：Subject & Action + Setting & Framing + Camera Module + Lighting & Vibe + Platform Params
+- 3 組攝影機模組：ARRI（寫實/敘事）、RED（史詩/科幻）、Sony（銳利/賽博）
+- 6 組光影預設：Golden Hour / Cold Noir / Neon Cyber / Natural Doc / Desolate / Dramatic
+- 雙平台輸出：Midjourney（`--ar --style raw --v 7`）+ Gemini 3 Pro（純描述語句）
+- 禁止空洞修飾詞（beautiful, masterpiece, stunning 等），只用具體視覺描述
+- AskUserQuestion 互動確認氛圍、構圖、比例
+
 ### code-review
 
 互動式程式碼審查：逐段檢視架構、程式品質、測試、效能。

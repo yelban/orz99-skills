@@ -15,7 +15,8 @@
     "project-profiler",
     "codebase-analysis",
     "plan-review",
-    "code-review"
+    "code-review",
+    "cine-shot"
   ],
   "author": "yelban <yelban@gmail.com>",
   "license": "MIT"
