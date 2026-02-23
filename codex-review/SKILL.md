@@ -1,28 +1,36 @@
 ---
 name: codex-review
 description: |
-  跨模型對抗式審查：用 Codex 5.3 審查 Claude 的計畫或程式碼產出。
+  跨模型對抗式審查：用 Codex 審查 Claude 的計畫或程式碼產出。
   異質模型產生真正的對抗張力，抓住同模型自審遺漏的問題。
   自動 VERDICT 迴圈（最多 3 輪），產出結構化 issues 清單。
+  支援 --model 參數切換模型（預設 gpt-5.3-codex）。
 
   觸發詞：/codex-review、cross-review、對抗審查
 user_invocable: true
-argument_hint: "[plan file path, code file path, PR#, or 'diff'] (optional, auto-detects)"
+argument_hint: "[plan file path, code file path, PR#, or 'diff'] [--model <model-id>] (optional, auto-detects)"
 ---
 
 # Codex Review
 
 跨模型對抗式審查。Claude 產出 → Codex read-only 審查 → VERDICT 迴圈 → 結構化 issues 清單。
 
-**定位**：用 Codex 5.3 審查 Claude 的產出（自動迴圈，異源對抗）。與 plan-review / code-review 互補——那兩個是 Claude 同模型互動審查，這個是跨模型自動審查。
+**定位**：用 Codex 審查 Claude 的產出（自動迴圈，異源對抗，預設 gpt-5.3-codex，可 `--model` 切換）。與 plan-review / code-review 互補——那兩個是 Claude 同模型互動審查，這個是跨模型自動審查。
 
 ---
 
 ## Step 0: 偵測輸入 + 確認
 
+### 解析參數
+
+從 ARGUMENTS 擷取 `--model <model-id>`（如有），剩餘部分作為審查對象路徑。
+
+- `CODEX_MODEL` = 使用者指定的 model-id，預設 `gpt-5.3-codex`
+- 範例：`/codex-review diff --model o4-mini` → 審查 diff，使用 o4-mini
+
 ### 偵測審查模式
 
-按 ARGUMENTS 和檔案特徵判斷：
+按 ARGUMENTS（去除 `--model` 後的部分）和檔案特徵判斷：
 
 **Plan mode**（計畫審查）：
 1. ARGUMENTS 指定 `.md` 且內容含 `# Plan:` 或 `## Overview` → plan
@@ -71,15 +79,40 @@ argument_hint: "[plan file path, code file path, PR#, or 'diff'] (optional, auto
 
 ```
 ROUND = 1
+SESSION_ID = ""
+
 while ROUND <= 3:
-    執行 codex exec:
+    if ROUND == 1:
+        # 首輪：fresh exec，擷取 session ID
         codex exec --full-auto --skip-git-repo-check \
           -s read-only \
-          -c model=gpt-5.3-codex \
+          -c model=${CODEX_MODEL} \
           -c model_reasoning_effort=high \
           -c model_reasoning_summary=concise \
           --output-last-message /tmp/codex-review-${ID}-r${ROUND}.md \
-          "$(cat /tmp/codex-review-input-${ID}.md)"
+          "$(cat /tmp/codex-review-input-${ID}.md)" \
+          2>&1 | tee /tmp/codex-review-${ID}-stdout.txt
+
+        從 stdout 擷取 session ID（格式：session ID 或類似標識）
+        SESSION_ID = 擷取到的 ID
+
+    else:
+        # 後續輪：嘗試 resume 保持上下文
+        # 注意：resume 不支援 -o flag，需從 stdout 擷取輸出
+        嘗試:
+            codex exec resume ${SESSION_ID} --full-auto \
+              "$(cat /tmp/codex-review-input-${ID}.md)" \
+              2>&1 | tee /tmp/codex-review-${ID}-r${ROUND}.md
+
+        如果 resume 失敗（exit code != 0 或 session 不存在）:
+            # Fallback：fresh exec + Continuation template 注入上輪 context
+            codex exec --full-auto --skip-git-repo-check \
+              -s read-only \
+              -c model=${CODEX_MODEL} \
+              -c model_reasoning_effort=high \
+              -c model_reasoning_summary=concise \
+              --output-last-message /tmp/codex-review-${ID}-r${ROUND}.md \
+              "$(cat /tmp/codex-review-input-${ID}.md)"
 
     讀取輸出，解析 VERDICT:
         APPROVED → break，進 Step 3
@@ -104,7 +137,9 @@ while ROUND <= 3:
 **Codex exec 參數說明**：
 - `-s read-only`：只讀 sandbox，Codex 不會改檔案
 - `model_reasoning_effort=high`：審查不需 xhigh，省 token
-- 每輪新 session（不用 resume，確保乾淨上下文）
+- `${CODEX_MODEL}`：使用 Step 0 解析的模型（預設 `gpt-5.3-codex`）
+- Round 1 fresh exec → 擷取 session ID
+- Round 2+ 嘗試 `codex exec resume` 保持跨輪上下文，失敗時 fallback 回 fresh exec + Continuation template
 
 ---
 
@@ -117,7 +152,7 @@ while ROUND <= 3:
 ```markdown
 ## Codex Review: LGTM
 
-**跨模型確認** — Codex 5.3 未發現重大問題。
+**跨模型確認** — Codex (${CODEX_MODEL}) 未發現重大問題。
 
 | 輪次 | VERDICT | HIGH | MEDIUM | LOW |
 |------|---------|------|--------|-----|
@@ -161,6 +196,14 @@ while ROUND <= 3:
 ### 未收斂處理
 
 如果 3 輪後仍 REVISE，在摘要表標注「未收斂」，並列出所有仍為 HIGH/MEDIUM 的 issues，建議使用者手動處理。
+
+### 清理暫存檔
+
+審查結束後（無論結果），清理所有暫存檔：
+
+```bash
+rm -f /tmp/codex-review-input-${ID}.md /tmp/codex-review-${ID}-r*.md /tmp/codex-review-${ID}-stdout.txt
+```
 
 ---
 
