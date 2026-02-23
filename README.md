@@ -202,6 +202,29 @@ Claude Opus 擔任 PM 釐清需求、定位檔案，再交由 Codex 5.3（xhigh 
 - 結構化議題格式：編號 + 選項字母 + 成本/風險/影響/維護矩陣
 - 審查結束產出待修項目清單（含 `file:line`），全部 LGTM 時直接通過
 
+### codex-review
+
+跨模型對抗式審查：用 Codex 5.3 審查 Claude 的計畫或程式碼產出。
+
+異質模型產生真正的對抗張力，能抓到同模型自審遺漏的問題（如 auth 漏洞、shell quoting bug、schema 衝突）。與 plan-review / code-review 互補——那兩個是 Claude 同模型互動審查，這個是跨模型自動審查。
+
+**Triggers:**
+- `/codex-review [plan file, code file, PR#, or 'diff']`
+- 自動偵測計畫（codex-plan.md / .claude/plans/）或程式碼（diff / 檔案）
+
+**Features:**
+- 自動偵測 plan mode 或 code mode，無需手動指定
+- VERDICT 迴圈：Codex 審查 → APPROVED/REVISE → Claude 修訂 → 再審（最多 3 輪）
+- 嚴重度分級：HIGH / MEDIUM / LOW，APPROVED 門檻 = 0 HIGH + ≤1 MEDIUM
+- Codex read-only sandbox：審查者不改檔案，純分析
+- 全面 / 聚焦兩種模式（security / concurrency / schema / performance）
+- 3 組 prompt template：Plan Review / Code Review / Continuation（Round 2+）
+- 結構化輸出：輪次摘要表 + issues 清單 + 建議行動
+- 第一輪即 APPROVED → 簡化輸出 LGTM（跨模型確認）
+
+**建議使用順序：**
+1. `/codex-plan` → 2. `/codex-review` → 3. 實作 → 4. `/codex-review diff` → 5. `/code-review`
+
 ## License
 
 MIT
