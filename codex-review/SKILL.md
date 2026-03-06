@@ -4,7 +4,7 @@ description: |
   跨模型對抗式審查：用 Codex 審查 Claude 的計畫或程式碼產出。
   異質模型產生真正的對抗張力，抓住同模型自審遺漏的問題。
   自動 VERDICT 迴圈（最多 3 輪），產出結構化 issues 清單。
-  支援 --model 參數切換模型（預設 gpt-5.3-codex）。
+  支援 --model 參數切換模型（預設 gpt-5.4）。
 
   觸發詞：/codex-review、cross-review、對抗審查
 user_invocable: true
@@ -15,7 +15,7 @@ argument_hint: "[plan file path, code file path, PR#, or 'diff'] [--model <model
 
 跨模型對抗式審查。Claude 產出 → Codex read-only 審查 → VERDICT 迴圈 → 結構化 issues 清單。
 
-**定位**：用 Codex 審查 Claude 的產出（自動迴圈，異源對抗，預設 gpt-5.3-codex，可 `--model` 切換）。與 plan-review / code-review 互補——那兩個是 Claude 同模型互動審查，這個是跨模型自動審查。
+**定位**：用 Codex 審查 Claude 的產出（自動迴圈，異源對抗，預設 gpt-5.4，可 `--model` 切換）。與 plan-review / code-review 互補——那兩個是 Claude 同模型互動審查，這個是跨模型自動審查。
 
 ---
 
@@ -25,7 +25,7 @@ argument_hint: "[plan file path, code file path, PR#, or 'diff'] [--model <model
 
 從 ARGUMENTS 擷取 `--model <model-id>`（如有），剩餘部分作為審查對象路徑。
 
-- `CODEX_MODEL` = 使用者指定的 model-id，預設 `gpt-5.3-codex`
+- `CODEX_MODEL` = 使用者指定的 model-id，預設 `gpt-5.4`
 - 範例：`/codex-review diff --model o4-mini` → 審查 diff，使用 o4-mini
 
 ### 偵測審查模式
@@ -137,7 +137,7 @@ while ROUND <= 3:
 **Codex exec 參數說明**：
 - `-s read-only`：只讀 sandbox，Codex 不會改檔案
 - `model_reasoning_effort=high`：審查不需 xhigh，省 token
-- `${CODEX_MODEL}`：使用 Step 0 解析的模型（預設 `gpt-5.3-codex`）
+- `${CODEX_MODEL}`：使用 Step 0 解析的模型（預設 `gpt-5.4`）
 - Round 1 fresh exec → 擷取 session ID
 - Round 2+ 嘗試 `codex exec resume` 保持跨輪上下文，失敗時 fallback 回 fresh exec + Continuation template
 

@@ -1,6 +1,6 @@
 ---
 name: codex-plan
-description: Create detailed implementation plan using Codex 5.3 with xhigh reasoning
+description: Create detailed implementation plan using GPT-5.4 with xhigh reasoning
 user_invocable: true
 argument_hint: "<what you want to plan>"
 ---
@@ -13,7 +13,7 @@ You are being asked to create a detailed implementation plan using Codex. Your j
 3. Craft an excellent, detailed prompt for Codex
 4. Execute Codex to generate and save the plan
 
-**Always uses:** `gpt-5.3-codex` with `xhigh` reasoning
+**Always uses:** `gpt-5.4` with `xhigh` reasoning
 **Output:** `codex-plan.md` in current directory
 
 ---
@@ -209,7 +209,7 @@ Run this exact command with your crafted prompt:
 
 ```bash
 codex exec --full-auto --skip-git-repo-check \
-  -c model=gpt-5.3-codex \
+  -c model=gpt-5.4 \
   -c model_reasoning_effort=xhigh \
   -c model_reasoning_summary=concise \
   --output-last-message /tmp/codex-plan-result.txt \
@@ -243,7 +243,7 @@ After Codex finishes (or after writing the plan yourself on fast-path):
 ## Important Rules
 
 1. **ALWAYS ask at least 1 clarifying question** — Do not skip Step 2 (1-5 questions based on complexity)
-2. **ALWAYS use gpt-5.3-codex with xhigh reasoning** — No exceptions (unless fast-path)
+2. **ALWAYS use gpt-5.4 with xhigh reasoning** — No exceptions (unless fast-path)
 3. **ALWAYS tell Codex not to ask questions** — It should just execute
 4. **ALWAYS use --full-auto flag**
 5. **ALWAYS verify output in Step 6** — Check structure, retry once on failure

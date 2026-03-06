@@ -61,7 +61,7 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 
 ### codex-plan
 
-Claude Opus 擔任 PM 釐清需求、定位檔案，再交由 Codex 5.3（xhigh reasoning）生成結構化實作計畫。
+Claude Opus 擔任 PM 釐清需求、定位檔案，再交由 GPT-5.4（xhigh reasoning）生成結構化實作計畫。
 
 **Triggers:**
 - `/codex-plan <what you want to plan>`
@@ -204,7 +204,7 @@ Claude Opus 擔任 PM 釐清需求、定位檔案，再交由 Codex 5.3（xhigh 
 
 ### codex-review
 
-跨模型對抗式審查：用 Codex 5.3 審查 Claude 的計畫或程式碼產出。
+跨模型對抗式審查：用 GPT-5.4 審查 Claude 的計畫或程式碼產出。
 
 異質模型產生真正的對抗張力，能抓到同模型自審遺漏的問題（如 auth 漏洞、shell quoting bug、schema 衝突）。與 plan-review / code-review 互補——那兩個是 Claude 同模型互動審查，這個是跨模型自動審查。
 
