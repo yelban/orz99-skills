@@ -10,6 +10,8 @@ description: |
   - 需要產出高品質中文內容時
 
   觸發詞：/good-writing、/潤稿、good writing、潤稿、改寫、rewrite、文筆、讓文字更順
+user_invocable: true
+argument_hint: "<article text or file path to rewrite>"
 ---
 
 # 中文好寫作

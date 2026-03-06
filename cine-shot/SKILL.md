@@ -3,13 +3,10 @@ name: cine-shot
 description: |
   電影感 AI 繪圖提示詞生成器。根據使用者的場景描述，自動選配攝影機模組、光影預設，
   產出 Midjourney 與 Gemini 3 Pro 雙平台格式的 cinematic prompt。
-triggers:
-  - /cine-shot
-  - cinematic prompt
-  - 電影感提示詞
-  - 電影風格圖片
-argument_hint: "<scene description>"
+
+  觸發詞：/cine-shot、cinematic prompt、電影感提示詞、電影風格圖片
 user_invocable: true
+argument_hint: "<scene description>"
 ---
 
 ## 核心公式

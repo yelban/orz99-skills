@@ -1,6 +1,11 @@
 ---
 name: codex-plan
-description: Create detailed implementation plan using GPT-5.4 with xhigh reasoning
+description: |
+  Create detailed implementation plan using GPT-5.4 with xhigh reasoning.
+  Use when the user wants to plan a feature, refactor, bug fix, infrastructure change,
+  or any multi-step coding task before implementation.
+
+  觸發詞：/codex-plan、plan this、implementation plan、幫我規劃、寫實作計畫、規劃功能
 user_invocable: true
 argument_hint: "<what you want to plan>"
 ---

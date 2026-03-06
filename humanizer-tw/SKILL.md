@@ -1,20 +1,13 @@
 ---
 name: humanizer-tw
-version: 3.0.0
 description: |
   去除中文文字中的 AI 生成痕跡。針對中文 AI 寫作的獨特問題設計：
   時代開場白、連接詞濫用、互聯網黑話、翻譯腔、書面語過重、公式化結構、結尾套話、中國用語滲入。
   使文字更自然、更有人味、更像台灣人寫的。
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - AskUserQuestion
-metadata:
-  trigger: 編輯或審閱文字，去除 AI 寫作痕跡
-  source: 原生中文設計，參考 blader/humanizer 和 hardikpandya/stop-slop，繁體台灣版
+
+  觸發詞：/humanizer、humanize、去除 AI 痕跡、人性化、去機器味
+user_invocable: true
+argument_hint: "<article text or file path to humanize>"
 ---
 
 # Humanizer-tw: 去除中文 AI 寫作痕跡
