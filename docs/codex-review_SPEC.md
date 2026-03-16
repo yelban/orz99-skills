@@ -172,7 +172,7 @@ This differs deliberately from `codex-plan`, which hardcodes `gpt-5.4`. The MEMO
 | `--skip-git-repo-check` | always | Runs from any directory |
 | `-s read-only` | always | Prevent file modification |
 | `-c model=${CODEX_MODEL}` | variable | Configurable reviewer model |
-| `-c model_reasoning_effort=high` | fixed | Sufficient for review (not `xhigh` — saves tokens vs codex-plan) |
+| `-c model_reasoning_effort=xhigh` | fixed | Maximum reasoning quality, consistent with codex-plan |
 | `-c model_reasoning_summary=concise` | fixed | Reduce output verbosity |
 | `--output-last-message` | Round 1 only | Captures final output to file |
 | `tee /tmp/...stdout.txt` | Round 1 only | Captures session ID from stdout |

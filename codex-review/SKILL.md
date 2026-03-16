@@ -87,7 +87,7 @@ while ROUND <= 3:
         codex exec --full-auto --skip-git-repo-check \
           -s read-only \
           -c model=${CODEX_MODEL} \
-          -c model_reasoning_effort=high \
+          -c model_reasoning_effort=xhigh \
           -c model_reasoning_summary=concise \
           --output-last-message /tmp/codex-review-${ID}-r${ROUND}.md \
           "$(cat /tmp/codex-review-input-${ID}.md)" \
@@ -109,7 +109,7 @@ while ROUND <= 3:
             codex exec --full-auto --skip-git-repo-check \
               -s read-only \
               -c model=${CODEX_MODEL} \
-              -c model_reasoning_effort=high \
+              -c model_reasoning_effort=xhigh \
               -c model_reasoning_summary=concise \
               --output-last-message /tmp/codex-review-${ID}-r${ROUND}.md \
               "$(cat /tmp/codex-review-input-${ID}.md)"
@@ -136,7 +136,7 @@ while ROUND <= 3:
 
 **Codex exec 參數說明**：
 - `-s read-only`：只讀 sandbox，Codex 不會改檔案
-- `model_reasoning_effort=high`：審查不需 xhigh，省 token
+- `model_reasoning_effort=xhigh`：最高推理品質
 - `${CODEX_MODEL}`：使用 Step 0 解析的模型（預設 `gpt-5.4`）
 - Round 1 fresh exec → 擷取 session ID
 - Round 2+ 嘗試 `codex exec resume` 保持跨輪上下文，失敗時 fallback 回 fresh exec + Continuation template
