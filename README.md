@@ -38,6 +38,7 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 - 10+ 組 before/after 範例驅動 in-context learning
 - 7 項檢查清單（30 字軟限制，排比句/條件句可豁免）
 - 與 humanizer-tw 明確分工：先去機器味，再打磨節奏
+- **v1.1.0 保守模式（conservative）**：處理 README / API 文件 / CLI 說明時只改 4 類（刪連續「的」、刪「進行/加以/實施」、拆 30+ 字句、修氣口），停用錯落與公式化打破規則；新增術語連綴例外清單（頓號列表、破折號引介、括號補充、連字符連綴視為已有內部停頓），保留程式碼區塊、表格、英文術語、YAML front matter 原樣
 
 ### humanizer-tw
 
@@ -48,16 +49,18 @@ npx skills add yelban/orz99-skills -s good-writing-zh -g
 **Triggers:**
 - 「去除 AI 痕跡」「人性化」「humanize」
 - 編輯或審閱文字
+- fork 簡中專案的繁中校對、OpenCC 轉換後清洗（v1.1.0）
 
 **Features:**
-- Hub-and-Spoke 架構：SKILL.md 123 行精簡核心 + 3 個 reference 檔（dictionary / anti-patterns / examples）
+- Hub-and-Spoke 架構：SKILL.md 127 行精簡核心 + 4 個 reference 檔（dictionary / anti-patterns / examples / opencc-residuals）
 - CoT 改寫流程：`<diagnosis>` → `<rewrite>` → `<changelog>`，防堵漏改
 - 文體感知：正式文體自動停用「個性注入」和「口語化」，避免語氣災難
-- 9 類 AI 寫作問題分類，含新增「中式 AI 句型」（進行了一個...的優化、起到了...的作用）
+- 10 類 AI 寫作問題分類，含「中式 AI 句型」（進行了一個...的優化、起到了...的作用）
 - 刪除開場套話：「隨著...的發展」「眾所周知」
 - 替換互聯網黑話：「賦能」→「幫助」、「痛點」→「問題」、「底層邏輯」→「核心原理」
 - 攔截中國用語：「信息」→「資訊」、「視頻」→「影片」、「默認」→「預設」
 - 與 good-writing-zh 明確分工：先去 AI 毒，再打磨節奏
+- **v1.1.0 OpenCC 轉換後清洗**：新增 `references/opencc-residuals.md`——涵蓋 30+ 條 OpenCC s2twp 漏網詞（聚類→分群、構建→建構、鏈路→流程、PyPI 包→套件、後臺→背景、源位置→來源位置、快取項→快取項目、命令[CLI]→指令、註釋→註解）、動詞語境誤譯（connect→串連 vs 連線、run→執行、configure→設定）、半形→全形標點規則、錯字表（併↔並）、grep 快速檢查指令
 
 ### codex-plan
 
