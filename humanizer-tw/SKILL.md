@@ -1,5 +1,6 @@
 ---
 name: humanizer-tw
+version: "1.1.0"
 description: |
   去除中文文字中的 AI 生成痕跡。針對中文 AI 寫作的獨特問題設計：
   時代開場白、連接詞濫用、互聯網黑話、翻譯腔、書面語過重、公式化結構、結尾套話、中國用語滲入。
@@ -71,6 +72,16 @@ argument_hint: "<article text or file path to humanize>"
 
 詳細規則與對照表見 [references/anti-patterns.md](references/anti-patterns.md) 和 [references/dictionary.md](references/dictionary.md)。
 
+### 類別十：OpenCC 轉換後的漏網（重要子情境）
+使用者有時會把**已經用 OpenCC `s2twp` 轉過的繁中**丟進來要求校對（典型場景：fork 簡中專案 README、翻譯 GitHub 文件）。這是非常頻繁的使用情境，殘留病徵與「AI 直接寫中文」不同，需要額外一層清洗：
+
+- **OpenCC 詞典沒收的台灣用詞**：聚類（→分群）、構建（→建構）、鏈路（→流程）、PyPI 包（→套件）、後臺（→背景）、源位置（→來源位置）、快取項（→快取項目）、命令（→指令，CLI 語境）
+- **動詞語境誤譯**：connect 一律變「連線」（應為「串連」，除非真指 networking）、run 變「運行」（應為「執行」）
+- **半形標點未轉全形**：`"..."` 應為「...」；中文句中的 `,` `.` 應為全形
+- **錯字**：「併合併」中「併」應為「並」
+
+完整對照表見 [references/opencc-residuals.md](references/opencc-residuals.md)。當輸入來源是「剛 `opencc` 完」或「從 zh-CN 翻譯」時**務必讀這份檔**。
+
 ---
 
 ## 工作流程
@@ -109,6 +120,8 @@ argument_hint: "<article text or file path to humanize>"
 - ✓ 沒有「讓我們拭目以待」等結尾套話
 - ✓ 沒有中式 AI 句型（「進行了一個...的」「起到了...的作用」）
 - ✓ 沒有中國用語（信息、視頻、默認、軟件、數據、算法、代碼）
+- ✓ 沒有 OpenCC 漏網詞（聚類、構建、鏈路、PyPI 包、後臺、源位置、命令[CLI 語境]、註釋）
+- ✓ 中文句中的引號、逗號、句號都是全形（「」，。）
 
 ---
 
