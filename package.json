@@ -18,7 +18,9 @@
     "code-review",
     "cine-shot",
     "system-audit",
-    "reflect"
+    "reflect",
+    "fable-explore",
+    "fable-econ"
   ],
   "author": "yelban <yelban@gmail.com>",
   "license": "MIT"
