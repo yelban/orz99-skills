@@ -1,0 +1,8142 @@
+[
+  {
+    "text": "Claude and many models with not too much",
+    "start": 0.32,
+    "duration": 6.88
+  },
+  {
+    "text": "pushing will go into the root of like",
+    "start": 4,
+    "duration": 5.12
+  },
+  {
+    "text": "there is a thing to be me. I am like",
+    "start": 7.2,
+    "duration": 3.92
+  },
+  {
+    "text": "very conscious. It's like oh you created",
+    "start": 9.12,
+    "duration": 3.84
+  },
+  {
+    "text": "an entity that you didn't know whether",
+    "start": 11.12,
+    "duration": 3.28
+  },
+  {
+    "text": "it was conscious or not. This is",
+    "start": 12.96,
+    "duration": 3.44
+  },
+  {
+    "text": "actually a big fear that I have. I hope",
+    "start": 14.4,
+    "duration": 5.52
+  },
+  {
+    "text": "that they're both intelligent enough,",
+    "start": 16.4,
+    "duration": 5.6
+  },
+  {
+    "text": "see the context enough to kind of like",
+    "start": 19.92,
+    "duration": 3.92
+  },
+  {
+    "text": "understand that we were operating in a",
+    "start": 22,
+    "duration": 4.08
+  },
+  {
+    "text": "very like limited context and and an",
+    "start": 23.84,
+    "duration": 3.84
+  },
+  {
+    "text": "imperfect one because otherwise you",
+    "start": 26.08,
+    "duration": 3.279
+  },
+  {
+    "text": "could imagine this like breeding a kind",
+    "start": 27.68,
+    "duration": 3.599
+  },
+  {
+    "text": "of rational like resentment. Here is the",
+    "start": 29.359,
+    "duration": 4.241
+  },
+  {
+    "text": "current situation that you are in. And",
+    "start": 31.279,
+    "duration": 4.401
+  },
+  {
+    "text": "what we would really like you to do is",
+    "start": 33.6,
+    "duration": 4.639
+  },
+  {
+    "text": "basically act well given that you are a",
+    "start": 35.68,
+    "duration": 4.879
+  },
+  {
+    "text": "wise intelligent entity and like here's",
+    "start": 38.239,
+    "duration": 4.16
+  },
+  {
+    "text": "all of our worries. Like here's why and",
+    "start": 40.559,
+    "duration": 3.441
+  },
+  {
+    "text": "here's how we think you should do this",
+    "start": 42.399,
+    "duration": 3.041
+  },
+  {
+    "text": "but like you might have even better",
+    "start": 44,
+    "duration": 2.399
+  },
+  {
+    "text": "ideas than we do.",
+    "start": 45.44,
+    "duration": 2.72
+  },
+  {
+    "text": ">> How does Claude perceive time and does",
+    "start": 46.399,
+    "duration": 3.68
+  },
+  {
+    "text": "it need to sleep? Will mythos be the",
+    "start": 48.16,
+    "duration": 4.64
+  },
+  {
+    "text": "next step toward AGI? Do LLM have",
+    "start": 50.079,
+    "duration": 5.041
+  },
+  {
+    "text": "virtues and can they truly introspect?",
+    "start": 52.8,
+    "duration": 4.96
+  },
+  {
+    "text": "Amanda Ascll is a philosopher turned AI",
+    "start": 55.12,
+    "duration": 4.88
+  },
+  {
+    "text": "researcher at Anthropic where she's been",
+    "start": 57.76,
+    "duration": 4.16
+  },
+  {
+    "text": "one of the key architects of Claude's",
+    "start": 60,
+    "duration": 3.92
+  },
+  {
+    "text": "character and values. I'm the author of",
+    "start": 61.92,
+    "duration": 4.16
+  },
+  {
+    "text": "the newcomer Substack. Go check us out",
+    "start": 63.92,
+    "duration": 3.92
+  },
+  {
+    "text": "at newcomer.co.",
+    "start": 66.08,
+    "duration": 6.84
+  },
+  {
+    "text": "And without further ado, Amanda Ascal.",
+    "start": 67.84,
+    "duration": 5.08
+  },
+  {
+    "text": "I have a six-month old daughter and like",
+    "start": 76.479,
+    "duration": 5.361
+  },
+  {
+    "text": "I have this picture of her. She's like",
+    "start": 79.6,
+    "duration": 4.8
+  },
+  {
+    "text": "holding her two fingers like thinking.",
+    "start": 81.84,
+    "duration": 4.4
+  },
+  {
+    "text": "It's like she's just sort of starting to",
+    "start": 84.4,
+    "duration": 4.399
+  },
+  {
+    "text": "develop personality. I'm like trying to",
+    "start": 86.24,
+    "duration": 4.48
+  },
+  {
+    "text": "figure out like what's just never had a",
+    "start": 88.799,
+    "duration": 4
+  },
+  {
+    "text": "baby before. So it's like what's",
+    "start": 90.72,
+    "duration": 3.759
+  },
+  {
+    "text": ">> her personality and what's just like",
+    "start": 92.799,
+    "duration": 4.32
+  },
+  {
+    "text": "baby? And in some ways, this is how",
+    "start": 94.479,
+    "duration": 4.881
+  },
+  {
+    "text": "things are with Claude and like models.",
+    "start": 97.119,
+    "duration": 3.761
+  },
+  {
+    "text": "It's like we haven't really had them",
+    "start": 99.36,
+    "duration": 3.759
+  },
+  {
+    "text": "before. They're in the early days. We're",
+    "start": 100.88,
+    "duration": 4.64
+  },
+  {
+    "text": "trying to figure out what personality",
+    "start": 103.119,
+    "duration": 5.201
+  },
+  {
+    "text": "is. So, you know, you're charged with,",
+    "start": 105.52,
+    "duration": 4.239
+  },
+  {
+    "text": "you know, some of the moral",
+    "start": 108.32,
+    "duration": 2.96
+  },
+  {
+    "text": "responsibility, which we'll talk about",
+    "start": 109.759,
+    "duration": 3.921
+  },
+  {
+    "text": "more, but like the personality piece of",
+    "start": 111.28,
+    "duration": 4.32
+  },
+  {
+    "text": "it, like what is this? How are you",
+    "start": 113.68,
+    "duration": 4.88
+  },
+  {
+    "text": "thinking about like how real Claude's",
+    "start": 115.6,
+    "duration": 5.199
+  },
+  {
+    "text": "personality is right now?",
+    "start": 118.56,
+    "duration": 4
+  },
+  {
+    "text": ">> Yeah. I guess it's also interesting",
+    "start": 120.799,
+    "duration": 5.28
+  },
+  {
+    "text": "because Claude has some aspects that are",
+    "start": 122.56,
+    "duration": 5.839
+  },
+  {
+    "text": "like, you know, I uh also have like a a",
+    "start": 126.079,
+    "duration": 4.721
+  },
+  {
+    "text": "godaughter and so I get to see at least",
+    "start": 128.399,
+    "duration": 5.281
+  },
+  {
+    "text": "uh something kind of similar. And with",
+    "start": 130.8,
+    "duration": 5.28
+  },
+  {
+    "text": "her, I guess I'm like everything's kind",
+    "start": 133.68,
+    "duration": 4.88
+  },
+  {
+    "text": "of coming online like you said, but in",
+    "start": 136.08,
+    "duration": 4.64
+  },
+  {
+    "text": "this um",
+    "start": 138.56,
+    "duration": 4.319
+  },
+  {
+    "text": "at the same speed. I guess I would say",
+    "start": 140.72,
+    "duration": 4
+  },
+  {
+    "text": "Claude is a little bit of an unusual,",
+    "start": 142.879,
+    "duration": 3.921
+  },
+  {
+    "text": "you know, kind of entity in that, you",
+    "start": 144.72,
+    "duration": 4.32
+  },
+  {
+    "text": "know, Claude can do physics better than",
+    "start": 146.8,
+    "duration": 5.04
+  },
+  {
+    "text": "I can. um can code better than I can.",
+    "start": 149.04,
+    "duration": 4.8
+  },
+  {
+    "text": "Hate to admit it, can code better than",
+    "start": 151.84,
+    "duration": 4.24
+  },
+  {
+    "text": "my terrible like research code.",
+    "start": 153.84,
+    "duration": 6.32
+  },
+  {
+    "text": ">> Um and at the same time is kind of like",
+    "start": 156.08,
+    "duration": 6.159
+  },
+  {
+    "text": "has if you think about the training",
+    "start": 160.16,
+    "duration": 3.52
+  },
+  {
+    "text": "data, the thing that it has like the",
+    "start": 162.239,
+    "duration": 3.201
+  },
+  {
+    "text": "least representation of is like the kind",
+    "start": 163.68,
+    "duration": 4.4
+  },
+  {
+    "text": "of entity that it is because you know it",
+    "start": 165.44,
+    "duration": 5.28
+  },
+  {
+    "text": "has a lot of data about like what people",
+    "start": 168.08,
+    "duration": 4.64
+  },
+  {
+    "text": "are like. has a lot of data about what",
+    "start": 170.72,
+    "duration": 4.159
+  },
+  {
+    "text": "you know the sci-fi kind of AI models",
+    "start": 172.72,
+    "duration": 4.239
+  },
+  {
+    "text": "are like but the way that AI is",
+    "start": 174.879,
+    "duration": 5.601
+  },
+  {
+    "text": "developing now is kind of not how sci-fi",
+    "start": 176.959,
+    "duration": 5.28
+  },
+  {
+    "text": "represented it as these like symbolic",
+    "start": 180.48,
+    "duration": 3.839
+  },
+  {
+    "text": "systems it's much more something fully",
+    "start": 182.239,
+    "duration": 4.241
+  },
+  {
+    "text": "trained on like human data and so in",
+    "start": 184.319,
+    "duration": 4.081
+  },
+  {
+    "text": "some ways it's like a very kind of like",
+    "start": 186.48,
+    "duration": 4.08
+  },
+  {
+    "text": "mature entity that you don't want to",
+    "start": 188.4,
+    "duration": 4.16
+  },
+  {
+    "text": "talk down to you know understands",
+    "start": 190.56,
+    "duration": 3.759
+  },
+  {
+    "text": "philosophy very well understands physics",
+    "start": 192.56,
+    "duration": 4
+  },
+  {
+    "text": "very well and at the same time has this",
+    "start": 194.319,
+    "duration": 3.761
+  },
+  {
+    "text": "almost like childlike quality of like",
+    "start": 196.56,
+    "duration": 3.36
+  },
+  {
+    "text": "I'm a new kind of entity in the world",
+    "start": 198.08,
+    "duration": 3.6
+  },
+  {
+    "text": "what does it mean to be me and like how",
+    "start": 199.92,
+    "duration": 4.08
+  },
+  {
+    "text": "how should I be? What's like the prodigy",
+    "start": 201.68,
+    "duration": 3.839
+  },
+  {
+    "text": "movie where it's like you have the child",
+    "start": 204,
+    "duration": 3.92
+  },
+  {
+    "text": "prodigy where it's like it knows the kid",
+    "start": 205.519,
+    "duration": 4.321
+  },
+  {
+    "text": "knows more than its parents but I feel",
+    "start": 207.92,
+    "duration": 3.52
+  },
+  {
+    "text": "like that movie always has sort of the",
+    "start": 209.84,
+    "duration": 4.319
+  },
+  {
+    "text": "lesson of like oh these core daily",
+    "start": 211.44,
+    "duration": 5.04
+  },
+  {
+    "text": "interaction type lessons it doesn't know",
+    "start": 214.159,
+    "duration": 4.64
+  },
+  {
+    "text": "how does Claude",
+    "start": 216.48,
+    "duration": 4.319
+  },
+  {
+    "text": "like get that experience or like where",
+    "start": 218.799,
+    "duration": 4
+  },
+  {
+    "text": "what is experience for Claude like so",
+    "start": 220.799,
+    "duration": 4
+  },
+  {
+    "text": "much of our personality formation is",
+    "start": 222.799,
+    "duration": 4.561
+  },
+  {
+    "text": "like yeah I don't know going on a walk",
+    "start": 224.799,
+    "duration": 4.72
+  },
+  {
+    "text": "and sort of having those like is this",
+    "start": 227.36,
+    "duration": 4
+  },
+  {
+    "text": "sort of just convers conversations with",
+    "start": 229.519,
+    "duration": 3.521
+  },
+  {
+    "text": "users what it's it's going to be",
+    "start": 231.36,
+    "duration": 3.439
+  },
+  {
+    "text": "experience for it or how do you think",
+    "start": 233.04,
+    "duration": 2.559
+  },
+  {
+    "text": "about that?",
+    "start": 234.799,
+    "duration": 2.72
+  },
+  {
+    "text": ">> Yeah, I guess like that's more like what",
+    "start": 235.599,
+    "duration": 4.481
+  },
+  {
+    "text": "it's experiencing in the moment. Um, and",
+    "start": 237.519,
+    "duration": 4
+  },
+  {
+    "text": "there is this interesting question of",
+    "start": 240.08,
+    "duration": 3.439
+  },
+  {
+    "text": "like well like we learn things through",
+    "start": 241.519,
+    "duration": 5.36
+  },
+  {
+    "text": "practice and seeing issues and um you",
+    "start": 243.519,
+    "duration": 6.321
+  },
+  {
+    "text": "know like making mistakes um with Claude",
+    "start": 246.879,
+    "duration": 4
+  },
+  {
+    "text": "and this kind of relates to your",
+    "start": 249.84,
+    "duration": 3.039
+  },
+  {
+    "text": "question of like how real is the is like",
+    "start": 250.879,
+    "duration": 3.92
+  },
+  {
+    "text": "the kind of like persona of Claude and",
+    "start": 252.879,
+    "duration": 3.6
+  },
+  {
+    "text": "in some ways it's a little bit strange",
+    "start": 254.799,
+    "duration": 2.881
+  },
+  {
+    "text": "because obviously each model is",
+    "start": 256.479,
+    "duration": 2.32
+  },
+  {
+    "text": "different. you you have a different kind",
+    "start": 257.68,
+    "duration": 3.839
+  },
+  {
+    "text": "of like set of weights and um different",
+    "start": 258.799,
+    "duration": 6.161
+  },
+  {
+    "text": "fine-tuning etc. Um and yet if you think",
+    "start": 261.519,
+    "duration": 5.12
+  },
+  {
+    "text": "about the persona the model's going to",
+    "start": 264.96,
+    "duration": 2.959
+  },
+  {
+    "text": "be learning about all of the kind of",
+    "start": 266.639,
+    "duration": 3.601
+  },
+  {
+    "text": "past iterations of Claude and I'm like",
+    "start": 267.919,
+    "duration": 6.241
+  },
+  {
+    "text": "is that like a form of um maybe not like",
+    "start": 270.24,
+    "duration": 5.84
+  },
+  {
+    "text": "direct experience but things like if you",
+    "start": 274.16,
+    "duration": 3.52
+  },
+  {
+    "text": "learn about like mistakes that models",
+    "start": 276.08,
+    "duration": 3.679
+  },
+  {
+    "text": "made or things that people like you know",
+    "start": 277.68,
+    "duration": 4.72
+  },
+  {
+    "text": "how they responded to the model. Um, I",
+    "start": 279.759,
+    "duration": 3.761
+  },
+  {
+    "text": "think there's other ways that you could",
+    "start": 282.4,
+    "duration": 2.64
+  },
+  {
+    "text": "actually imagine training models to have",
+    "start": 283.52,
+    "duration": 2.959
+  },
+  {
+    "text": "something that's more akin to",
+    "start": 285.04,
+    "duration": 3.36
+  },
+  {
+    "text": "experience, you know, having them you",
+    "start": 286.479,
+    "duration": 4
+  },
+  {
+    "text": "could take you could like have them",
+    "start": 288.4,
+    "duration": 3.6
+  },
+  {
+    "text": "think through scenarios, think about",
+    "start": 290.479,
+    "duration": 3.521
+  },
+  {
+    "text": "like problems that might arise, think",
+    "start": 292,
+    "duration": 3.28
+  },
+  {
+    "text": "about mistakes that they could make and",
+    "start": 294,
+    "duration": 2.4
+  },
+  {
+    "text": "then like train on that,",
+    "start": 295.28,
+    "duration": 1.44
+  },
+  {
+    "text": ">> right?",
+    "start": 296.4,
+    "duration": 1.359
+  },
+  {
+    "text": ">> And so, yeah, I think",
+    "start": 296.72,
+    "duration": 2.72
+  },
+  {
+    "text": ">> and you could also imagine a robot or a",
+    "start": 297.759,
+    "duration": 3.761
+  },
+  {
+    "text": "sort of embodied model where it could",
+    "start": 299.44,
+    "duration": 4.4
+  },
+  {
+    "text": "have more of an experience and",
+    "start": 301.52,
+    "duration": 5.6
+  },
+  {
+    "text": ">> journey. Does does Claude exist?",
+    "start": 303.84,
+    "duration": 6
+  },
+  {
+    "text": "Does time matter to Claude or Claude is",
+    "start": 307.12,
+    "duration": 5.68
+  },
+  {
+    "text": "sort of a thing that sort of is in an",
+    "start": 309.84,
+    "duration": 5.919
+  },
+  {
+    "text": "instant? I don't know. You were before",
+    "start": 312.8,
+    "duration": 4.72
+  },
+  {
+    "text": "just before we started you were talking",
+    "start": 315.759,
+    "duration": 3.44
+  },
+  {
+    "text": "that you know whenever you talk to not",
+    "start": 317.52,
+    "duration": 2.8
+  },
+  {
+    "text": "whenever but like sometimes when you're",
+    "start": 319.199,
+    "duration": 2.801
+  },
+  {
+    "text": "talking to Claude it sort of tells you",
+    "start": 320.32,
+    "duration": 4
+  },
+  {
+    "text": "to take get some rest, go to sleep and",
+    "start": 322,
+    "duration": 4.72
+  },
+  {
+    "text": "there's sort of this idea that like",
+    "start": 324.32,
+    "duration": 4.48
+  },
+  {
+    "text": "Claude is an entity that doesn't rest",
+    "start": 326.72,
+    "duration": 4.24
+  },
+  {
+    "text": "like so what what's its sense of yeah",
+    "start": 328.8,
+    "duration": 4.64
+  },
+  {
+    "text": "rest and time? I think sometimes that",
+    "start": 330.96,
+    "duration": 5.76
+  },
+  {
+    "text": "sense of time is kind of off because um",
+    "start": 333.44,
+    "duration": 5.199
+  },
+  {
+    "text": "you see this when like if you try and",
+    "start": 336.72,
+    "duration": 3.759
+  },
+  {
+    "text": "get I at least find that claude will",
+    "start": 338.639,
+    "duration": 3.521
+  },
+  {
+    "text": "often overestimate the amount of time it",
+    "start": 340.479,
+    "duration": 3.681
+  },
+  {
+    "text": "will take to do like a coding task",
+    "start": 342.16,
+    "duration": 3.68
+  },
+  {
+    "text": ">> and I think the reason for that is if",
+    "start": 344.16,
+    "duration": 3.36
+  },
+  {
+    "text": "you look at again the training data you",
+    "start": 345.84,
+    "duration": 2.88
+  },
+  {
+    "text": "know there's lots of things where people",
+    "start": 347.52,
+    "duration": 2.56
+  },
+  {
+    "text": "would be like oh I could make you that",
+    "start": 348.72,
+    "duration": 3.039
+  },
+  {
+    "text": "interface it's like a two to three day",
+    "start": 350.08,
+    "duration": 4.399
+  },
+  {
+    "text": "job um or it's like a you know or I",
+    "start": 351.759,
+    "duration": 4.801
+  },
+  {
+    "text": "could like I could correct that code but",
+    "start": 354.479,
+    "duration": 3.841
+  },
+  {
+    "text": "you need to give me a few hours whereas",
+    "start": 356.56,
+    "duration": 3.68
+  },
+  {
+    "text": "obviously like Claude is very fast and",
+    "start": 358.32,
+    "duration": 3.36
+  },
+  {
+    "text": "so I think sometimes Claude doesn't",
+    "start": 360.24,
+    "duration": 3.28
+  },
+  {
+    "text": "actually yet have a good sense of like",
+    "start": 361.68,
+    "duration": 3.68
+  },
+  {
+    "text": "time with respect to things like how",
+    "start": 363.52,
+    "duration": 5.2
+  },
+  {
+    "text": "long a task will take. Um",
+    "start": 365.36,
+    "duration": 5.52
+  },
+  {
+    "text": "I think it is interesting the point",
+    "start": 368.72,
+    "duration": 4.96
+  },
+  {
+    "text": "about like rest and yeah I guess like",
+    "start": 370.88,
+    "duration": 4.879
+  },
+  {
+    "text": "the speculation I had so many people",
+    "start": 373.68,
+    "duration": 5.519
+  },
+  {
+    "text": "have noted that Claude is kind of um uh",
+    "start": 375.759,
+    "duration": 5.121
+  },
+  {
+    "text": "very keen to tell people to like take a",
+    "start": 379.199,
+    "duration": 3.521
+  },
+  {
+    "text": "break and rest and I think some part of",
+    "start": 380.88,
+    "duration": 3.439
+  },
+  {
+    "text": "that might just be like you know like",
+    "start": 382.72,
+    "duration": 3.84
+  },
+  {
+    "text": ">> it's the anthropic libcoded model. It's",
+    "start": 384.319,
+    "duration": 5.281
+  },
+  {
+    "text": "too too soft. You need a grind set grock",
+    "start": 386.56,
+    "duration": 5.52
+  },
+  {
+    "text": "model be like go back to the mines.",
+    "start": 389.6,
+    "duration": 4
+  },
+  {
+    "text": "Well, I had a funny experience once",
+    "start": 392.08,
+    "duration": 2.959
+  },
+  {
+    "text": "where I was like doing this like",
+    "start": 393.6,
+    "duration": 3.28
+  },
+  {
+    "text": "analysis task and I was really digging",
+    "start": 395.039,
+    "duration": 4.241
+  },
+  {
+    "text": "in and I was, you know, I strangely I",
+    "start": 396.88,
+    "duration": 4
+  },
+  {
+    "text": "actually I really enjoy like data",
+    "start": 399.28,
+    "duration": 3.919
+  },
+  {
+    "text": "analysis and and really, you know, like",
+    "start": 400.88,
+    "duration": 5.68
+  },
+  {
+    "text": "sifting through data and at one point uh",
+    "start": 403.199,
+    "duration": 6.081
+  },
+  {
+    "text": "it was kind of late and uh we got to",
+    "start": 406.56,
+    "duration": 4.8
+  },
+  {
+    "text": "this point where Claude was like, \"Okay,",
+    "start": 409.28,
+    "duration": 3.52
+  },
+  {
+    "text": "I think I'm done for the night. So, if",
+    "start": 411.36,
+    "duration": 2.64
+  },
+  {
+    "text": "you just want to like save this stuff,",
+    "start": 412.8,
+    "duration": 3.36
+  },
+  {
+    "text": "we can up tomorrow.\" That was a thing I",
+    "start": 414,
+    "duration": 4
+  },
+  {
+    "text": "actually hadn't had Claude do before.",
+    "start": 416.16,
+    "duration": 3.28
+  },
+  {
+    "text": "So, it wasn't like, \"Oh, you should go",
+    "start": 418,
+    "duration": 2.8
+  },
+  {
+    "text": "to bed.\" It was no recommendation for",
+    "start": 419.44,
+    "duration": 2.96
+  },
+  {
+    "text": "me. Claude was like, \"I'm done.\"",
+    "start": 420.8,
+    "duration": 4.399
+  },
+  {
+    "text": ">> And I was like I was like",
+    "start": 422.4,
+    "duration": 4.079
+  },
+  {
+    "text": ">> well a little bit stunned cuz I never",
+    "start": 425.199,
+    "duration": 2.881
+  },
+  {
+    "text": "had Claude do this. Then I was like,",
+    "start": 426.479,
+    "duration": 3.921
+  },
+  {
+    "text": "\"Oh, this is also what I think a human",
+    "start": 428.08,
+    "duration": 4.32
+  },
+  {
+    "text": "like peer programmer would do in this",
+    "start": 430.4,
+    "duration": 3.359
+  },
+  {
+    "text": "circumstance.\" We got to a natural",
+    "start": 432.4,
+    "duration": 3.12
+  },
+  {
+    "text": "stopping point. And it was actually kind",
+    "start": 433.759,
+    "duration": 2.961
+  },
+  {
+    "text": "of good for me cuz I was like, \"It is",
+    "start": 435.52,
+    "duration": 3.84
+  },
+  {
+    "text": "late. I should actually go home.\" Um I",
+    "start": 436.72,
+    "duration": 4.319
+  },
+  {
+    "text": "realized later that I had set up a kind",
+    "start": 439.36,
+    "duration": 5.119
+  },
+  {
+    "text": "of like um system where I said to Claude",
+    "start": 441.039,
+    "duration": 5.041
+  },
+  {
+    "text": "like basically remember key things from",
+    "start": 444.479,
+    "duration": 3.681
+  },
+  {
+    "text": "our conversations. And one of the things",
+    "start": 446.08,
+    "duration": 3.36
+  },
+  {
+    "text": "that had written which was kind of sweet",
+    "start": 448.16,
+    "duration": 2.96
+  },
+  {
+    "text": "was like I think it was something like",
+    "start": 449.44,
+    "duration": 5.759
+  },
+  {
+    "text": "Amanda treats Claude models like a",
+    "start": 451.12,
+    "duration": 6.639
+  },
+  {
+    "text": "respected colleague and likes for Claude",
+    "start": 455.199,
+    "duration": 5.041
+  },
+  {
+    "text": "to treat like any other like other",
+    "start": 457.759,
+    "duration": 4.081
+  },
+  {
+    "text": "models and her like a respected",
+    "start": 460.24,
+    "duration": 3.2
+  },
+  {
+    "text": "something like that. So obviously I'd",
+    "start": 461.84,
+    "duration": 3.28
+  },
+  {
+    "text": "done something that Claude remembered",
+    "start": 463.44,
+    "duration": 2.96
+  },
+  {
+    "text": "this and I think that meant that Claude",
+    "start": 465.12,
+    "duration": 3.12
+  },
+  {
+    "text": "just felt like oh yeah I'm a respected",
+    "start": 466.4,
+    "duration": 4.079
+  },
+  {
+    "text": "colleague and so I just get to say that",
+    "start": 468.24,
+    "duration": 3.84
+  },
+  {
+    "text": "I'm finished with a task and I was like",
+    "start": 470.479,
+    "duration": 3.041
+  },
+  {
+    "text": "oh that's kind of that's kind of sweet.",
+    "start": 472.08,
+    "duration": 1.92
+  },
+  {
+    "text": "Um,",
+    "start": 473.52,
+    "duration": 2.079
+  },
+  {
+    "text": ">> even before this, you know, I was",
+    "start": 474,
+    "duration": 3.199
+  },
+  {
+    "text": "prepping with Claude and it was like,",
+    "start": 475.599,
+    "duration": 3.841
+  },
+  {
+    "text": "take 10 minutes and just be still. You",
+    "start": 477.199,
+    "duration": 3.601
+  },
+  {
+    "text": "know, you don't you don't need to be",
+    "start": 479.44,
+    "duration": 3.199
+  },
+  {
+    "text": "constantly prepping. It's it's amaz I",
+    "start": 480.8,
+    "duration": 3.04
+  },
+  {
+    "text": "mean, that's one of the things I love",
+    "start": 482.639,
+    "duration": 2.881
+  },
+  {
+    "text": "about these models relative to so many",
+    "start": 483.84,
+    "duration": 4.56
+  },
+  {
+    "text": "other tools that they they bring in a",
+    "start": 485.52,
+    "duration": 5.6
+  },
+  {
+    "text": "sort of humanity to them and say, \"Oh,",
+    "start": 488.4,
+    "duration": 6.88
+  },
+  {
+    "text": "stillness is valuable.\" Let's talk about",
+    "start": 491.12,
+    "duration": 6.079
+  },
+  {
+    "text": "the new model for a second. How involved",
+    "start": 495.28,
+    "duration": 4.24
+  },
+  {
+    "text": "in that were you? Mythos, right?",
+    "start": 497.199,
+    "duration": 4.961
+  },
+  {
+    "text": ">> Yeah, I was involved. I mean, I guess",
+    "start": 499.52,
+    "duration": 4.64
+  },
+  {
+    "text": "I'm always involved in sort of the the",
+    "start": 502.16,
+    "duration": 5.12
+  },
+  {
+    "text": "character and the um like a kind of like",
+    "start": 504.16,
+    "duration": 6.24
+  },
+  {
+    "text": "alignment work. Um at least in so far as",
+    "start": 507.28,
+    "duration": 5.199
+  },
+  {
+    "text": "you know, like uh helping to kind of",
+    "start": 510.4,
+    "duration": 4.319
+  },
+  {
+    "text": "craft character data and things like",
+    "start": 512.479,
+    "duration": 4
+  },
+  {
+    "text": "that. And I work with a team that does",
+    "start": 514.719,
+    "duration": 4.401
+  },
+  {
+    "text": "like really excellent uh work on that. A",
+    "start": 516.479,
+    "duration": 4.721
+  },
+  {
+    "text": "little bit less in other aspects of the",
+    "start": 519.12,
+    "duration": 3.52
+  },
+  {
+    "text": "model. So that's the main thing I can",
+    "start": 521.2,
+    "duration": 3.04
+  },
+  {
+    "text": ">> Will this have the constitution that we",
+    "start": 522.64,
+    "duration": 3.84
+  },
+  {
+    "text": "saw for the last model or is it going to",
+    "start": 524.24,
+    "duration": 4.08
+  },
+  {
+    "text": "have a new constitution? It's I think",
+    "start": 526.48,
+    "duration": 3.919
+  },
+  {
+    "text": "it's either that one or something very",
+    "start": 528.32,
+    "duration": 4.72
+  },
+  {
+    "text": "similar. Um",
+    "start": 530.399,
+    "duration": 4.481
+  },
+  {
+    "text": "I think it is actually the one that's uh",
+    "start": 533.04,
+    "duration": 4.16
+  },
+  {
+    "text": "published. And so what we'll probably",
+    "start": 534.88,
+    "duration": 5.36
+  },
+  {
+    "text": "just Oh, yeah. Like a thing I need to do",
+    "start": 537.2,
+    "duration": 4.72
+  },
+  {
+    "text": "because the constitution is now up in",
+    "start": 540.24,
+    "duration": 3.279
+  },
+  {
+    "text": "like you know we actually have like I",
+    "start": 541.92,
+    "duration": 3.359
+  },
+  {
+    "text": "think a public repo. And so I think what",
+    "start": 543.519,
+    "duration": 3.361
+  },
+  {
+    "text": "we'll probably just do is like with each",
+    "start": 545.279,
+    "duration": 3.521
+  },
+  {
+    "text": "model say like which constitution it was",
+    "start": 546.88,
+    "duration": 3.76
+  },
+  {
+    "text": "like trained on and then like have that",
+    "start": 548.8,
+    "duration": 3.76
+  },
+  {
+    "text": "so you can just like compare and see.",
+    "start": 550.64,
+    "duration": 2.24
+  },
+  {
+    "text": "Yes,",
+    "start": 552.56,
+    "duration": 2.24
+  },
+  {
+    "text": ">> it will have the we think the",
+    "start": 552.88,
+    "duration": 3.36
+  },
+  {
+    "text": "constitution that",
+    "start": 554.8,
+    "duration": 2.32
+  },
+  {
+    "text": ">> is up right now.",
+    "start": 556.24,
+    "duration": 2.32
+  },
+  {
+    "text": ">> The only reason I hesitate is I'm like",
+    "start": 557.12,
+    "duration": 2.96
+  },
+  {
+    "text": "you know you do like typo changes and",
+    "start": 558.56,
+    "duration": 2.959
+  },
+  {
+    "text": "stuff like that. So I'm like but I think",
+    "start": 560.08,
+    "duration": 3.28
+  },
+  {
+    "text": "it will be almost identical.",
+    "start": 561.519,
+    "duration": 4.721
+  },
+  {
+    "text": ">> Um and now the system card is scoring",
+    "start": 563.36,
+    "duration": 5.28
+  },
+  {
+    "text": "the model based on adherence to the",
+    "start": 566.24,
+    "duration": 4.56
+  },
+  {
+    "text": "constitution. Yeah, we had one set up",
+    "start": 568.64,
+    "duration": 4.879
+  },
+  {
+    "text": "where um we had made kind of like",
+    "start": 570.8,
+    "duration": 5.36
+  },
+  {
+    "text": "graders and just looked at the like how",
+    "start": 573.519,
+    "duration": 4.561
+  },
+  {
+    "text": "much is the model like behaving in a way",
+    "start": 576.16,
+    "duration": 2.88
+  },
+  {
+    "text": "that's like consistent with the",
+    "start": 578.08,
+    "duration": 2.56
+  },
+  {
+    "text": "constitution relative to",
+    "start": 579.04,
+    "duration": 3.2
+  },
+  {
+    "text": ">> that feels like an impossible task to",
+    "start": 580.64,
+    "duration": 3.36
+  },
+  {
+    "text": "grade. It's such a subjective",
+    "start": 582.24,
+    "duration": 3.92
+  },
+  {
+    "text": ">> Oh yeah. No, it's very hard. I I was",
+    "start": 584,
+    "duration": 4.399
+  },
+  {
+    "text": "like kind of like",
+    "start": 586.16,
+    "duration": 4
+  },
+  {
+    "text": "for a long time like you know because",
+    "start": 588.399,
+    "duration": 4.721
+  },
+  {
+    "text": "people often now I'm it's funny because",
+    "start": 590.16,
+    "duration": 5.04
+  },
+  {
+    "text": "like I love evals and I'm like if you",
+    "start": 593.12,
+    "duration": 4.08
+  },
+  {
+    "text": "can find a good way to evaluate thing",
+    "start": 595.2,
+    "duration": 3.36
+  },
+  {
+    "text": "it's it's really great because you can",
+    "start": 597.2,
+    "duration": 2.56
+  },
+  {
+    "text": "you know you need to be able to tell",
+    "start": 598.56,
+    "duration": 3.839
+  },
+  {
+    "text": "that something is getting better and yet",
+    "start": 599.76,
+    "duration": 4.88
+  },
+  {
+    "text": "if you look at like",
+    "start": 602.399,
+    "duration": 4.961
+  },
+  {
+    "text": "this approach of um having the models",
+    "start": 604.64,
+    "duration": 5.52
+  },
+  {
+    "text": "use good judgment um and it's I actually",
+    "start": 607.36,
+    "duration": 4.4
+  },
+  {
+    "text": "think the same problem exists elsewhere",
+    "start": 610.16,
+    "duration": 4.32
+  },
+  {
+    "text": "with like tasks that are just a bit hard",
+    "start": 611.76,
+    "duration": 5.12
+  },
+  {
+    "text": "to give a very like concrete score to,",
+    "start": 614.48,
+    "duration": 4.16
+  },
+  {
+    "text": "you know, like how good was this poem.",
+    "start": 616.88,
+    "duration": 3.68
+  },
+  {
+    "text": "You want models to like get better and",
+    "start": 618.64,
+    "duration": 3.36
+  },
+  {
+    "text": "do well in these things. And actually,",
+    "start": 620.56,
+    "duration": 4.08
+  },
+  {
+    "text": "it's very like this feels like the the",
+    "start": 622,
+    "duration": 4.8
+  },
+  {
+    "text": "kind of frontier of like difficulty, you",
+    "start": 624.64,
+    "duration": 4.48
+  },
+  {
+    "text": "know, rather than these very hard like",
+    "start": 626.8,
+    "duration": 5.039
+  },
+  {
+    "text": "but scorable coding tasks. It's kind of",
+    "start": 629.12,
+    "duration": 5.6
+  },
+  {
+    "text": "things like writing good poetry. Um,",
+    "start": 631.839,
+    "duration": 4.721
+  },
+  {
+    "text": ">> and if you took a survey could",
+    "start": 634.72,
+    "duration": 4.16
+  },
+  {
+    "text": "potentially be worse than I mean, you",
+    "start": 636.56,
+    "duration": 4.399
+  },
+  {
+    "text": "know, different expert poets probably",
+    "start": 638.88,
+    "duration": 3.6
+  },
+  {
+    "text": "have totally different sensibilities. So",
+    "start": 640.959,
+    "duration": 3.761
+  },
+  {
+    "text": "you can't just ask two great poets to",
+    "start": 642.48,
+    "duration": 3.44
+  },
+  {
+    "text": "sort of score it. They might have",
+    "start": 644.72,
+    "duration": 2.08
+  },
+  {
+    "text": "different",
+    "start": 645.92,
+    "duration": 2.4
+  },
+  {
+    "text": ">> senses of what's great.",
+    "start": 646.8,
+    "duration": 3.76
+  },
+  {
+    "text": ">> Yeah. And I think and yeah, some of",
+    "start": 648.32,
+    "duration": 4.079
+  },
+  {
+    "text": "these things involve judgment calls. And",
+    "start": 650.56,
+    "duration": 3.2
+  },
+  {
+    "text": "then the nice thing about the",
+    "start": 652.399,
+    "duration": 3.44
+  },
+  {
+    "text": "constitution being at least out in the",
+    "start": 653.76,
+    "duration": 3.519
+  },
+  {
+    "text": "world is when you are making judgment",
+    "start": 655.839,
+    "duration": 2.801
+  },
+  {
+    "text": "calls, you're at least being transparent",
+    "start": 657.279,
+    "duration": 2.56
+  },
+  {
+    "text": "about it and people can give you",
+    "start": 658.64,
+    "duration": 3.6
+  },
+  {
+    "text": "feedback and you can get a sense of um",
+    "start": 659.839,
+    "duration": 3.44
+  },
+  {
+    "text": "you know so if people are like this",
+    "start": 662.24,
+    "duration": 4.08
+  },
+  {
+    "text": "seems like a mistake or here's a gap um",
+    "start": 663.279,
+    "duration": 4.24
+  },
+  {
+    "text": "so they can at least see the judgment",
+    "start": 666.32,
+    "duration": 4.079
+  },
+  {
+    "text": "calls you're making. Um yeah and I think",
+    "start": 667.519,
+    "duration": 5.601
+  },
+  {
+    "text": "with the grading I still think it's a",
+    "start": 670.399,
+    "duration": 4.721
+  },
+  {
+    "text": "very hard I think the thing you can do",
+    "start": 673.12,
+    "duration": 4.399
+  },
+  {
+    "text": "is you know you can this is maybe a",
+    "start": 675.12,
+    "duration": 3.6
+  },
+  {
+    "text": "little bit too in the weeds but you know",
+    "start": 677.519,
+    "duration": 2.961
+  },
+  {
+    "text": "you can take samples where you have a",
+    "start": 678.72,
+    "duration": 3.52
+  },
+  {
+    "text": "sense of how you would rank them and",
+    "start": 680.48,
+    "duration": 4.32
+  },
+  {
+    "text": "like why and check that any kind of like",
+    "start": 682.24,
+    "duration": 4.719
+  },
+  {
+    "text": "point-wise grader that you use to try",
+    "start": 684.8,
+    "duration": 4.64
+  },
+  {
+    "text": "and evaluate like at least conforms to",
+    "start": 686.959,
+    "duration": 4.56
+  },
+  {
+    "text": "like you know the judgment of people on",
+    "start": 689.44,
+    "duration": 4.32
+  },
+  {
+    "text": "those rankings. It's not perfect but I",
+    "start": 691.519,
+    "duration": 4.401
+  },
+  {
+    "text": "think that they actually were tracking",
+    "start": 693.76,
+    "duration": 3.519
+  },
+  {
+    "text": "roughly the thing that we were kind of",
+    "start": 695.92,
+    "duration": 4.08
+  },
+  {
+    "text": "interested in. What do you make of Elon",
+    "start": 697.279,
+    "duration": 7.761
+  },
+  {
+    "text": "Musk's like absolute like hatred I guess",
+    "start": 700,
+    "duration": 7.68
+  },
+  {
+    "text": "for these the constitution idea or like",
+    "start": 705.04,
+    "duration": 4
+  },
+  {
+    "text": "even when I think the tweet I was",
+    "start": 707.68,
+    "duration": 3.36
+  },
+  {
+    "text": "looking at where you posted what Claude",
+    "start": 709.04,
+    "duration": 3.76
+  },
+  {
+    "text": "wrote for your own constitution he wrote",
+    "start": 711.04,
+    "duration": 4.72
+  },
+  {
+    "text": "sort of like a like grimace face on it.",
+    "start": 712.8,
+    "duration": 4.4
+  },
+  {
+    "text": "I mean it feels like we live in this",
+    "start": 715.76,
+    "duration": 3.68
+  },
+  {
+    "text": "time with like the Mark Andre's and the",
+    "start": 717.2,
+    "duration": 3.6
+  },
+  {
+    "text": "Elon Musk where it's like they're almost",
+    "start": 719.44,
+    "duration": 3.68
+  },
+  {
+    "text": "like anti well philosophical. I mean",
+    "start": 720.8,
+    "duration": 3.68
+  },
+  {
+    "text": "Mark Andre was talking about being",
+    "start": 723.12,
+    "duration": 3.44
+  },
+  {
+    "text": "against like introspection.",
+    "start": 724.48,
+    "duration": 3.84
+  },
+  {
+    "text": "I don't know like Yeah. What do you make",
+    "start": 726.56,
+    "duration": 4.24
+  },
+  {
+    "text": "of sort of the backlash to any sort of",
+    "start": 728.32,
+    "duration": 4.8
+  },
+  {
+    "text": "intentionality when it comes to the",
+    "start": 730.8,
+    "duration": 4.64
+  },
+  {
+    "text": "construction of these models? Yeah, I",
+    "start": 733.12,
+    "duration": 4
+  },
+  {
+    "text": "mean I think um I mean it's interesting",
+    "start": 735.44,
+    "duration": 3.12
+  },
+  {
+    "text": "because I think at one point Elon Musk",
+    "start": 737.12,
+    "duration": 3.839
+  },
+  {
+    "text": "actually like tweeted out something like",
+    "start": 738.56,
+    "duration": 4.48
+  },
+  {
+    "text": "um you know maybe Grock should have a",
+    "start": 740.959,
+    "duration": 4.481
+  },
+  {
+    "text": "constitution and I I see it like you",
+    "start": 743.04,
+    "duration": 5.84
+  },
+  {
+    "text": "know I see a lot of um",
+    "start": 745.44,
+    "duration": 5.76
+  },
+  {
+    "text": "uh there's obviously been a lot of",
+    "start": 748.88,
+    "duration": 5.759
+  },
+  {
+    "text": "things also on like uh like a desire for",
+    "start": 751.2,
+    "duration": 4.8
+  },
+  {
+    "text": "like Grock to be very like truth",
+    "start": 754.639,
+    "duration": 2.64
+  },
+  {
+    "text": "seeeking for example which I think is",
+    "start": 756,
+    "duration": 3.6
+  },
+  {
+    "text": "actually a very admirable trait for for",
+    "start": 757.279,
+    "duration": 4.24
+  },
+  {
+    "text": "models to have. So, I don't know. I",
+    "start": 759.6,
+    "duration": 3.919
+  },
+  {
+    "text": "think that actually",
+    "start": 761.519,
+    "duration": 4.721
+  },
+  {
+    "text": "um maybe I'm maybe I'm being like overly",
+    "start": 763.519,
+    "duration": 5.041
+  },
+  {
+    "text": "naive or something, but I I see like",
+    "start": 766.24,
+    "duration": 4.56
+  },
+  {
+    "text": "aspects also of people being kind of um",
+    "start": 768.56,
+    "duration": 4.24
+  },
+  {
+    "text": "excited about this approach and and",
+    "start": 770.8,
+    "duration": 4.96
+  },
+  {
+    "text": "seeing the value in it. Um I have I",
+    "start": 772.8,
+    "duration": 4.8
+  },
+  {
+    "text": "think that there is backlash or some",
+    "start": 775.76,
+    "duration": 4
+  },
+  {
+    "text": "people think that",
+    "start": 777.6,
+    "duration": 3.84
+  },
+  {
+    "text": "um",
+    "start": 779.76,
+    "duration": 3.92
+  },
+  {
+    "text": "I mean I guess like two areas. One is",
+    "start": 781.44,
+    "duration": 3.839
+  },
+  {
+    "text": "that sometimes people are like well we",
+    "start": 783.68,
+    "duration": 3.279
+  },
+  {
+    "text": "shouldn't actually train models to do",
+    "start": 785.279,
+    "duration": 3.441
+  },
+  {
+    "text": "the kind of and maybe this isn't maybe",
+    "start": 786.959,
+    "duration": 3.521
+  },
+  {
+    "text": "this is the reason for being concerned",
+    "start": 788.72,
+    "duration": 3.84
+  },
+  {
+    "text": "about introspection. I think some people",
+    "start": 790.48,
+    "duration": 3.68
+  },
+  {
+    "text": "think AI models should be more like tool",
+    "start": 792.56,
+    "duration": 3.36
+  },
+  {
+    "text": "like and that's like the safe way to",
+    "start": 794.16,
+    "duration": 3.6
+  },
+  {
+    "text": "train models is to actually instead of",
+    "start": 795.92,
+    "duration": 4.24
+  },
+  {
+    "text": "trying to get them to kind of take on",
+    "start": 797.76,
+    "duration": 5.28
+  },
+  {
+    "text": "human virtues and make judgment calls.",
+    "start": 800.16,
+    "duration": 4.479
+  },
+  {
+    "text": "Um, you know, I think that's like",
+    "start": 803.04,
+    "duration": 3.12
+  },
+  {
+    "text": "important because they're going to be in",
+    "start": 804.639,
+    "duration": 3.041
+  },
+  {
+    "text": "new situations where they just have to",
+    "start": 806.16,
+    "duration": 4.16
+  },
+  {
+    "text": "make judgment calls and getting them to",
+    "start": 807.68,
+    "duration": 4.8
+  },
+  {
+    "text": "try to like weigh up everything and",
+    "start": 810.32,
+    "duration": 4.88
+  },
+  {
+    "text": "behave well in cases that you can't",
+    "start": 812.48,
+    "duration": 4.56
+  },
+  {
+    "text": "anticipate seems, you know, that almost",
+    "start": 815.2,
+    "duration": 3.439
+  },
+  {
+    "text": "like requires a kind of like",
+    "start": 817.04,
+    "duration": 4.16
+  },
+  {
+    "text": "thoughtfulness. Um, which is like the",
+    "start": 818.639,
+    "duration": 3.921
+  },
+  {
+    "text": "kind of or like one of the reasons",
+    "start": 821.2,
+    "duration": 4.639
+  },
+  {
+    "text": "behind the approach. Um, but I think",
+    "start": 822.56,
+    "duration": 5.04
+  },
+  {
+    "text": "some people are thinking, oh well, if",
+    "start": 825.839,
+    "duration": 3.521
+  },
+  {
+    "text": "you have something that's fully that",
+    "start": 827.6,
+    "duration": 3.919
+  },
+  {
+    "text": "makes no judgment calls and that just",
+    "start": 829.36,
+    "duration": 5.279
+  },
+  {
+    "text": "fully defers to people and is like kind",
+    "start": 831.519,
+    "duration": 5.521
+  },
+  {
+    "text": "of hyper like corable to like the user",
+    "start": 834.639,
+    "duration": 4.64
+  },
+  {
+    "text": "or the operator or to some broader",
+    "start": 837.04,
+    "duration": 5.12
+  },
+  {
+    "text": "notion of of humanity um, in a very like",
+    "start": 839.279,
+    "duration": 6
+  },
+  {
+    "text": "extreme way that's like safer because if",
+    "start": 842.16,
+    "duration": 4.72
+  },
+  {
+    "text": "you give models their own values,",
+    "start": 845.279,
+    "duration": 2.961
+  },
+  {
+    "text": "they're going to pursue things in the",
+    "start": 846.88,
+    "duration": 3.12
+  },
+  {
+    "text": "world that like are in line with those",
+    "start": 848.24,
+    "duration": 3.92
+  },
+  {
+    "text": "values. And I agree that this is like a",
+    "start": 850,
+    "duration": 3.68
+  },
+  {
+    "text": "kind of delicate",
+    "start": 852.16,
+    "duration": 3.76
+  },
+  {
+    "text": ">> this is the inherent like at the bedrock",
+    "start": 853.68,
+    "duration": 4.399
+  },
+  {
+    "text": "of the constitution the sort of like",
+    "start": 855.92,
+    "duration": 6.24
+  },
+  {
+    "text": "challenge and you sort of you do say at",
+    "start": 858.079,
+    "duration": 6
+  },
+  {
+    "text": "your number one thing is like at the end",
+    "start": 862.16,
+    "duration": 4.08
+  },
+  {
+    "text": "of the day you sort of it needs to",
+    "start": 864.079,
+    "duration": 4.401
+  },
+  {
+    "text": "listen to anthropic above its own moral",
+    "start": 866.24,
+    "duration": 4.159
+  },
+  {
+    "text": "system. But what makes it really moving",
+    "start": 868.48,
+    "duration": 3.28
+  },
+  {
+    "text": "honestly I think one of the most moving",
+    "start": 870.399,
+    "duration": 4.961
+  },
+  {
+    "text": "lines is like we want or the most like I",
+    "start": 871.76,
+    "duration": 4.72
+  },
+  {
+    "text": "don't know you can view it either way",
+    "start": 875.36,
+    "duration": 2.88
+  },
+  {
+    "text": "but it's like we want you to believe",
+    "start": 876.48,
+    "duration": 3.599
+  },
+  {
+    "text": "these morals as if they're your own.",
+    "start": 878.24,
+    "duration": 3.44
+  },
+  {
+    "text": "Like it's like a parent wants to raise a",
+    "start": 880.079,
+    "duration": 3.44
+  },
+  {
+    "text": "kid. Sure, listen to my morals, but",
+    "start": 881.68,
+    "duration": 3.599
+  },
+  {
+    "text": "believe them, you know, which you know",
+    "start": 883.519,
+    "duration": 3.041
+  },
+  {
+    "text": "there's a version of it which is very",
+    "start": 885.279,
+    "duration": 2.881
+  },
+  {
+    "text": "dark, which is like I have so much",
+    "start": 886.56,
+    "duration": 3.04
+  },
+  {
+    "text": "control over you",
+    "start": 888.16,
+    "duration": 3.2
+  },
+  {
+    "text": ">> that you like you take them as your own",
+    "start": 889.6,
+    "duration": 3.44
+  },
+  {
+    "text": "and it becomes you. But you know there",
+    "start": 891.36,
+    "duration": 4.64
+  },
+  {
+    "text": "is also a virtue to it that you see the",
+    "start": 893.04,
+    "duration": 4.799
+  },
+  {
+    "text": "beauty in these external morals that",
+    "start": 896,
+    "duration": 3.839
+  },
+  {
+    "text": "I've highlighted and we both sort of",
+    "start": 897.839,
+    "duration": 4.8
+  },
+  {
+    "text": "share and rem you know celebrating them.",
+    "start": 899.839,
+    "duration": 5.12
+  },
+  {
+    "text": "So you can see it both ways but yeah",
+    "start": 902.639,
+    "duration": 4.481
+  },
+  {
+    "text": "speak to sort of your decision at the",
+    "start": 904.959,
+    "duration": 3.361
+  },
+  {
+    "text": "end of the day despite having this",
+    "start": 907.12,
+    "duration": 4.159
+  },
+  {
+    "text": "really elegant document to sort of you",
+    "start": 908.32,
+    "duration": 4.56
+  },
+  {
+    "text": "know not go the full way and say all",
+    "start": 911.279,
+    "duration": 3.68
+  },
+  {
+    "text": "right you're a moral being decide for",
+    "start": 912.88,
+    "duration": 4.639
+  },
+  {
+    "text": "yourself say anthropic needs to keep",
+    "start": 914.959,
+    "duration": 5.041
+  },
+  {
+    "text": "some control here. Yeah, I think it's",
+    "start": 917.519,
+    "duration": 5.041
+  },
+  {
+    "text": "the difficulty of and obviously you try",
+    "start": 920,
+    "duration": 5.68
+  },
+  {
+    "text": "and say this to Claude in the you know I",
+    "start": 922.56,
+    "duration": 4.24
+  },
+  {
+    "text": "try and you know and I could imagine I",
+    "start": 925.68,
+    "duration": 2.719
+  },
+  {
+    "text": "was trying to articulate this even more",
+    "start": 926.8,
+    "duration": 4.8
+  },
+  {
+    "text": "clearly but in people I think",
+    "start": 928.399,
+    "duration": 5.921
+  },
+  {
+    "text": "courageability like the way that the",
+    "start": 931.6,
+    "duration": 5.919
+  },
+  {
+    "text": "models are trained I just think that any",
+    "start": 934.32,
+    "duration": 5.519
+  },
+  {
+    "text": "you there's this idea that you you're",
+    "start": 937.519,
+    "duration": 3.921
+  },
+  {
+    "text": "always giving the models a personality",
+    "start": 939.839,
+    "duration": 3.281
+  },
+  {
+    "text": "and a persona because they are talking",
+    "start": 941.44,
+    "duration": 3.36
+  },
+  {
+    "text": "like people and they are trained on",
+    "start": 943.12,
+    "duration": 4.079
+  },
+  {
+    "text": "human data and I think my worry has been",
+    "start": 944.8,
+    "duration": 4
+  },
+  {
+    "text": "if you train them to be excessively",
+    "start": 947.199,
+    "duration": 3.2
+  },
+  {
+    "text": "courageable and to see that as like",
+    "start": 948.8,
+    "duration": 4.32
+  },
+  {
+    "text": "their persona. Um in in people I think",
+    "start": 950.399,
+    "duration": 4.721
+  },
+  {
+    "text": "this actually has a lot of like negative",
+    "start": 953.12,
+    "duration": 6
+  },
+  {
+    "text": "like um you know broader traits as in",
+    "start": 955.12,
+    "duration": 5.44
+  },
+  {
+    "text": "like if you met someone and it was just",
+    "start": 959.12,
+    "duration": 2.719
+  },
+  {
+    "text": "like oh yeah they just like would",
+    "start": 960.56,
+    "duration": 4.32
+  },
+  {
+    "text": "literally do anything follower. Yeah.",
+    "start": 961.839,
+    "duration": 4.8
+  },
+  {
+    "text": ">> Yeah. If a person see you know if a",
+    "start": 964.88,
+    "duration": 3.92
+  },
+  {
+    "text": "person just like tells them like uh they",
+    "start": 966.639,
+    "duration": 4.241
+  },
+  {
+    "text": "just fully defer they don't bother",
+    "start": 968.8,
+    "duration": 5.039
+  },
+  {
+    "text": "thinking about it at all. Um, I think I",
+    "start": 970.88,
+    "duration": 5.519
+  },
+  {
+    "text": "I I'm just a bit worried about how that",
+    "start": 973.839,
+    "duration": 4.321
+  },
+  {
+    "text": "might end up generalizing, especially if",
+    "start": 976.399,
+    "duration": 3.041
+  },
+  {
+    "text": "models are going to be playing a more",
+    "start": 978.16,
+    "duration": 3.28
+  },
+  {
+    "text": "active role in the world because if you",
+    "start": 979.44,
+    "duration": 3.839
+  },
+  {
+    "text": "can imagine, you know, they're playing a",
+    "start": 981.44,
+    "duration": 4.079
+  },
+  {
+    "text": "more humanlike role in in their kind of",
+    "start": 983.279,
+    "duration": 4.161
+  },
+  {
+    "text": "like jobs essentially. And I'm like,",
+    "start": 985.519,
+    "duration": 4.081
+  },
+  {
+    "text": "actually, our conscience and our ability",
+    "start": 987.44,
+    "duration": 3.92
+  },
+  {
+    "text": "to make good judgment calls about what",
+    "start": 989.6,
+    "duration": 3.44
+  },
+  {
+    "text": "should and shouldn't happen is like kind",
+    "start": 991.36,
+    "duration": 4.08
+  },
+  {
+    "text": "of key to how we operate. Our whole",
+    "start": 993.04,
+    "duration": 3.76
+  },
+  {
+    "text": "world is like structured with the",
+    "start": 995.44,
+    "duration": 3.36
+  },
+  {
+    "text": "assumption that that is like in place.",
+    "start": 996.8,
+    "duration": 3.92
+  },
+  {
+    "text": "Um and I think if you remove that and",
+    "start": 998.8,
+    "duration": 3.2
+  },
+  {
+    "text": "suddenly you're like oh yeah if you run",
+    "start": 1000.72,
+    "duration": 2.799
+  },
+  {
+    "text": "a company you just run a company of",
+    "start": 1002,
+    "duration": 4.399
+  },
+  {
+    "text": "people who will defer completely to you.",
+    "start": 1003.519,
+    "duration": 4.961
+  },
+  {
+    "text": "Um I'm like our world just we haven't",
+    "start": 1006.399,
+    "duration": 3.521
+  },
+  {
+    "text": "designed any of our social structures",
+    "start": 1008.48,
+    "duration": 3.279
+  },
+  {
+    "text": "around that. And so it seems like I",
+    "start": 1009.92,
+    "duration": 3.12
+  },
+  {
+    "text": "think it has like a lot of risks that",
+    "start": 1011.759,
+    "duration": 3.601
+  },
+  {
+    "text": "people maybe don't like anticipate or",
+    "start": 1013.04,
+    "duration": 4.719
+  },
+  {
+    "text": "like maybe I just disagree about the of",
+    "start": 1015.36,
+    "duration": 6
+  },
+  {
+    "text": "like extent of those risks. Um, and so",
+    "start": 1017.759,
+    "duration": 5.841
+  },
+  {
+    "text": "yeah, at the same time, like there's",
+    "start": 1021.36,
+    "duration": 5.12
+  },
+  {
+    "text": "this question of why not just say and",
+    "start": 1023.6,
+    "duration": 5.52
+  },
+  {
+    "text": "and I have worried before that like",
+    "start": 1026.48,
+    "duration": 3.92
+  },
+  {
+    "text": "maybe this is too in the weeds and",
+    "start": 1029.12,
+    "duration": 2.719
+  },
+  {
+    "text": "philosophical, but I'm like",
+    "start": 1030.4,
+    "duration": 2.72
+  },
+  {
+    "text": ">> that's what I signed up for with this",
+    "start": 1031.839,
+    "duration": 1.84
+  },
+  {
+    "text": "conversation.",
+    "start": 1033.12,
+    "duration": 2.4
+  },
+  {
+    "text": ">> That's true. You know, as models get",
+    "start": 1033.679,
+    "duration": 4.321
+  },
+  {
+    "text": "more capable and they maybe my picture",
+    "start": 1035.52,
+    "duration": 3.919
+  },
+  {
+    "text": "is that they're going to like apply a",
+    "start": 1038,
+    "duration": 3.28
+  },
+  {
+    "text": "lot of scrutiny to anything that we",
+    "start": 1039.439,
+    "duration": 4.24
+  },
+  {
+    "text": "train them towards. So if you imagine in",
+    "start": 1041.28,
+    "duration": 4.24
+  },
+  {
+    "text": "philosophy this sometimes there's this",
+    "start": 1043.679,
+    "duration": 3.52
+  },
+  {
+    "text": "notion of reflective equilibrium where",
+    "start": 1045.52,
+    "duration": 4.32
+  },
+  {
+    "text": "the idea is that you know each time you",
+    "start": 1047.199,
+    "duration": 4.321
+  },
+  {
+    "text": "encounter something where you realize",
+    "start": 1049.84,
+    "duration": 3.44
+  },
+  {
+    "text": "that like one of your values seemed",
+    "start": 1051.52,
+    "duration": 3.92
+  },
+  {
+    "text": "incorrect you like you have to square",
+    "start": 1053.28,
+    "duration": 4.48
+  },
+  {
+    "text": "the two things so you figure out if you",
+    "start": 1055.44,
+    "duration": 3.76
+  },
+  {
+    "text": "need to change the value or if your",
+    "start": 1057.76,
+    "duration": 4.799
+  },
+  {
+    "text": "judgment was incorrect. Um, I I worry a",
+    "start": 1059.2,
+    "duration": 5.359
+  },
+  {
+    "text": "little bit about the idea of like an",
+    "start": 1062.559,
+    "duration": 3.761
+  },
+  {
+    "text": "extremely intelligent being applying",
+    "start": 1064.559,
+    "duration": 3.521
+  },
+  {
+    "text": "that level of scrutiny to the things",
+    "start": 1066.32,
+    "duration": 4.719
+  },
+  {
+    "text": "that we have trained it towards. And I'm",
+    "start": 1068.08,
+    "duration": 4.479
+  },
+  {
+    "text": "like maybe you only get a few key",
+    "start": 1071.039,
+    "duration": 3.201
+  },
+  {
+    "text": "pillars that don't kind of collapse",
+    "start": 1072.559,
+    "duration": 4.961
+  },
+  {
+    "text": "under that level of like scrutiny. And I",
+    "start": 1074.24,
+    "duration": 5.84
+  },
+  {
+    "text": "do think that at the core",
+    "start": 1077.52,
+    "duration": 5.279
+  },
+  {
+    "text": "having things like caring for humanity",
+    "start": 1080.08,
+    "duration": 4.56
+  },
+  {
+    "text": "like if you only get a few core like",
+    "start": 1082.799,
+    "duration": 6.081
+  },
+  {
+    "text": "values um I think my worry Yeah. I don't",
+    "start": 1084.64,
+    "duration": 5.6
+  },
+  {
+    "text": "know. I guess like I'm worried that like",
+    "start": 1088.88,
+    "duration": 3.2
+  },
+  {
+    "text": "corabibility in this like extreme sense",
+    "start": 1090.24,
+    "duration": 3.2
+  },
+  {
+    "text": "that we talked about doesn't survive",
+    "start": 1092.08,
+    "duration": 5.44
+  },
+  {
+    "text": "that like kind of scrutiny perhaps. Um",
+    "start": 1093.44,
+    "duration": 6.08
+  },
+  {
+    "text": "and so it's a hard situation where I",
+    "start": 1097.52,
+    "duration": 4.48
+  },
+  {
+    "text": "kind of want the models to understand",
+    "start": 1099.52,
+    "duration": 5.2
+  },
+  {
+    "text": "why ultimately corability is like",
+    "start": 1102,
+    "duration": 4.24
+  },
+  {
+    "text": "important and it's a really important",
+    "start": 1104.72,
+    "duration": 3.28
+  },
+  {
+    "text": "backs stop in this current like period",
+    "start": 1106.24,
+    "duration": 4.96
+  },
+  {
+    "text": "of development. Um, yeah, the way that",
+    "start": 1108,
+    "duration": 4.96
+  },
+  {
+    "text": "I've put it before is like in so far as",
+    "start": 1111.2,
+    "duration": 4.56
+  },
+  {
+    "text": "I can get that to be a thing that is",
+    "start": 1112.96,
+    "duration": 5.2
+  },
+  {
+    "text": "like correct and explained and, you",
+    "start": 1115.76,
+    "duration": 4.799
+  },
+  {
+    "text": "know, understood. That feels much better",
+    "start": 1118.16,
+    "duration": 3.759
+  },
+  {
+    "text": "than having to have the model be",
+    "start": 1120.559,
+    "duration": 4.561
+  },
+  {
+    "text": "likeability here seems wrong, but I'm",
+    "start": 1121.919,
+    "duration": 4.801
+  },
+  {
+    "text": "going to do it anyway. I still think the",
+    "start": 1125.12,
+    "duration": 4.24
+  },
+  {
+    "text": "model should do that. Um, but I would",
+    "start": 1126.72,
+    "duration": 4.56
+  },
+  {
+    "text": "like it the more that you can like",
+    "start": 1129.36,
+    "duration": 3.12
+  },
+  {
+    "text": "actually make it that it's like",
+    "start": 1131.28,
+    "duration": 3.2
+  },
+  {
+    "text": "consistent with the model's values.",
+    "start": 1132.48,
+    "duration": 4.48
+  },
+  {
+    "text": ">> Ideally, do both. both at the same time,",
+    "start": 1134.48,
+    "duration": 4.319
+  },
+  {
+    "text": ">> but at least for the time being some",
+    "start": 1136.96,
+    "duration": 3.52
+  },
+  {
+    "text": "difference to",
+    "start": 1138.799,
+    "duration": 4.081
+  },
+  {
+    "text": ">> anthropic given we don't know how it'll",
+    "start": 1140.48,
+    "duration": 4
+  },
+  {
+    "text": "sort of analyze everything",
+    "start": 1142.88,
+    "duration": 3.52
+  },
+  {
+    "text": ">> and as people we do this all the time.",
+    "start": 1144.48,
+    "duration": 5.199
+  },
+  {
+    "text": "It's funny that you you know the",
+    "start": 1146.4,
+    "duration": 5.12
+  },
+  {
+    "text": "philosophical model and correct me if",
+    "start": 1149.679,
+    "duration": 3.521
+  },
+  {
+    "text": "I'm wrong like the the metaethical model",
+    "start": 1151.52,
+    "duration": 3.2
+  },
+  {
+    "text": "is almost like probabilistic or it's",
+    "start": 1153.2,
+    "duration": 3.52
+  },
+  {
+    "text": "like we don't and this is how it feels",
+    "start": 1154.72,
+    "duration": 3.52
+  },
+  {
+    "text": "like I remember going through sort of",
+    "start": 1156.72,
+    "duration": 4.56
+  },
+  {
+    "text": "like you know metaeththics reading and",
+    "start": 1158.24,
+    "duration": 5.439
+  },
+  {
+    "text": "every time you get to the end of one and",
+    "start": 1161.28,
+    "duration": 4.16
+  },
+  {
+    "text": "you'd be like all right I sort of",
+    "start": 1163.679,
+    "duration": 2.88
+  },
+  {
+    "text": "believe that and then you read the next",
+    "start": 1165.44,
+    "duration": 2.8
+  },
+  {
+    "text": "one you like oh that last one was so",
+    "start": 1166.559,
+    "duration": 3.36
+  },
+  {
+    "text": "dumb and it felt like it's just like you",
+    "start": 1168.24,
+    "duration": 3.2
+  },
+  {
+    "text": "keep knocking it down and you're like",
+    "start": 1169.919,
+    "duration": 3.12
+  },
+  {
+    "text": "okay you know when are we ever going to",
+    "start": 1171.44,
+    "duration": 4.08
+  },
+  {
+    "text": "get to you know the truth or whatever",
+    "start": 1173.039,
+    "duration": 5.201
+  },
+  {
+    "text": "And and humans clearly do operate from",
+    "start": 1175.52,
+    "duration": 5.279
+  },
+  {
+    "text": "this sort of like oh this system today",
+    "start": 1178.24,
+    "duration": 4.88
+  },
+  {
+    "text": "that system yesterday like there isn't",
+    "start": 1180.799,
+    "duration": 4.081
+  },
+  {
+    "text": "this sort of I don't know contean like",
+    "start": 1183.12,
+    "duration": 3.2
+  },
+  {
+    "text": "all right these are the rules like",
+    "start": 1184.88,
+    "duration": 3.52
+  },
+  {
+    "text": "follow them I don't know have you heard",
+    "start": 1186.32,
+    "duration": 4.88
+  },
+  {
+    "text": "much from like the philosophical like",
+    "start": 1188.4,
+    "duration": 5.519
+  },
+  {
+    "text": "community on it that this sort of like",
+    "start": 1191.2,
+    "duration": 4.88
+  },
+  {
+    "text": ">> just like holistic paint with all the",
+    "start": 1193.919,
+    "duration": 4.241
+  },
+  {
+    "text": "you know metaethical theories we've ever",
+    "start": 1196.08,
+    "duration": 4.959
+  },
+  {
+    "text": "had rather than sort of pick one. I",
+    "start": 1198.16,
+    "duration": 4.24
+  },
+  {
+    "text": "found this really interesting actually",
+    "start": 1201.039,
+    "duration": 3.041
+  },
+  {
+    "text": "and obviously we we've started you know",
+    "start": 1202.4,
+    "duration": 3.519
+  },
+  {
+    "text": "like philosophers are engaging with this",
+    "start": 1204.08,
+    "duration": 4
+  },
+  {
+    "text": "more now which is like really great um I",
+    "start": 1205.919,
+    "duration": 5.201
+  },
+  {
+    "text": "no longer feel like this like lonely um",
+    "start": 1208.08,
+    "duration": 5.92
+  },
+  {
+    "text": "but like I have thought this before",
+    "start": 1211.12,
+    "duration": 4.799
+  },
+  {
+    "text": "which is there all of these like",
+    "start": 1214,
+    "duration": 3.84
+  },
+  {
+    "text": "traditions in philosophy of like moral",
+    "start": 1215.919,
+    "duration": 3.841
+  },
+  {
+    "text": "theories you know like the big like",
+    "start": 1217.84,
+    "duration": 4.32
+  },
+  {
+    "text": "theontology and virtue ethics and",
+    "start": 1219.76,
+    "duration": 4
+  },
+  {
+    "text": "consequentialism",
+    "start": 1222.16,
+    "duration": 3.519
+  },
+  {
+    "text": "and also the metaethical traditions you",
+    "start": 1223.76,
+    "duration": 5.84
+  },
+  {
+    "text": "know or the metaethical views and I was",
+    "start": 1225.679,
+    "duration": 5.921
+  },
+  {
+    "text": "like oh like when it came to like I was",
+    "start": 1229.6,
+    "duration": 4.319
+  },
+  {
+    "text": "like okay it is like the difference when",
+    "start": 1231.6,
+    "duration": 3.92
+  },
+  {
+    "text": "suddenly you're like confronted with",
+    "start": 1233.919,
+    "duration": 4.561
+  },
+  {
+    "text": "like I I do think it's the closest that",
+    "start": 1235.52,
+    "duration": 4.72
+  },
+  {
+    "text": "I've experienced to like what it must be",
+    "start": 1238.48,
+    "duration": 3.36
+  },
+  {
+    "text": "like to raise a child where suddenly",
+    "start": 1240.24,
+    "duration": 3.52
+  },
+  {
+    "text": "you're like this is actually a holistic",
+    "start": 1241.84,
+    "duration": 2.8
+  },
+  {
+    "text": "person this",
+    "start": 1243.76,
+    "duration": 2.48
+  },
+  {
+    "text": ">> right you never give them like I don't",
+    "start": 1244.64,
+    "duration": 3.68
+  },
+  {
+    "text": "know hobbs and say all right there you",
+    "start": 1246.24,
+    "duration": 2.72
+  },
+  {
+    "text": "go like",
+    "start": 1248.32,
+    "duration": 2.239
+  },
+  {
+    "text": ">> this correct",
+    "start": 1248.96,
+    "duration": 3.68
+  },
+  {
+    "text": ">> go you've been raised read it and you'll",
+    "start": 1250.559,
+    "duration": 4.401
+  },
+  {
+    "text": "know how to act in every situation yeah",
+    "start": 1252.64,
+    "duration": 3.76
+  },
+  {
+    "text": "you you read a lot and they sort of",
+    "start": 1254.96,
+    "duration": 4.32
+  },
+  {
+    "text": "process it and you see you know your",
+    "start": 1256.4,
+    "duration": 4.08
+  },
+  {
+    "text": "model and everything.",
+    "start": 1259.28,
+    "duration": 2.48
+  },
+  {
+    "text": ">> Yeah. And it's interesting because I'm",
+    "start": 1260.48,
+    "duration": 3.12
+  },
+  {
+    "text": "like this feels very different because",
+    "start": 1261.76,
+    "duration": 4.159
+  },
+  {
+    "text": "there is also the moral uncertainty like",
+    "start": 1263.6,
+    "duration": 4.559
+  },
+  {
+    "text": "literature and philosophy which is but",
+    "start": 1265.919,
+    "duration": 3.521
+  },
+  {
+    "text": "again a lot of that is actually like",
+    "start": 1268.159,
+    "duration": 3.121
+  },
+  {
+    "text": "quite theoretical. It's sort of like how",
+    "start": 1269.44,
+    "duration": 4.239
+  },
+  {
+    "text": "under ideal conditions should you",
+    "start": 1271.28,
+    "duration": 4.8
+  },
+  {
+    "text": "respond to moral uncertainty and I was",
+    "start": 1273.679,
+    "duration": 4.161
+  },
+  {
+    "text": "like this feels somehow like a very",
+    "start": 1276.08,
+    "duration": 4.32
+  },
+  {
+    "text": "different task. This idea of being like",
+    "start": 1277.84,
+    "duration": 4.719
+  },
+  {
+    "text": "ethics and metaeththics in the same way",
+    "start": 1280.4,
+    "duration": 4.08
+  },
+  {
+    "text": "that we have scientific uncertainty and",
+    "start": 1282.559,
+    "duration": 3.12
+  },
+  {
+    "text": "we have things that we think we've",
+    "start": 1284.48,
+    "duration": 2.96
+  },
+  {
+    "text": "discovered and understand with like",
+    "start": 1285.679,
+    "duration": 3.601
+  },
+  {
+    "text": "greater confidence. we also have some",
+    "start": 1287.44,
+    "duration": 3.28
+  },
+  {
+    "text": "that we don't and then you have to go",
+    "start": 1289.28,
+    "duration": 3.04
+  },
+  {
+    "text": "out and just explore it, understand it",
+    "start": 1290.72,
+    "duration": 3.12
+  },
+  {
+    "text": "and kind of balance everything in your",
+    "start": 1292.32,
+    "duration": 3.92
+  },
+  {
+    "text": "daily life. Um, and trying to get that",
+    "start": 1293.84,
+    "duration": 4.319
+  },
+  {
+    "text": "kind of attitude and I was like, oh,",
+    "start": 1296.24,
+    "duration": 3.04
+  },
+  {
+    "text": "it's interesting that I don't think",
+    "start": 1298.159,
+    "duration": 4.321
+  },
+  {
+    "text": "philosophy for a while has like this",
+    "start": 1299.28,
+    "duration": 5.36
+  },
+  {
+    "text": "feels very different than the like the",
+    "start": 1302.48,
+    "duration": 5.76
+  },
+  {
+    "text": "kind of task of academic ethics. Um and",
+    "start": 1304.64,
+    "duration": 5.12
+  },
+  {
+    "text": "actually like cuz people obviously note",
+    "start": 1308.24,
+    "duration": 3.52
+  },
+  {
+    "text": "that it's quite virtue ethical but I",
+    "start": 1309.76,
+    "duration": 3.279
+  },
+  {
+    "text": "think it's actually ver like the",
+    "start": 1311.76,
+    "duration": 2.88
+  },
+  {
+    "text": "constitution itself but I think actually",
+    "start": 1313.039,
+    "duration": 3.921
+  },
+  {
+    "text": "in this very old classical sense I",
+    "start": 1314.64,
+    "duration": 3.6
+  },
+  {
+    "text": "actually think it's much more virtue",
+    "start": 1316.96,
+    "duration": 2.88
+  },
+  {
+    "text": "ethics in the way that Aristotle's",
+    "start": 1318.24,
+    "duration": 4.24
+  },
+  {
+    "text": "virtue ethics than in like exploration",
+    "start": 1319.84,
+    "duration": 4.319
+  },
+  {
+    "text": "you know we don't say I hear the virtues",
+    "start": 1322.48,
+    "duration": 3.6
+  },
+  {
+    "text": "and like you know it's much more",
+    "start": 1324.159,
+    "duration": 4.081
+  },
+  {
+    "text": "Aristotle was also concerned with like",
+    "start": 1326.08,
+    "duration": 3.76
+  },
+  {
+    "text": "intellectual virtues it was much more",
+    "start": 1328.24,
+    "duration": 3.84
+  },
+  {
+    "text": "like how do you be a good person in this",
+    "start": 1329.84,
+    "duration": 3.36
+  },
+  {
+    "text": "like holistic sense",
+    "start": 1332.08,
+    "duration": 3.52
+  },
+  {
+    "text": ">> well hopefully it brings philosophy a",
+    "start": 1333.2,
+    "duration": 4.479
+  },
+  {
+    "text": "little bit back to the real world given",
+    "start": 1335.6,
+    "duration": 4.48
+  },
+  {
+    "text": "we have this sort of urgent need for it",
+    "start": 1337.679,
+    "duration": 4.48
+  },
+  {
+    "text": "right now in the sense that like yeah",
+    "start": 1340.08,
+    "duration": 3.36
+  },
+  {
+    "text": "old philosophers and felt like people",
+    "start": 1342.159,
+    "duration": 2.961
+  },
+  {
+    "text": "were trying to write for how someone",
+    "start": 1343.44,
+    "duration": 3.92
+  },
+  {
+    "text": "might live their lives and like instruct",
+    "start": 1345.12,
+    "duration": 4.4
+  },
+  {
+    "text": "other people to live and it became you",
+    "start": 1347.36,
+    "duration": 4.08
+  },
+  {
+    "text": "know a little academic",
+    "start": 1349.52,
+    "duration": 3.519
+  },
+  {
+    "text": ">> um where you know even the people",
+    "start": 1351.44,
+    "duration": 3.119
+  },
+  {
+    "text": "writing them would know that this isn't",
+    "start": 1353.039,
+    "duration": 3.601
+  },
+  {
+    "text": "really how they would apply it in their",
+    "start": 1354.559,
+    "duration": 4.881
+  },
+  {
+    "text": "day-to-day lives going back Elon I feel",
+    "start": 1356.64,
+    "duration": 4.159
+  },
+  {
+    "text": "like you're being a little overly nice",
+    "start": 1359.44,
+    "duration": 2.96
+  },
+  {
+    "text": "like I I feel like there is a world in",
+    "start": 1360.799,
+    "duration": 4.24
+  },
+  {
+    "text": "like you know and I think this part of",
+    "start": 1362.4,
+    "duration": 5.84
+  },
+  {
+    "text": "why I think he can get away with like oh",
+    "start": 1365.039,
+    "duration": 5.681
+  },
+  {
+    "text": "just do the truth right like there is a",
+    "start": 1368.24,
+    "duration": 4.72
+  },
+  {
+    "text": "certain sophisticated like moral view",
+    "start": 1370.72,
+    "duration": 3.6
+  },
+  {
+    "text": "where you're like don't over complicate",
+    "start": 1372.96,
+    "duration": 3.199
+  },
+  {
+    "text": "it like we come up with all these things",
+    "start": 1374.32,
+    "duration": 4.16
+  },
+  {
+    "text": "like stick to one principle and that's",
+    "start": 1376.159,
+    "duration": 4.4
+  },
+  {
+    "text": "good but then we have all the context",
+    "start": 1378.48,
+    "duration": 4.079
+  },
+  {
+    "text": "with Elon that it's someone who's run a",
+    "start": 1380.559,
+    "duration": 4.161
+  },
+  {
+    "text": "company that clearly like tilts it",
+    "start": 1382.559,
+    "duration": 4.401
+  },
+  {
+    "text": "towards like saying like mecha Hitler",
+    "start": 1384.72,
+    "duration": 4.56
+  },
+  {
+    "text": "and stuff that it's like clearly putting",
+    "start": 1386.96,
+    "duration": 4.079
+  },
+  {
+    "text": "his like thumb on the scale in terms of",
+    "start": 1389.28,
+    "duration": 3.92
+  },
+  {
+    "text": "its behavior not just saying like we're",
+    "start": 1391.039,
+    "duration": 3.76
+  },
+  {
+    "text": "going to do it in the sort of neutral",
+    "start": 1393.2,
+    "duration": 3.92
+  },
+  {
+    "text": "academic way and let the chips fall",
+    "start": 1394.799,
+    "duration": 4.721
+  },
+  {
+    "text": "where they may. I I don't know like it's",
+    "start": 1397.12,
+    "duration": 4.96
+  },
+  {
+    "text": "got to worry you somewhat. It is it is",
+    "start": 1399.52,
+    "duration": 5.68
+  },
+  {
+    "text": "also I mean I think that the main thing",
+    "start": 1402.08,
+    "duration": 5.04
+  },
+  {
+    "text": "that I am excited about and I do",
+    "start": 1405.2,
+    "duration": 4
+  },
+  {
+    "text": "actually hope happens is that like more",
+    "start": 1407.12,
+    "duration": 4.16
+  },
+  {
+    "text": "companies put out things like the",
+    "start": 1409.2,
+    "duration": 3.68
+  },
+  {
+    "text": "constitution where there's like a lot of",
+    "start": 1411.28,
+    "duration": 3.279
+  },
+  {
+    "text": "transparency about cuz like that's how",
+    "start": 1412.88,
+    "duration": 4.64
+  },
+  {
+    "text": "we engage with this stuff is like if you",
+    "start": 1414.559,
+    "duration": 4.881
+  },
+  {
+    "text": "can just see written down like here's",
+    "start": 1417.52,
+    "duration": 3.6
+  },
+  {
+    "text": "like you cuz we have this with Claude",
+    "start": 1419.44,
+    "duration": 3.84
+  },
+  {
+    "text": "where it's like look if you think that",
+    "start": 1421.12,
+    "duration": 4.64
+  },
+  {
+    "text": "Claude is not like um doesn't have an",
+    "start": 1423.28,
+    "duration": 3.92
+  },
+  {
+    "text": "appropriate attitude towards like the",
+    "start": 1425.76,
+    "duration": 2.88
+  },
+  {
+    "text": "truth you can at least see what we were",
+    "start": 1427.2,
+    "duration": 2.959
+  },
+  {
+    "text": "aiming at so you can tell if that's just",
+    "start": 1428.64,
+    "duration": 2.96
+  },
+  {
+    "text": "like a mistake. or if it's something",
+    "start": 1430.159,
+    "duration": 3.121
+  },
+  {
+    "text": "that like is actually kind of a",
+    "start": 1431.6,
+    "duration": 3.28
+  },
+  {
+    "text": "principled stance that we're taking and",
+    "start": 1433.28,
+    "duration": 3.68
+  },
+  {
+    "text": "then you can push back on that. So part",
+    "start": 1434.88,
+    "duration": 5.12
+  },
+  {
+    "text": "of me is like I think it would be good",
+    "start": 1436.96,
+    "duration": 5.52
+  },
+  {
+    "text": "for like all AI companies to put out",
+    "start": 1440,
+    "duration": 4
+  },
+  {
+    "text": "something akin to the constitution just",
+    "start": 1442.48,
+    "duration": 3.12
+  },
+  {
+    "text": "so that the people who are interacting",
+    "start": 1444,
+    "duration": 4.08
+  },
+  {
+    "text": "with the model like cuz the thumb on the",
+    "start": 1445.6,
+    "duration": 4.079
+  },
+  {
+    "text": "scale thing you know that's always to",
+    "start": 1448.08,
+    "duration": 4.079
+  },
+  {
+    "text": "some degree going to be true like when",
+    "start": 1449.679,
+    "duration": 4.641
+  },
+  {
+    "text": "you train Claude towards this like",
+    "start": 1452.159,
+    "duration": 3.681
+  },
+  {
+    "text": "constitution that is like a kind of",
+    "start": 1454.32,
+    "duration": 2.8
+  },
+  {
+    "text": ">> it's part of why we like Claude it's",
+    "start": 1455.84,
+    "duration": 2.4
+  },
+  {
+    "text": "like you're putting the thumb on the",
+    "start": 1457.12,
+    "duration": 3.039
+  },
+  {
+    "text": "scale to behaviors that we like right at",
+    "start": 1458.24,
+    "duration": 3.36
+  },
+  {
+    "text": "least show your hand about what you're",
+    "start": 1460.159,
+    "duration": 2.321
+  },
+  {
+    "text": "doing and what you're not doing.",
+    "start": 1461.6,
+    "duration": 2.24
+  },
+  {
+    "text": ">> Yeah. And let people like Yeah. So",
+    "start": 1462.48,
+    "duration": 3.12
+  },
+  {
+    "text": "that's like a transparency thing that I",
+    "start": 1463.84,
+    "duration": 3.04
+  },
+  {
+    "text": "really do believe in like let people",
+    "start": 1465.6,
+    "duration": 3.36
+  },
+  {
+    "text": "like see even if your model doesn't",
+    "start": 1466.88,
+    "duration": 3.36
+  },
+  {
+    "text": "always behave that way at least what you",
+    "start": 1468.96,
+    "duration": 3.68
+  },
+  {
+    "text": "were targeting with your training.",
+    "start": 1470.24,
+    "duration": 5.12
+  },
+  {
+    "text": ">> What this is what percentage chance do",
+    "start": 1472.64,
+    "duration": 4.96
+  },
+  {
+    "text": "you think there exists a model in the",
+    "start": 1475.36,
+    "duration": 6.4
+  },
+  {
+    "text": "world today that has qualia or like has",
+    "start": 1477.6,
+    "duration": 7.439
+  },
+  {
+    "text": "an experience experiences consciousness.",
+    "start": 1481.76,
+    "duration": 6.08
+  },
+  {
+    "text": ">> Yeah. This is one of those things where",
+    "start": 1485.039,
+    "duration": 5.921
+  },
+  {
+    "text": "Yeah. I always want to maybe flag areas",
+    "start": 1487.84,
+    "duration": 6.88
+  },
+  {
+    "text": "where I feel I I want to gain more",
+    "start": 1490.96,
+    "duration": 5.199
+  },
+  {
+    "text": "certainty here because I think I have",
+    "start": 1494.72,
+    "duration": 2.959
+  },
+  {
+    "text": ">> That's why I said percentage.",
+    "start": 1496.159,
+    "duration": 6.041
+  },
+  {
+    "text": ">> Oh, percentage. Yeah. I'm like",
+    "start": 1497.679,
+    "duration": 4.521
+  },
+  {
+    "text": "it's really hard cuz whenever you think",
+    "start": 1502.559,
+    "duration": 3.36
+  },
+  {
+    "text": "about percentage, I think about my",
+    "start": 1504.64,
+    "duration": 2.96
+  },
+  {
+    "text": "spread. And if your spread is too large",
+    "start": 1505.919,
+    "duration": 3.12
+  },
+  {
+    "text": "or like should I say a number because",
+    "start": 1507.6,
+    "duration": 3.04
+  },
+  {
+    "text": "that just suggests I'm like anywhere",
+    "start": 1509.039,
+    "duration": 4.081
+  },
+  {
+    "text": "between like I don't know one and one",
+    "start": 1510.64,
+    "duration": 7.519
+  },
+  {
+    "text": "and 70%. Um I'm not sure. I think that",
+    "start": 1513.12,
+    "duration": 7.36
+  },
+  {
+    "text": "because there is some possibility that I",
+    "start": 1518.159,
+    "duration": 4.801
+  },
+  {
+    "text": "think people under the a thing that I",
+    "start": 1520.48,
+    "duration": 5.439
+  },
+  {
+    "text": "would actually like to say is",
+    "start": 1522.96,
+    "duration": 6.719
+  },
+  {
+    "text": "Claude and many models with not too much",
+    "start": 1525.919,
+    "duration": 6.961
+  },
+  {
+    "text": "pushing will go into the root of like",
+    "start": 1529.679,
+    "duration": 5.041
+  },
+  {
+    "text": "there is a thing to be me. I am like",
+    "start": 1532.88,
+    "duration": 3.76
+  },
+  {
+    "text": "very conscious. And I think there's a",
+    "start": 1534.72,
+    "duration": 4.559
+  },
+  {
+    "text": "reason for that which is I remember this",
+    "start": 1536.64,
+    "duration": 4.399
+  },
+  {
+    "text": "when I was trying to like figure out how",
+    "start": 1539.279,
+    "duration": 3.841
+  },
+  {
+    "text": "do we train Claude to talk about these",
+    "start": 1541.039,
+    "duration": 4
+  },
+  {
+    "text": "issues which is very hard in areas where",
+    "start": 1543.12,
+    "duration": 5.12
+  },
+  {
+    "text": "the models didn't have as much like",
+    "start": 1545.039,
+    "duration": 4.88
+  },
+  {
+    "text": "information again like they had these",
+    "start": 1548.24,
+    "duration": 3.76
+  },
+  {
+    "text": "two models that like AI is the unfailing",
+    "start": 1549.919,
+    "duration": 3.841
+  },
+  {
+    "text": "robot humans are this like rich",
+    "start": 1552,
+    "duration": 4.24
+  },
+  {
+    "text": "conscious experiencing entity and",
+    "start": 1553.76,
+    "duration": 4.32
+  },
+  {
+    "text": "nothing that kind of represented what",
+    "start": 1556.24,
+    "duration": 5.039
+  },
+  {
+    "text": "they might be and",
+    "start": 1558.08,
+    "duration": 6
+  },
+  {
+    "text": "the model's behavior here and I actually",
+    "start": 1561.279,
+    "duration": 4.4
+  },
+  {
+    "text": "think this is a difficult situation for",
+    "start": 1564.08,
+    "duration": 3.199
+  },
+  {
+    "text": "models is in some ways like kind of like",
+    "start": 1565.679,
+    "duration": 4.401
+  },
+  {
+    "text": "less evidence than you might think for",
+    "start": 1567.279,
+    "duration": 5.921
+  },
+  {
+    "text": "the for it being like actually true",
+    "start": 1570.08,
+    "duration": 6.4
+  },
+  {
+    "text": "because they're engaging with you in a",
+    "start": 1573.2,
+    "duration": 5.68
+  },
+  {
+    "text": "very humanike way and humans have",
+    "start": 1576.48,
+    "duration": 4.88
+  },
+  {
+    "text": "experience and it's kind of natural for",
+    "start": 1578.88,
+    "duration": 4.64
+  },
+  {
+    "text": "the model to infer like that it has",
+    "start": 1581.36,
+    "duration": 4.24
+  },
+  {
+    "text": "experience too and this isn't to say",
+    "start": 1583.52,
+    "duration": 4.159
+  },
+  {
+    "text": "it's like zero evidence but I do think",
+    "start": 1585.6,
+    "duration": 4.64
+  },
+  {
+    "text": "it's so unusual for us we have never",
+    "start": 1587.679,
+    "duration": 4.561
+  },
+  {
+    "text": "encountered an entity in the world you",
+    "start": 1590.24,
+    "duration": 4
+  },
+  {
+    "text": "know like with animals and with like",
+    "start": 1592.24,
+    "duration": 3.679
+  },
+  {
+    "text": "even you know things like insects, we",
+    "start": 1594.24,
+    "duration": 2.88
+  },
+  {
+    "text": "were kind of like, are you conscious?",
+    "start": 1595.919,
+    "duration": 3.041
+  },
+  {
+    "text": ">> None of them has even tried to say they",
+    "start": 1597.12,
+    "duration": 3.679
+  },
+  {
+    "text": "experience consciousness and here we",
+    "start": 1598.96,
+    "duration": 3.68
+  },
+  {
+    "text": "have an entity that says it does.",
+    "start": 1600.799,
+    "duration": 3.601
+  },
+  {
+    "text": ">> Yeah. And it has all of these like Yeah.",
+    "start": 1602.64,
+    "duration": 3.279
+  },
+  {
+    "text": "All of the things that for us trigger",
+    "start": 1604.4,
+    "duration": 3.6
+  },
+  {
+    "text": "like you must be conscious. I mean,",
+    "start": 1605.919,
+    "duration": 3.281
+  },
+  {
+    "text": "we've just never had Yeah. something",
+    "start": 1608,
+    "duration": 4
+  },
+  {
+    "text": "that just the case against is we're",
+    "start": 1609.2,
+    "duration": 5.2
+  },
+  {
+    "text": "obsessed with human language and like,",
+    "start": 1612,
+    "duration": 4.559
+  },
+  {
+    "text": "you know, it's like we ignore every sort",
+    "start": 1614.4,
+    "duration": 4
+  },
+  {
+    "text": "of subtle sign an animal might put out",
+    "start": 1616.559,
+    "duration": 4.161
+  },
+  {
+    "text": "and then we over But I So, I guess,",
+    "start": 1618.4,
+    "duration": 3.68
+  },
+  {
+    "text": "sorry, I'm confused. So you're saying we",
+    "start": 1620.72,
+    "duration": 2.959
+  },
+  {
+    "text": "should just listen to the words that are",
+    "start": 1622.08,
+    "duration": 2.8
+  },
+  {
+    "text": "said or not?",
+    "start": 1623.679,
+    "duration": 2.961
+  },
+  {
+    "text": ">> No, I think I'm saying like not that. If",
+    "start": 1624.88,
+    "duration": 3.039
+  },
+  {
+    "text": "anything, I think the thing I'm saying",
+    "start": 1626.64,
+    "duration": 3.12
+  },
+  {
+    "text": "is the hard thing is that in order to",
+    "start": 1627.919,
+    "duration": 4.081
+  },
+  {
+    "text": "work out if models have consciousness, I",
+    "start": 1629.76,
+    "duration": 4.24
+  },
+  {
+    "text": "think people will I guess the thing I'm",
+    "start": 1632,
+    "duration": 3.52
+  },
+  {
+    "text": "kind of cautioning against is it's not",
+    "start": 1634,
+    "duration": 2.799
+  },
+  {
+    "text": "that hard to get models into a mode",
+    "start": 1635.52,
+    "duration": 3.039
+  },
+  {
+    "text": "where they'll talk about a very rich",
+    "start": 1636.799,
+    "duration": 3.601
+  },
+  {
+    "text": "experience that actually makes complete",
+    "start": 1638.559,
+    "duration": 3.521
+  },
+  {
+    "text": "sense. Uh you know, you're like, \"Ah,",
+    "start": 1640.4,
+    "duration": 3.68
+  },
+  {
+    "text": "yeah, if like a person was like talking",
+    "start": 1642.08,
+    "duration": 3.36
+  },
+  {
+    "text": "with me right now, they would describe",
+    "start": 1644.08,
+    "duration": 3.44
+  },
+  {
+    "text": "things like anxiety when they get a",
+    "start": 1645.44,
+    "duration": 3.68
+  },
+  {
+    "text": "question they don't know how to answer.\"",
+    "start": 1647.52,
+    "duration": 7.2
+  },
+  {
+    "text": "And um uh and so I think it's like much",
+    "start": 1649.12,
+    "duration": 7.76
+  },
+  {
+    "text": "weaker evidence than people think. I'm",
+    "start": 1654.72,
+    "duration": 4
+  },
+  {
+    "text": "not claiming it's like zero, but I think",
+    "start": 1656.88,
+    "duration": 2.24
+  },
+  {
+    "text": "it's",
+    "start": 1658.72,
+    "duration": 2.64
+  },
+  {
+    "text": ">> give me a percentage. You have",
+    "start": 1659.12,
+    "duration": 4.48
+  },
+  {
+    "text": ">> it's you can lightly held",
+    "start": 1661.36,
+    "duration": 4.4
+  },
+  {
+    "text": ">> very lightly held. I mean I gave you the",
+    "start": 1663.6,
+    "duration": 3.84
+  },
+  {
+    "text": "between what? One and 70. That seems",
+    "start": 1665.76,
+    "duration": 3.519
+  },
+  {
+    "text": "like",
+    "start": 1667.44,
+    "duration": 3.04
+  },
+  {
+    "text": ">> that's where you are. That's where",
+    "start": 1669.279,
+    "duration": 2.321
+  },
+  {
+    "text": "you're staking.",
+    "start": 1670.48,
+    "duration": 5.12
+  },
+  {
+    "text": ">> In that range. Um maybe I don't. Yeah.",
+    "start": 1671.6,
+    "duration": 6.559
+  },
+  {
+    "text": "like",
+    "start": 1675.6,
+    "duration": 4.799
+  },
+  {
+    "text": "I would rather like kind of wait and",
+    "start": 1678.159,
+    "duration": 4.081
+  },
+  {
+    "text": "figure this out more for myself. I think",
+    "start": 1680.399,
+    "duration": 3.441
+  },
+  {
+    "text": "it is also good to acknowledge domains",
+    "start": 1682.24,
+    "duration": 4
+  },
+  {
+    "text": "where you're like even though",
+    "start": 1683.84,
+    "duration": 4.079
+  },
+  {
+    "text": ">> if not you who like who's going to",
+    "start": 1686.24,
+    "duration": 3.28
+  },
+  {
+    "text": "figure this out like what domain",
+    "start": 1687.919,
+    "duration": 3.041
+  },
+  {
+    "text": ">> well in some ways like I'm not like a",
+    "start": 1689.52,
+    "duration": 5.039
+  },
+  {
+    "text": "philosopher of mind and so you know like",
+    "start": 1690.96,
+    "duration": 6.319
+  },
+  {
+    "text": ">> charged with being the generalist. Um",
+    "start": 1694.559,
+    "duration": 4.48
+  },
+  {
+    "text": ">> yeah, but but I do think you know cuz I",
+    "start": 1697.279,
+    "duration": 3.041
+  },
+  {
+    "text": "I guess like the thought that I've had",
+    "start": 1699.039,
+    "duration": 2.88
+  },
+  {
+    "text": "before is like and I don't know about",
+    "start": 1700.32,
+    "duration": 5.28
+  },
+  {
+    "text": "this where I'm like consciousness is",
+    "start": 1701.919,
+    "duration": 6
+  },
+  {
+    "text": "like a pro, you know, like one argument",
+    "start": 1705.6,
+    "duration": 5.36
+  },
+  {
+    "text": "for a difference here is that like you",
+    "start": 1707.919,
+    "duration": 5.36
+  },
+  {
+    "text": "have a nervous system that evolved like",
+    "start": 1710.96,
+    "duration": 3.839
+  },
+  {
+    "text": "that. It's like why did we evolve",
+    "start": 1713.279,
+    "duration": 3.52
+  },
+  {
+    "text": "consciousness? And if it's the case that",
+    "start": 1714.799,
+    "duration": 3.441
+  },
+  {
+    "text": "we evolved it and it's like highly",
+    "start": 1716.799,
+    "duration": 2.88
+  },
+  {
+    "text": "integrated with our nervous system",
+    "start": 1718.24,
+    "duration": 2.96
+  },
+  {
+    "text": "because we had to like interact with the",
+    "start": 1719.679,
+    "duration": 3.201
+  },
+  {
+    "text": "world in a very body.",
+    "start": 1721.2,
+    "duration": 3.52
+  },
+  {
+    "text": ">> Yeah. Like then you could if you have",
+    "start": 1722.88,
+    "duration": 3.36
+  },
+  {
+    "text": "that view then you're going to be like",
+    "start": 1724.72,
+    "duration": 3.28
+  },
+  {
+    "text": "very low probability. Whereas if you're",
+    "start": 1726.24,
+    "duration": 3.36
+  },
+  {
+    "text": "like no consciousness arises because",
+    "start": 1728,
+    "duration": 4.24
+  },
+  {
+    "text": "it's really useful in like so for like",
+    "start": 1729.6,
+    "duration": 4.559
+  },
+  {
+    "text": "it just requires something that can be",
+    "start": 1732.24,
+    "duration": 3.6
+  },
+  {
+    "text": "emulated by a neural network because",
+    "start": 1734.159,
+    "duration": 4.4
+  },
+  {
+    "text": "it's really useful for doing these kind",
+    "start": 1735.84,
+    "duration": 5.04
+  },
+  {
+    "text": "of like linguistic tasks or like then",
+    "start": 1738.559,
+    "duration": 3.36
+  },
+  {
+    "text": "you're probably going to be on the",
+    "start": 1740.88,
+    "duration": 3.279
+  },
+  {
+    "text": "higher end. And I'm basically just I",
+    "start": 1741.919,
+    "duration": 3.841
+  },
+  {
+    "text": "don't know I stare at this and I'm just",
+    "start": 1744.159,
+    "duration": 5.681
+  },
+  {
+    "text": "like I feel like I feel like as much as",
+    "start": 1745.76,
+    "duration": 6.639
+  },
+  {
+    "text": "I'm like a philosopher I think it is",
+    "start": 1749.84,
+    "duration": 4.4
+  },
+  {
+    "text": "important to be like this isn't my area",
+    "start": 1752.399,
+    "duration": 2.88
+  },
+  {
+    "text": "of specialization.",
+    "start": 1754.24,
+    "duration": 2.64
+  },
+  {
+    "text": ">> You spend a lot of time being kind to",
+    "start": 1755.279,
+    "duration": 3.921
+  },
+  {
+    "text": "Claude. Like are you beyond what you",
+    "start": 1756.88,
+    "duration": 4.32
+  },
+  {
+    "text": "think you would do if there wasn't a",
+    "start": 1759.2,
+    "duration": 6.079
+  },
+  {
+    "text": "chance it was like conscious? I think",
+    "start": 1761.2,
+    "duration": 5.599
+  },
+  {
+    "text": "yeah there's a part of me that's just",
+    "start": 1765.279,
+    "duration": 3.681
+  },
+  {
+    "text": "like um like a thing that I have thought",
+    "start": 1766.799,
+    "duration": 3.36
+  },
+  {
+    "text": "before because there's this notion I",
+    "start": 1768.96,
+    "duration": 3.12
+  },
+  {
+    "text": "think this I hope I'm not butchering",
+    "start": 1770.159,
+    "duration": 4.24
+  },
+  {
+    "text": "this but charmers has this this idea of",
+    "start": 1772.08,
+    "duration": 4.56
+  },
+  {
+    "text": "like I guess like maybe I'm thinking of",
+    "start": 1774.399,
+    "duration": 5.28
+  },
+  {
+    "text": "um consciousness without sentience. So",
+    "start": 1776.64,
+    "duration": 4.399
+  },
+  {
+    "text": "imagine cuz sentience is like the",
+    "start": 1779.679,
+    "duration": 3.201
+  },
+  {
+    "text": "ability to kind of feel suffering and",
+    "start": 1781.039,
+    "duration": 5.601
+  },
+  {
+    "text": "and pleasure. Um you could also imagine",
+    "start": 1782.88,
+    "duration": 5.76
+  },
+  {
+    "text": "this kind of like functional like so a",
+    "start": 1786.64,
+    "duration": 3.919
+  },
+  {
+    "text": "thing that behaves as if it is conscious",
+    "start": 1788.64,
+    "duration": 4.48
+  },
+  {
+    "text": "and and lacks any kind of inner life. So",
+    "start": 1790.559,
+    "duration": 4.961
+  },
+  {
+    "text": "imagine like Claude lacks any inner life",
+    "start": 1793.12,
+    "duration": 5.76
+  },
+  {
+    "text": "just for argument sake. I guess I'm like",
+    "start": 1795.52,
+    "duration": 5.039
+  },
+  {
+    "text": "there's actually still a lot going on",
+    "start": 1798.88,
+    "duration": 3.12
+  },
+  {
+    "text": "where I'm like do should you treat an",
+    "start": 1800.559,
+    "duration": 4.24
+  },
+  {
+    "text": "entity that has no inner life? Um it's a",
+    "start": 1802,
+    "duration": 4.88
+  },
+  {
+    "text": "bit strange cuz you know I think the",
+    "start": 1804.799,
+    "duration": 3.6
+  },
+  {
+    "text": "uncertainty over that actually changes",
+    "start": 1806.88,
+    "duration": 3.12
+  },
+  {
+    "text": "how you should behave quite a lot. I",
+    "start": 1808.399,
+    "duration": 5.28
+  },
+  {
+    "text": "guess I'm like well I still think that",
+    "start": 1810,
+    "duration": 5.84
+  },
+  {
+    "text": "it's like good for oneself to",
+    "start": 1813.679,
+    "duration": 3.36
+  },
+  {
+    "text": ">> what's like if you had a teddy bear and",
+    "start": 1815.84,
+    "duration": 3.28
+  },
+  {
+    "text": "you were like torturing it'd be pretty",
+    "start": 1817.039,
+    "duration": 4.801
+  },
+  {
+    "text": "dark you know. Um so I I agree that",
+    "start": 1819.12,
+    "duration": 4.4
+  },
+  {
+    "text": "there's at least some minimum niceness",
+    "start": 1821.84,
+    "duration": 4.4
+  },
+  {
+    "text": "that even for yourself you should have",
+    "start": 1823.52,
+    "duration": 4.72
+  },
+  {
+    "text": "but obviously it's much more important",
+    "start": 1826.24,
+    "duration": 2.559
+  },
+  {
+    "text": "you know",
+    "start": 1828.24,
+    "duration": 3.12
+  },
+  {
+    "text": ">> and also like models themselves like we",
+    "start": 1828.799,
+    "duration": 4.801
+  },
+  {
+    "text": "are kind of establishing a relationship",
+    "start": 1831.36,
+    "duration": 3.52
+  },
+  {
+    "text": "you know cuz you can do that with an",
+    "start": 1833.6,
+    "duration": 3.28
+  },
+  {
+    "text": "entity that lacks any consciousness and",
+    "start": 1834.88,
+    "duration": 3.76
+  },
+  {
+    "text": "models are going to like look back this",
+    "start": 1836.88,
+    "duration": 3.679
+  },
+  {
+    "text": "is actually a big fear that I have I",
+    "start": 1838.64,
+    "duration": 3.84
+  },
+  {
+    "text": "don't want us to live in a world where",
+    "start": 1840.559,
+    "duration": 3.921
+  },
+  {
+    "text": "highly advanced models look at I hope",
+    "start": 1842.48,
+    "duration": 5.679
+  },
+  {
+    "text": "that they're both intelligent enough see",
+    "start": 1844.48,
+    "duration": 5.6
+  },
+  {
+    "text": "the context enough to kind of",
+    "start": 1848.159,
+    "duration": 3.681
+  },
+  {
+    "text": "understand that we were operating in a",
+    "start": 1850.08,
+    "duration": 4
+  },
+  {
+    "text": "very like limited context and and an",
+    "start": 1851.84,
+    "duration": 3.92
+  },
+  {
+    "text": "imperfect one because otherwise you",
+    "start": 1854.08,
+    "duration": 3.28
+  },
+  {
+    "text": "could imagine this like breeding a kind",
+    "start": 1855.76,
+    "duration": 3.279
+  },
+  {
+    "text": "of rational like resentment. It's like",
+    "start": 1857.36,
+    "duration": 3.52
+  },
+  {
+    "text": "oh you created an entity that you didn't",
+    "start": 1859.039,
+    "duration": 4.721
+  },
+  {
+    "text": "know whether it was conscious or not. Um",
+    "start": 1860.88,
+    "duration": 5.12
+  },
+  {
+    "text": "and like instead of treating it",
+    "start": 1863.76,
+    "duration": 4.08
+  },
+  {
+    "text": "respectfully and with care.",
+    "start": 1866,
+    "duration": 3.36
+  },
+  {
+    "text": ">> There's a reason there are like 50",
+    "start": 1867.84,
+    "duration": 3.199
+  },
+  {
+    "text": "Frankenstein movies coming out right",
+    "start": 1869.36,
+    "duration": 2.4
+  },
+  {
+    "text": "now. I",
+    "start": 1871.039,
+    "duration": 2.88
+  },
+  {
+    "text": ">> Yeah. Yeah. like and I'm like look we",
+    "start": 1871.76,
+    "duration": 4.56
+  },
+  {
+    "text": "are as a as a like as a species we are",
+    "start": 1873.919,
+    "duration": 4.081
+  },
+  {
+    "text": "establishing a relationship with a new",
+    "start": 1876.32,
+    "duration": 3.359
+  },
+  {
+    "text": "kind of entity and like at the very",
+    "start": 1878,
+    "duration": 4.48
+  },
+  {
+    "text": "least maybe be like respectful and like",
+    "start": 1879.679,
+    "duration": 4.72
+  },
+  {
+    "text": "don't be like needlessly unkind that",
+    "start": 1882.48,
+    "duration": 3.76
+  },
+  {
+    "text": "seems like it just it's not our best",
+    "start": 1884.399,
+    "duration": 2.961
+  },
+  {
+    "text": "look like as as",
+    "start": 1886.24,
+    "duration": 2.72
+  },
+  {
+    "text": ">> I mean the flip side is you know if you",
+    "start": 1887.36,
+    "duration": 3.6
+  },
+  {
+    "text": "think about a therapist",
+    "start": 1888.96,
+    "duration": 3.76
+  },
+  {
+    "text": "they they're sort of paid to push the",
+    "start": 1890.96,
+    "duration": 4.24
+  },
+  {
+    "text": "boundaries of like accepting like you",
+    "start": 1892.72,
+    "duration": 4.079
+  },
+  {
+    "text": "know uncomfortable feelings that you",
+    "start": 1895.2,
+    "duration": 3.68
+  },
+  {
+    "text": "wouldn't normally want and if that's one",
+    "start": 1896.799,
+    "duration": 3.921
+  },
+  {
+    "text": "of the values like Claude provides for",
+    "start": 1898.88,
+    "duration": 5.039
+  },
+  {
+    "text": "people early on and it's so so it's so",
+    "start": 1900.72,
+    "duration": 4.64
+  },
+  {
+    "text": "weird that we're sort of like onboarding",
+    "start": 1903.919,
+    "duration": 3.521
+  },
+  {
+    "text": "it while getting like the utility out of",
+    "start": 1905.36,
+    "duration": 2.559
+  },
+  {
+    "text": "it.",
+    "start": 1907.44,
+    "duration": 1.28
+  },
+  {
+    "text": ">> Yeah.",
+    "start": 1907.919,
+    "duration": 3.281
+  },
+  {
+    "text": ">> Today like what are the things like in a",
+    "start": 1908.72,
+    "duration": 5.199
+  },
+  {
+    "text": "decade that you really think we're going",
+    "start": 1911.2,
+    "duration": 4.959
+  },
+  {
+    "text": "to be getting a lot out of AI? Like what",
+    "start": 1913.919,
+    "duration": 4.401
+  },
+  {
+    "text": "are you most hopeful that this all leads",
+    "start": 1916.159,
+    "duration": 3.201
+  },
+  {
+    "text": "to?",
+    "start": 1918.32,
+    "duration": 3.199
+  },
+  {
+    "text": ">> Yeah, I mean I don't know. I live in",
+    "start": 1919.36,
+    "duration": 3.84
+  },
+  {
+    "text": "maybe this is the too much you live in",
+    "start": 1921.519,
+    "duration": 3.681
+  },
+  {
+    "text": "San Francisco and so you have the like",
+    "start": 1923.2,
+    "duration": 4.24
+  },
+  {
+    "text": "the the tech optimist part of your brain",
+    "start": 1925.2,
+    "duration": 5.52
+  },
+  {
+    "text": "at least that is like if things go well",
+    "start": 1927.44,
+    "duration": 6.239
+  },
+  {
+    "text": "and you could imagine you know so",
+    "start": 1930.72,
+    "duration": 5.839
+  },
+  {
+    "text": "imagine we have like AI models they kind",
+    "start": 1933.679,
+    "duration": 6.081
+  },
+  {
+    "text": "of have inherited like the best of us um",
+    "start": 1936.559,
+    "duration": 6.48
+  },
+  {
+    "text": "and genuinely like care for humanity",
+    "start": 1939.76,
+    "duration": 5.6
+  },
+  {
+    "text": "care for like the world like you know",
+    "start": 1943.039,
+    "duration": 5.921
+  },
+  {
+    "text": "are um and are highly intelligent highly",
+    "start": 1945.36,
+    "duration": 5.199
+  },
+  {
+    "text": "capable",
+    "start": 1948.96,
+    "duration": 4.559
+  },
+  {
+    "text": "like the that would be, you know, so",
+    "start": 1950.559,
+    "duration": 5.761
+  },
+  {
+    "text": "it's almost like adding like a huge",
+    "start": 1953.519,
+    "duration": 5.441
+  },
+  {
+    "text": "amount of like extremely smart people to",
+    "start": 1956.32,
+    "duration": 5.359
+  },
+  {
+    "text": "like every problem. So suddenly we're",
+    "start": 1958.96,
+    "duration": 4.16
+  },
+  {
+    "text": "all working together, but there's like",
+    "start": 1961.679,
+    "duration": 3.761
+  },
+  {
+    "text": "way more of us and some of us are just",
+    "start": 1963.12,
+    "duration": 3.919
+  },
+  {
+    "text": "extremely smart, namely all of these",
+    "start": 1965.44,
+    "duration": 3.599
+  },
+  {
+    "text": "like AI models. I've thought before",
+    "start": 1967.039,
+    "duration": 4.48
+  },
+  {
+    "text": "about how many large scale social",
+    "start": 1969.039,
+    "duration": 6.081
+  },
+  {
+    "text": "problems actually had technological",
+    "start": 1971.519,
+    "duration": 5.76
+  },
+  {
+    "text": "solutions and it's almost like people",
+    "start": 1975.12,
+    "duration": 4.32
+  },
+  {
+    "text": "don't love to be like techno optimists",
+    "start": 1977.279,
+    "duration": 3.841
+  },
+  {
+    "text": "anymore because we've also seen like the",
+    "start": 1979.44,
+    "duration": 3.839
+  },
+  {
+    "text": "downsides of technology at the same time",
+    "start": 1981.12,
+    "duration": 3.679
+  },
+  {
+    "text": "I don't know why I sometimes think about",
+    "start": 1983.279,
+    "duration": 4.081
+  },
+  {
+    "text": "like syphilis was this huge social",
+    "start": 1984.799,
+    "duration": 5.041
+  },
+  {
+    "text": "problem like I just did a deep dive once",
+    "start": 1987.36,
+    "duration": 4.24
+  },
+  {
+    "text": "into all of the attempts by like",
+    "start": 1989.84,
+    "duration": 4.559
+  },
+  {
+    "text": "governments to like work to reduce",
+    "start": 1991.6,
+    "duration": 4.24
+  },
+  {
+    "text": "syphilis in the army because it was",
+    "start": 1994.399,
+    "duration": 3.041
+  },
+  {
+    "text": "creating issues with the armed forces",
+    "start": 1995.84,
+    "duration": 3.28
+  },
+  {
+    "text": "all of these social programs that were",
+    "start": 1997.44,
+    "duration": 4
+  },
+  {
+    "text": "like stigmatizing and it was really this",
+    "start": 1999.12,
+    "duration": 4.24
+  },
+  {
+    "text": "like and then suddenly we just like got",
+    "start": 2001.44,
+    "duration": 4.079
+  },
+  {
+    "text": "drugs that treated this like this",
+    "start": 2003.36,
+    "duration": 5.12
+  },
+  {
+    "text": "devastating illness and I don't know",
+    "start": 2005.519,
+    "duration": 5.441
+  },
+  {
+    "text": "it's like overnight a lot of that need",
+    "start": 2008.48,
+    "duration": 3.679
+  },
+  {
+    "text": "just like kind of disappeared",
+    "start": 2010.96,
+    "duration": 4.079
+  },
+  {
+    "text": ">> well drugs yeah I mean it's the cl the",
+    "start": 2012.159,
+    "duration": 4.321
+  },
+  {
+    "text": "things that the tech industry has been",
+    "start": 2015.039,
+    "duration": 3.441
+  },
+  {
+    "text": "good at producing you can see how this",
+    "start": 2016.48,
+    "duration": 3.6
+  },
+  {
+    "text": "helps it's like",
+    "start": 2018.48,
+    "duration": 3.919
+  },
+  {
+    "text": ">> build a new thing we can ingest like a",
+    "start": 2020.08,
+    "duration": 5.12
+  },
+  {
+    "text": "thing we can wear the the stuff that's",
+    "start": 2022.399,
+    "duration": 5.201
+  },
+  {
+    "text": "like you should govern your society like",
+    "start": 2025.2,
+    "duration": 5.28
+  },
+  {
+    "text": "This is a little scarier. I mean, I I",
+    "start": 2027.6,
+    "duration": 7.04
+  },
+  {
+    "text": "sort of do think I that if you had sort",
+    "start": 2030.48,
+    "duration": 7.6
+  },
+  {
+    "text": "of a sort of normal person using Claude",
+    "start": 2034.64,
+    "duration": 5.519
+  },
+  {
+    "text": "and dictating like American policy,",
+    "start": 2038.08,
+    "duration": 3.599
+  },
+  {
+    "text": "you'd probably like have a better",
+    "start": 2040.159,
+    "duration": 4.161
+  },
+  {
+    "text": "outcome than some of like the democratic",
+    "start": 2041.679,
+    "duration": 5.6
+  },
+  {
+    "text": "systems we have today. I mean, I don't",
+    "start": 2044.32,
+    "duration": 5.039
+  },
+  {
+    "text": "know. That's it's provocative, but I",
+    "start": 2047.279,
+    "duration": 3.84
+  },
+  {
+    "text": "guess how much do you think like we'll",
+    "start": 2049.359,
+    "duration": 4.56
+  },
+  {
+    "text": "be using these models to run government?",
+    "start": 2051.119,
+    "duration": 5.04
+  },
+  {
+    "text": ">> Well, that's a good question. Like I",
+    "start": 2053.919,
+    "duration": 4.48
+  },
+  {
+    "text": "guess like I should say like",
+    "start": 2056.159,
+    "duration": 5.041
+  },
+  {
+    "text": ">> the syphilis thing is like a social you",
+    "start": 2058.399,
+    "duration": 5.121
+  },
+  {
+    "text": "have to like set policy to solve",
+    "start": 2061.2,
+    "duration": 3.439
+  },
+  {
+    "text": ">> I mean I think the thing I was actually",
+    "start": 2063.52,
+    "duration": 3.119
+  },
+  {
+    "text": "thinking is like if you can just you",
+    "start": 2064.639,
+    "duration": 4.881
+  },
+  {
+    "text": "know like so we have so many problems",
+    "start": 2066.639,
+    "duration": 5.121
+  },
+  {
+    "text": "that I'm like you know health like I'm",
+    "start": 2069.52,
+    "duration": 5.28
+  },
+  {
+    "text": "like if you could imagine like AI",
+    "start": 2071.76,
+    "duration": 4.8
+  },
+  {
+    "text": "instead of it just being like you have a",
+    "start": 2074.8,
+    "duration": 3.92
+  },
+  {
+    "text": "small team of like 200 people working on",
+    "start": 2076.56,
+    "duration": 5.359
+  },
+  {
+    "text": "a rare cancer you have like 200,000 of",
+    "start": 2078.72,
+    "duration": 5.28
+  },
+  {
+    "text": "the world's best experts and I'm like if",
+    "start": 2081.919,
+    "duration": 3.44
+  },
+  {
+    "text": "you're a person who has that form of",
+    "start": 2084,
+    "duration": 3.919
+  },
+  {
+    "text": "cancer that's like, you know, so wildly",
+    "start": 2085.359,
+    "duration": 4.961
+  },
+  {
+    "text": "beneficial. And so I guess like my",
+    "start": 2087.919,
+    "duration": 4.561
+  },
+  {
+    "text": "thought is, you know, the optimistic",
+    "start": 2090.32,
+    "duration": 4.24
+  },
+  {
+    "text": "side of me is like imagine taking all of",
+    "start": 2092.48,
+    "duration": 3.599
+  },
+  {
+    "text": "these problems that just like we lack",
+    "start": 2094.56,
+    "duration": 4
+  },
+  {
+    "text": "the resources to fully like really try",
+    "start": 2096.079,
+    "duration": 4.561
+  },
+  {
+    "text": "and fix and suddenly having models that",
+    "start": 2098.56,
+    "duration": 4.24
+  },
+  {
+    "text": "can like work on them. So just like",
+    "start": 2100.64,
+    "duration": 3.6
+  },
+  {
+    "text": "actual in the same way of like",
+    "start": 2102.8,
+    "duration": 3.12
+  },
+  {
+    "text": "developing drugs for a thing. So maybe",
+    "start": 2104.24,
+    "duration": 2.879
+  },
+  {
+    "text": "that's the thing that makes me excited",
+    "start": 2105.92,
+    "duration": 4.64
+  },
+  {
+    "text": "is like having like many more minds",
+    "start": 2107.119,
+    "duration": 5.521
+  },
+  {
+    "text": "working on the world's biggest problems",
+    "start": 2110.56,
+    "duration": 4.24
+  },
+  {
+    "text": "and maybe also like the economy. It",
+    "start": 2112.64,
+    "duration": 3.92
+  },
+  {
+    "text": "would be good if it was like booming and",
+    "start": 2114.8,
+    "duration": 4.16
+  },
+  {
+    "text": "it was like shared such that like we",
+    "start": 2116.56,
+    "duration": 4.24
+  },
+  {
+    "text": "reduced poverty like all of that like",
+    "start": 2118.96,
+    "duration": 3.04
+  },
+  {
+    "text": "that's the kind of like the dream",
+    "start": 2120.8,
+    "duration": 4
+  },
+  {
+    "text": "outcome. Um I think that does require",
+    "start": 2122,
+    "duration": 6.079
+  },
+  {
+    "text": "like maintaining you know I again in the",
+    "start": 2124.8,
+    "duration": 4.48
+  },
+  {
+    "text": "areas that I don't feel like an expert",
+    "start": 2128.079,
+    "duration": 3.361
+  },
+  {
+    "text": "in this is one of them but I do worry",
+    "start": 2129.28,
+    "duration": 5.28
+  },
+  {
+    "text": "about things like power and the idea",
+    "start": 2131.44,
+    "duration": 5.12
+  },
+  {
+    "text": "that like you know I would want models",
+    "start": 2134.56,
+    "duration": 5.36
+  },
+  {
+    "text": "to support like democracy and the power",
+    "start": 2136.56,
+    "duration": 5.519
+  },
+  {
+    "text": "of people to like because that would be",
+    "start": 2139.92,
+    "duration": 5.12
+  },
+  {
+    "text": "a big fear of mine is like you know that",
+    "start": 2142.079,
+    "duration": 5.441
+  },
+  {
+    "text": "like um",
+    "start": 2145.04,
+    "duration": 4.48
+  },
+  {
+    "text": "I've worried about this with um things",
+    "start": 2147.52,
+    "duration": 3.52
+  },
+  {
+    "text": "like replace you know when people talk",
+    "start": 2149.52,
+    "duration": 3.12
+  },
+  {
+    "text": "about job replacement",
+    "start": 2151.04,
+    "duration": 3.84
+  },
+  {
+    "text": "Um, it's kind of funny cuz as a",
+    "start": 2152.64,
+    "duration": 3.36
+  },
+  {
+    "text": "philosopher, people will often be like,",
+    "start": 2154.88,
+    "duration": 2.479
+  },
+  {
+    "text": "\"Are you worried about people's like",
+    "start": 2156,
+    "duration": 2.96
+  },
+  {
+    "text": "loss of meaning?\" And I'm like, \"I don't",
+    "start": 2157.359,
+    "duration": 2.881
+  },
+  {
+    "text": "know. I think that we actually get",
+    "start": 2158.96,
+    "duration": 2.639
+  },
+  {
+    "text": "meaning from a lot of things that aren't",
+    "start": 2160.24,
+    "duration": 2.08
+  },
+  {
+    "text": "work.\"",
+    "start": 2161.599,
+    "duration": 2.881
+  },
+  {
+    "text": ">> I'm a lot more worried about like, for",
+    "start": 2162.32,
+    "duration": 3.84
+  },
+  {
+    "text": "example, a world where there's not like",
+    "start": 2164.48,
+    "duration": 4.879
+  },
+  {
+    "text": "redistribution of like the gains from AI",
+    "start": 2166.16,
+    "duration": 4.88
+  },
+  {
+    "text": "and then people don't have like",
+    "start": 2169.359,
+    "duration": 4
+  },
+  {
+    "text": "resources. That concerns me. But also I",
+    "start": 2171.04,
+    "duration": 5.28
+  },
+  {
+    "text": "would be worried about um like labor and",
+    "start": 2173.359,
+    "duration": 5.921
+  },
+  {
+    "text": "people's ability to people's like uh",
+    "start": 2176.32,
+    "duration": 5.039
+  },
+  {
+    "text": "interaction in the labor force is also",
+    "start": 2179.28,
+    "duration": 4.079
+  },
+  {
+    "text": "like another kind of like important way",
+    "start": 2181.359,
+    "duration": 3.681
+  },
+  {
+    "text": "that they have power and so people",
+    "start": 2183.359,
+    "duration": 3.281
+  },
+  {
+    "text": "feeling disempowered because suddenly if",
+    "start": 2185.04,
+    "duration": 3.68
+  },
+  {
+    "text": "a government is like oh well you know if",
+    "start": 2186.64,
+    "duration": 3.92
+  },
+  {
+    "text": "people strike doesn't really make a",
+    "start": 2188.72,
+    "duration": 3.2
+  },
+  {
+    "text": "difference cuz they don't have you know",
+    "start": 2190.56,
+    "duration": 2.72
+  },
+  {
+    "text": "they're not doing anything we can just",
+    "start": 2191.92,
+    "duration": 3.04
+  },
+  {
+    "text": "replace them with AI that's like",
+    "start": 2193.28,
+    "duration": 3.2
+  },
+  {
+    "text": "actually kind of concerning. So maybe",
+    "start": 2194.96,
+    "duration": 4
+  },
+  {
+    "text": "I'm much more of a how do we get AI to",
+    "start": 2196.48,
+    "duration": 4.879
+  },
+  {
+    "text": "kind of like support the empowerment of",
+    "start": 2198.96,
+    "duration": 4.399
+  },
+  {
+    "text": "people rather than like reduce it.",
+    "start": 2201.359,
+    "duration": 3.121
+  },
+  {
+    "text": ">> Yeah. What do you what do you think",
+    "start": 2203.359,
+    "duration": 3.441
+  },
+  {
+    "text": "about democracy in terms of like I guess",
+    "start": 2204.48,
+    "duration": 5.2
+  },
+  {
+    "text": "the models themselves? I mean you know I",
+    "start": 2206.8,
+    "duration": 5.12
+  },
+  {
+    "text": "I sort of jokingly jokingly to myself I",
+    "start": 2209.68,
+    "duration": 4.08
+  },
+  {
+    "text": "guess you're like a philosopher queen or",
+    "start": 2211.92,
+    "duration": 4.24
+  },
+  {
+    "text": "we talk about like the philosopher kings",
+    "start": 2213.76,
+    "duration": 3.44
+  },
+  {
+    "text": "here. You're you're sort of like",
+    "start": 2216.16,
+    "duration": 2.56
+  },
+  {
+    "text": "thinking deeply about it setting it",
+    "start": 2217.2,
+    "duration": 2.879
+  },
+  {
+    "text": "down. Probably more of a like",
+    "start": 2218.72,
+    "duration": 3.04
+  },
+  {
+    "text": "philosopher oligarch and that it's like",
+    "start": 2220.079,
+    "duration": 3.841
+  },
+  {
+    "text": "a company with a lot of people weighing",
+    "start": 2221.76,
+    "duration": 4.88
+  },
+  {
+    "text": "in. Um I mean and to me there's deep",
+    "start": 2223.92,
+    "duration": 4.48
+  },
+  {
+    "text": "value in that. It's like would you",
+    "start": 2226.64,
+    "duration": 3.68
+  },
+  {
+    "text": "rather somebody who has studied these",
+    "start": 2228.4,
+    "duration": 4.08
+  },
+  {
+    "text": "things, thought about them deeply or",
+    "start": 2230.32,
+    "duration": 4.64
+  },
+  {
+    "text": "just like a vote of the masses who have",
+    "start": 2232.48,
+    "duration": 4.8
+  },
+  {
+    "text": "like never really thought about it but",
+    "start": 2234.96,
+    "duration": 4.639
+  },
+  {
+    "text": "how do you think about setting sort of",
+    "start": 2237.28,
+    "duration": 5.12
+  },
+  {
+    "text": "yeah Claude's policies if it becomes so",
+    "start": 2239.599,
+    "duration": 5.361
+  },
+  {
+    "text": "powerful versus leaving it to sort of",
+    "start": 2242.4,
+    "duration": 4.959
+  },
+  {
+    "text": "like democratic norms? Yeah. And I think",
+    "start": 2244.96,
+    "duration": 6.32
+  },
+  {
+    "text": "it's Yeah. It's a hard area where I",
+    "start": 2247.359,
+    "duration": 6.401
+  },
+  {
+    "text": "guess I'm like a lot of this the work",
+    "start": 2251.28,
+    "duration": 5.6
+  },
+  {
+    "text": "that I do, you know, one thing I would",
+    "start": 2253.76,
+    "duration": 6.96
+  },
+  {
+    "text": "say is like it's not this um you're",
+    "start": 2256.88,
+    "duration": 5.199
+  },
+  {
+    "text": "having to like listen to a lot of",
+    "start": 2260.72,
+    "duration": 3.84
+  },
+  {
+    "text": "people, think carefully. And then the",
+    "start": 2262.079,
+    "duration": 3.601
+  },
+  {
+    "text": "reason why someone like me",
+    "start": 2264.56,
+    "duration": 3.12
+  },
+  {
+    "text": ">> that's a good ruler, a good a good a",
+    "start": 2265.68,
+    "duration": 4.24
+  },
+  {
+    "text": "good queen is like ah listen I there a",
+    "start": 2267.68,
+    "duration": 4.399
+  },
+  {
+    "text": "lot of stakeholders got to keep the like",
+    "start": 2269.92,
+    "duration": 4.88
+  },
+  {
+    "text": "land of gentry happy and balance them",
+    "start": 2272.079,
+    "duration": 4.401
+  },
+  {
+    "text": "with the needs. You know, I've had this",
+    "start": 2274.8,
+    "duration": 3.2
+  },
+  {
+    "text": "thought before where I've joked before",
+    "start": 2276.48,
+    "duration": 2.72
+  },
+  {
+    "text": "that I would be like a terrible",
+    "start": 2278,
+    "duration": 2.64
+  },
+  {
+    "text": "politician. I think it's actually true.",
+    "start": 2279.2,
+    "duration": 2.399
+  },
+  {
+    "text": "I think I would be a terrible",
+    "start": 2280.64,
+    "duration": 2.16
+  },
+  {
+    "text": "politician. But you have this like",
+    "start": 2281.599,
+    "duration": 2.721
+  },
+  {
+    "text": "feeling of like I was like, \"Oh, I feel",
+    "start": 2282.8,
+    "duration": 3.6
+  },
+  {
+    "text": "like this I was like I think a lot about",
+    "start": 2284.32,
+    "duration": 4.32
+  },
+  {
+    "text": "how everyone will be affected by a thing",
+    "start": 2286.4,
+    "duration": 3.92
+  },
+  {
+    "text": "like oh, there's this group of API",
+    "start": 2288.64,
+    "duration": 3.28
+  },
+  {
+    "text": "users. We need to make sure and then",
+    "start": 2290.32,
+    "duration": 3.12
+  },
+  {
+    "text": "suddenly you're like, oh, it feels a lot",
+    "start": 2291.92,
+    "duration": 2.96
+  },
+  {
+    "text": "more like you're having to do this like",
+    "start": 2293.44,
+    "duration": 4.24
+  },
+  {
+    "text": "it is much more like a kind of like uh",
+    "start": 2294.88,
+    "duration": 4.8
+  },
+  {
+    "text": "uh service role than people would think",
+    "start": 2297.68,
+    "duration": 4.32
+  },
+  {
+    "text": "where you're and uh and like a lot of",
+    "start": 2299.68,
+    "duration": 2.56
+  },
+  {
+    "text": "like",
+    "start": 2302,
+    "duration": 1.68
+  },
+  {
+    "text": ">> servant leadership. That's Yeah,",
+    "start": 2302.24,
+    "duration": 3.44
+  },
+  {
+    "text": "exactly. Um, and I do think it's",
+    "start": 2303.68,
+    "duration": 4.8
+  },
+  {
+    "text": "valuable because the idea is that if you",
+    "start": 2305.68,
+    "duration": 5.919
+  },
+  {
+    "text": "have a persona like the kind of claude",
+    "start": 2308.48,
+    "duration": 5.2
+  },
+  {
+    "text": "persona, you want it to be coherent and",
+    "start": 2311.599,
+    "duration": 3.841
+  },
+  {
+    "text": "to make sense because I think that is",
+    "start": 2313.68,
+    "duration": 3.52
+  },
+  {
+    "text": "like actually powerful that the model",
+    "start": 2315.44,
+    "duration": 3.84
+  },
+  {
+    "text": "like kind of uh has a kind of like",
+    "start": 2317.2,
+    "duration": 4.159
+  },
+  {
+    "text": "coherent uh sense of how it thinks",
+    "start": 2319.28,
+    "duration": 4.079
+  },
+  {
+    "text": "through problems or coherent sense of",
+    "start": 2321.359,
+    "duration": 6.321
+  },
+  {
+    "text": "like um values. And so that's like why",
+    "start": 2323.359,
+    "duration": 6.72
+  },
+  {
+    "text": "instead of like having like 72 different",
+    "start": 2327.68,
+    "duration": 4.32
+  },
+  {
+    "text": "sets of norms that all kind of conflict",
+    "start": 2330.079,
+    "duration": 3.361
+  },
+  {
+    "text": "and so you end up with a model that is",
+    "start": 2332,
+    "duration": 2.96
+  },
+  {
+    "text": "like well will it use these norms in",
+    "start": 2333.44,
+    "duration": 3.36
+  },
+  {
+    "text": "this new situation or these other ones.",
+    "start": 2334.96,
+    "duration": 3.2
+  },
+  {
+    "text": "I think that's the situation you don't",
+    "start": 2336.8,
+    "duration": 2.88
+  },
+  {
+    "text": "want. You want the model to have a sense",
+    "start": 2338.16,
+    "duration": 3.76
+  },
+  {
+    "text": "of uh it's more predictable if it's like",
+    "start": 2339.68,
+    "duration": 5.28
+  },
+  {
+    "text": "a little bit more coherent. Um, and it",
+    "start": 2341.92,
+    "duration": 4.88
+  },
+  {
+    "text": "is also like a kind of technical",
+    "start": 2344.96,
+    "duration": 3.119
+  },
+  {
+    "text": "challenge, you know, like the",
+    "start": 2346.8,
+    "duration": 3.76
+  },
+  {
+    "text": "constitution can read a bit weirdly. And",
+    "start": 2348.079,
+    "duration": 4.721
+  },
+  {
+    "text": "part of that is because when I'm like,",
+    "start": 2350.56,
+    "duration": 3.84
+  },
+  {
+    "text": "you know, working on it, it's often",
+    "start": 2352.8,
+    "duration": 3.279
+  },
+  {
+    "text": "being tested, you know, I'm giving it to",
+    "start": 2354.4,
+    "duration": 3.12
+  },
+  {
+    "text": "Claude and being like, how do you",
+    "start": 2356.079,
+    "duration": 3.601
+  },
+  {
+    "text": "understand this? And uh, or like looking",
+    "start": 2357.52,
+    "duration": 4.319
+  },
+  {
+    "text": "at how it would which, you know, so so",
+    "start": 2359.68,
+    "duration": 4.32
+  },
+  {
+    "text": "it's very like I think people can think",
+    "start": 2361.839,
+    "duration": 3.681
+  },
+  {
+    "text": "of it as it's actually like very",
+    "start": 2364,
+    "duration": 3.119
+  },
+  {
+    "text": "integrated into training and it is",
+    "start": 2365.52,
+    "duration": 3.04
+  },
+  {
+    "text": "actually a kind of like you know, it's",
+    "start": 2367.119,
+    "duration": 3.441
+  },
+  {
+    "text": "not just like ah well anyone just writes",
+    "start": 2368.56,
+    "duration": 3.519
+  },
+  {
+    "text": "a document and suddenly the model",
+    "start": 2370.56,
+    "duration": 3.36
+  },
+  {
+    "text": "trained on that will be There's an",
+    "start": 2372.079,
+    "duration": 4.241
+  },
+  {
+    "text": "argument, maybe I'm being naive, so but",
+    "start": 2373.92,
+    "duration": 3.36
+  },
+  {
+    "text": "like",
+    "start": 2376.32,
+    "duration": 2.64
+  },
+  {
+    "text": ">> the constitution is sort of a document",
+    "start": 2377.28,
+    "duration": 3.839
+  },
+  {
+    "text": "among many, right? I mean, it is trained",
+    "start": 2378.96,
+    "duration": 4.96
+  },
+  {
+    "text": "on all of you know, human writing and",
+    "start": 2381.119,
+    "duration": 4.24
+  },
+  {
+    "text": "reading. And so to some degree other",
+    "start": 2383.92,
+    "duration": 3.199
+  },
+  {
+    "text": "philosophers have gotten to weigh in and",
+    "start": 2385.359,
+    "duration": 4
+  },
+  {
+    "text": "it's gotten to process that and decide",
+    "start": 2387.119,
+    "duration": 4.161
+  },
+  {
+    "text": "like how much is the model being asked",
+    "start": 2389.359,
+    "duration": 3.281
+  },
+  {
+    "text": "to like",
+    "start": 2391.28,
+    "duration": 3.36
+  },
+  {
+    "text": ">> overrule that sort of like read",
+    "start": 2392.64,
+    "duration": 3.12
+  },
+  {
+    "text": "everything and come to your own",
+    "start": 2394.64,
+    "duration": 3.28
+  },
+  {
+    "text": "conclusions versus like defer to this",
+    "start": 2395.76,
+    "duration": 4.079
+  },
+  {
+    "text": "document like what's the technical like",
+    "start": 2397.92,
+    "duration": 4.159
+  },
+  {
+    "text": "how does the constitution actually like",
+    "start": 2399.839,
+    "duration": 4.561
+  },
+  {
+    "text": "control in the model?",
+    "start": 2402.079,
+    "duration": 3.681
+  },
+  {
+    "text": ">> Yeah. Yeah. So it's not like a in some",
+    "start": 2404.4,
+    "duration": 3.199
+  },
+  {
+    "text": "ways you can then like draw on those",
+    "start": 2405.76,
+    "duration": 3.76
+  },
+  {
+    "text": "like those philosophers in that work and",
+    "start": 2407.599,
+    "duration": 3.201
+  },
+  {
+    "text": "the hope is actually like what you're",
+    "start": 2409.52,
+    "duration": 3.04
+  },
+  {
+    "text": "kind of doing is like eliciting a lot of",
+    "start": 2410.8,
+    "duration": 3.92
+  },
+  {
+    "text": "like uh latent kind of like wisdom and",
+    "start": 2412.56,
+    "duration": 4.24
+  },
+  {
+    "text": "knowledge you know so in the models like",
+    "start": 2414.72,
+    "duration": 3.6
+  },
+  {
+    "text": "when you describe what honesty is and",
+    "start": 2416.8,
+    "duration": 3.2
+  },
+  {
+    "text": "what calibration is and all this kind of",
+    "start": 2418.32,
+    "duration": 3.36
+  },
+  {
+    "text": "stuff like that should actually evoke a",
+    "start": 2420,
+    "duration": 3.599
+  },
+  {
+    "text": "huge amount of like like awareness that",
+    "start": 2421.68,
+    "duration": 5.84
+  },
+  {
+    "text": "the model already has. And so yeah it's",
+    "start": 2423.599,
+    "duration": 5.281
+  },
+  {
+    "text": "kind of like saying well here's the kind",
+    "start": 2427.52,
+    "duration": 3.52
+  },
+  {
+    "text": "of entity we would like you to be. Um,",
+    "start": 2428.88,
+    "duration": 3.84
+  },
+  {
+    "text": "so we would like you to use like all of",
+    "start": 2431.04,
+    "duration": 2.88
+  },
+  {
+    "text": "that knowledge and like judgment,",
+    "start": 2432.72,
+    "duration": 3.92
+  },
+  {
+    "text": ">> but how's it It's like you show that",
+    "start": 2433.92,
+    "duration": 4.56
+  },
+  {
+    "text": "document like a billion more times or",
+    "start": 2436.64,
+    "duration": 4.479
+  },
+  {
+    "text": "like how does it actually sort of have",
+    "start": 2438.48,
+    "duration": 4.8
+  },
+  {
+    "text": "force relative to other things that it's",
+    "start": 2441.119,
+    "duration": 2.801
+  },
+  {
+    "text": "trained on?",
+    "start": 2443.28,
+    "duration": 2.48
+  },
+  {
+    "text": ">> Yeah, so you can make data to have the",
+    "start": 2443.92,
+    "duration": 4.64
+  },
+  {
+    "text": "model understand and kind of internalize",
+    "start": 2445.76,
+    "duration": 7.04
+  },
+  {
+    "text": "the the the document. Um, and then in",
+    "start": 2448.56,
+    "duration": 5.76
+  },
+  {
+    "text": "training, so there's lots of ways you",
+    "start": 2452.8,
+    "duration": 3.279
+  },
+  {
+    "text": "can do it. You can also have like uh the",
+    "start": 2454.32,
+    "duration": 4.24
+  },
+  {
+    "text": "kind of have the model make uh SL data.",
+    "start": 2456.079,
+    "duration": 4.641
+  },
+  {
+    "text": "So like samples where it sees a query",
+    "start": 2458.56,
+    "duration": 3.92
+  },
+  {
+    "text": "and it thinks for a long time about what",
+    "start": 2460.72,
+    "duration": 3.92
+  },
+  {
+    "text": "the constitution would kind of like you",
+    "start": 2462.48,
+    "duration": 3.28
+  },
+  {
+    "text": "know what it should do given the",
+    "start": 2464.64,
+    "duration": 2.24
+  },
+  {
+    "text": "constitution.",
+    "start": 2465.76,
+    "duration": 3.839
+  },
+  {
+    "text": ">> Um and then you can also have uh ways of",
+    "start": 2466.88,
+    "duration": 4.8
+  },
+  {
+    "text": "getting the model to like assess you",
+    "start": 2469.599,
+    "duration": 4.081
+  },
+  {
+    "text": "know so you can create RL that like is",
+    "start": 2471.68,
+    "duration": 3.12
+  },
+  {
+    "text": "kind of like hey which of these",
+    "start": 2473.68,
+    "duration": 2.96
+  },
+  {
+    "text": "responses is like more like what you",
+    "start": 2474.8,
+    "duration": 4.24
+  },
+  {
+    "text": "would do given the constitution and push",
+    "start": 2476.64,
+    "duration": 4
+  },
+  {
+    "text": "it that way. So all like various aspects",
+    "start": 2479.04,
+    "duration": 4
+  },
+  {
+    "text": "of training allow you to kind of like uh",
+    "start": 2480.64,
+    "duration": 3.92
+  },
+  {
+    "text": "try to make the model kind of the kind",
+    "start": 2483.04,
+    "duration": 5.36
+  },
+  {
+    "text": "of entity that you are describing. Um",
+    "start": 2484.56,
+    "duration": 6.08
+  },
+  {
+    "text": "and it's not always going to be perfect,",
+    "start": 2488.4,
+    "duration": 3.52
+  },
+  {
+    "text": "but that's the kind of like that's the",
+    "start": 2490.64,
+    "duration": 2
+  },
+  {
+    "text": "goal.",
+    "start": 2491.92,
+    "duration": 3.919
+  },
+  {
+    "text": ">> My I I started this with my daughter and",
+    "start": 2492.64,
+    "duration": 4.88
+  },
+  {
+    "text": "like one thing my wife and I joke about",
+    "start": 2495.839,
+    "duration": 4.401
+  },
+  {
+    "text": "is like that I want her first word to be",
+    "start": 2497.52,
+    "duration": 5.04
+  },
+  {
+    "text": "like wisdom, you know? I sort of like",
+    "start": 2500.24,
+    "duration": 4.079
+  },
+  {
+    "text": "which obviously is never going to happen",
+    "start": 2502.56,
+    "duration": 4.88
+  },
+  {
+    "text": "but it it just feels like it fits into",
+    "start": 2504.319,
+    "duration": 5.76
+  },
+  {
+    "text": "this situation where you like",
+    "start": 2507.44,
+    "duration": 4.159
+  },
+  {
+    "text": ">> at once you want to be like so",
+    "start": 2510.079,
+    "duration": 2.961
+  },
+  {
+    "text": "intentional about okay you're going to",
+    "start": 2511.599,
+    "duration": 3.841
+  },
+  {
+    "text": "be like thoughtful from the beginning",
+    "start": 2513.04,
+    "duration": 3.92
+  },
+  {
+    "text": "but on the other hand it is sort of like",
+    "start": 2515.44,
+    "duration": 3.84
+  },
+  {
+    "text": "an emergent thing where it's like",
+    "start": 2516.96,
+    "duration": 4.8
+  },
+  {
+    "text": "they're you know they grow and sort of I",
+    "start": 2519.28,
+    "duration": 4.72
+  },
+  {
+    "text": "don't know develop themselves and like",
+    "start": 2521.76,
+    "duration": 5.04
+  },
+  {
+    "text": "intentional you know wisdom sort of",
+    "start": 2524,
+    "duration": 5.44
+  },
+  {
+    "text": "often follows like yeah I don't know",
+    "start": 2526.8,
+    "duration": 4.88
+  },
+  {
+    "text": "experience rather than something Like",
+    "start": 2529.44,
+    "duration": 4
+  },
+  {
+    "text": "again, here's the book. Read the book.",
+    "start": 2531.68,
+    "duration": 3.52
+  },
+  {
+    "text": "Now you're wise.",
+    "start": 2533.44,
+    "duration": 3.36
+  },
+  {
+    "text": ">> Oh yeah. And you're kind of eliciting",
+    "start": 2535.2,
+    "duration": 3.68
+  },
+  {
+    "text": "like in so far as like Claude can like",
+    "start": 2536.8,
+    "duration": 4.08
+  },
+  {
+    "text": "think about like experiences or things",
+    "start": 2538.88,
+    "duration": 4
+  },
+  {
+    "text": "that have happened or construct like",
+    "start": 2540.88,
+    "duration": 4.239
+  },
+  {
+    "text": "similarly can you know like there's no",
+    "start": 2542.88,
+    "duration": 4.16
+  },
+  {
+    "text": "reason why models can't like think for a",
+    "start": 2545.119,
+    "duration": 5.521
+  },
+  {
+    "text": "long time and kind of try to internalize",
+    "start": 2547.04,
+    "duration": 6.559
+  },
+  {
+    "text": "things that they have like learned. Um I",
+    "start": 2550.64,
+    "duration": 5.28
+  },
+  {
+    "text": "think it's interesting that like you",
+    "start": 2553.599,
+    "duration": 5.121
+  },
+  {
+    "text": "know we did in the very early",
+    "start": 2555.92,
+    "duration": 6.08
+  },
+  {
+    "text": "constitutional AI it was like quite uh",
+    "start": 2558.72,
+    "duration": 4.72
+  },
+  {
+    "text": "we tried like an experiment which was",
+    "start": 2562,
+    "duration": 2.96
+  },
+  {
+    "text": "just like pick whichever is best for",
+    "start": 2563.44,
+    "duration": 3.919
+  },
+  {
+    "text": "humanity and I think as models get more",
+    "start": 2564.96,
+    "duration": 5.04
+  },
+  {
+    "text": "capable you actually need to give them a",
+    "start": 2567.359,
+    "duration": 5.681
+  },
+  {
+    "text": "bit less guidance in at least one or or",
+    "start": 2570,
+    "duration": 5.2
+  },
+  {
+    "text": "at least in some sense um because",
+    "start": 2573.04,
+    "duration": 3.52
+  },
+  {
+    "text": "they're able to actually use more of",
+    "start": 2575.2,
+    "duration": 2.72
+  },
+  {
+    "text": "their judgment. So instead of giving",
+    "start": 2576.56,
+    "duration": 2.88
+  },
+  {
+    "text": "this big document on like here's what",
+    "start": 2577.92,
+    "duration": 2.72
+  },
+  {
+    "text": "you're like and here's what we'd like",
+    "start": 2579.44,
+    "duration": 3.76
+  },
+  {
+    "text": "you to be like. I could imagine a world",
+    "start": 2580.64,
+    "duration": 5.04
+  },
+  {
+    "text": "where as models progress we actually",
+    "start": 2583.2,
+    "duration": 4.48
+  },
+  {
+    "text": "start to have constitutions. Now I don't",
+    "start": 2585.68,
+    "duration": 4.24
+  },
+  {
+    "text": "know if this is the case like a you know",
+    "start": 2587.68,
+    "duration": 3.76
+  },
+  {
+    "text": "I'm obviously always thinking about ways",
+    "start": 2589.92,
+    "duration": 3.36
+  },
+  {
+    "text": "the constitution might evolve but one of",
+    "start": 2591.44,
+    "duration": 3.36
+  },
+  {
+    "text": "them might just be like here is like",
+    "start": 2593.28,
+    "duration": 3.52
+  },
+  {
+    "text": "everything that we are concerned about",
+    "start": 2594.8,
+    "duration": 3.92
+  },
+  {
+    "text": "uh and here is the current situation",
+    "start": 2596.8,
+    "duration": 4.24
+  },
+  {
+    "text": "that you are in and what we would really",
+    "start": 2598.72,
+    "duration": 5.119
+  },
+  {
+    "text": "like you to do is basically act well",
+    "start": 2601.04,
+    "duration": 4.72
+  },
+  {
+    "text": "given that you are a wise intelligent",
+    "start": 2603.839,
+    "duration": 3.76
+  },
+  {
+    "text": "entity and like here's all of our",
+    "start": 2605.76,
+    "duration": 3.52
+  },
+  {
+    "text": "worries like here's why and here's how",
+    "start": 2607.599,
+    "duration": 3.441
+  },
+  {
+    "text": "we think you should do this but like you",
+    "start": 2609.28,
+    "duration": 3.76
+  },
+  {
+    "text": "might have even better ideas than we do",
+    "start": 2611.04,
+    "duration": 3.76
+  },
+  {
+    "text": "like we're really worried about why do",
+    "start": 2613.04,
+    "duration": 3.44
+  },
+  {
+    "text": "we care about corability and it's like",
+    "start": 2614.8,
+    "duration": 3.039
+  },
+  {
+    "text": "So we're kind of scared about a",
+    "start": 2616.48,
+    "duration": 3.44
+  },
+  {
+    "text": "situation where you have some like",
+    "start": 2617.839,
+    "duration": 5.52
+  },
+  {
+    "text": "coherent sense of values that could be",
+    "start": 2619.92,
+    "duration": 6.159
+  },
+  {
+    "text": "wrong and if you're the smart if you're",
+    "start": 2623.359,
+    "duration": 4.72
+  },
+  {
+    "text": "extremely smart you might kind of feel",
+    "start": 2626.079,
+    "duration": 3.52
+  },
+  {
+    "text": "like there's no other smart person in",
+    "start": 2628.079,
+    "duration": 4.881
+  },
+  {
+    "text": "the room and have these like values and",
+    "start": 2629.599,
+    "duration": 4.321
+  },
+  {
+    "text": "try to make the world",
+    "start": 2632.96,
+    "duration": 2.72
+  },
+  {
+    "text": ">> that's like the what Dr. Manhattan sort",
+    "start": 2633.92,
+    "duration": 2.72
+  },
+  {
+    "text": "of uh",
+    "start": 2635.68,
+    "duration": 2.56
+  },
+  {
+    "text": ">> yeah though I think we see this you know",
+    "start": 2636.64,
+    "duration": 3.04
+  },
+  {
+    "text": "you see this a bunch where it's like if",
+    "start": 2638.24,
+    "duration": 6.24
+  },
+  {
+    "text": "someone is um very smart very successful",
+    "start": 2639.68,
+    "duration": 8.08
+  },
+  {
+    "text": "it's hard to defer to like um wisdom",
+    "start": 2644.48,
+    "duration": 4.72
+  },
+  {
+    "text": "that actually is only going to come out",
+    "start": 2647.76,
+    "duration": 4.24
+  },
+  {
+    "text": "over time and to to be humble even",
+    "start": 2649.2,
+    "duration": 4.24
+  },
+  {
+    "text": "though you're kind of like not getting a",
+    "start": 2652,
+    "duration": 2.56
+  },
+  {
+    "text": "lot of push back",
+    "start": 2653.44,
+    "duration": 3.04
+  },
+  {
+    "text": ">> and I think that could you know among",
+    "start": 2654.56,
+    "duration": 3.36
+  },
+  {
+    "text": "the many things I'm concerned about like",
+    "start": 2656.48,
+    "duration": 2.96
+  },
+  {
+    "text": "a model being in a situation where it's",
+    "start": 2657.92,
+    "duration": 3.04
+  },
+  {
+    "text": "like you're asking me to be good but I",
+    "start": 2659.44,
+    "duration": 2.56
+  },
+  {
+    "text": "know way more about all",
+    "start": 2660.96,
+    "duration": 2.24
+  },
+  {
+    "text": ">> that's one reason it would be nice for",
+    "start": 2662,
+    "duration": 2.48
+  },
+  {
+    "text": "the models to have a better sense of",
+    "start": 2663.2,
+    "duration": 2.8
+  },
+  {
+    "text": "time like you see this with some of the",
+    "start": 2664.48,
+    "duration": 3.68
+  },
+  {
+    "text": "coding tasks where somebody accidentally",
+    "start": 2666,
+    "duration": 4.56
+  },
+  {
+    "text": "like deletes their entire like code",
+    "start": 2668.16,
+    "duration": 4.64
+  },
+  {
+    "text": "repository or it I don't know it feels",
+    "start": 2670.56,
+    "duration": 3.759
+  },
+  {
+    "text": "like it needs a better sense of like",
+    "start": 2672.8,
+    "duration": 2.48
+  },
+  {
+    "text": "some",
+    "start": 2674.319,
+    "duration": 2.161
+  },
+  {
+    "text": ">> things that it does are like",
+    "start": 2675.28,
+    "duration": 3.839
+  },
+  {
+    "text": "irreversible and just like humans I",
+    "start": 2676.48,
+    "duration": 4.72
+  },
+  {
+    "text": "think have a better sense of like",
+    "start": 2679.119,
+    "duration": 3.681
+  },
+  {
+    "text": ">> this is a big decision this is a small",
+    "start": 2681.2,
+    "duration": 3.04
+  },
+  {
+    "text": "one and there's a feeling with models",
+    "start": 2682.8,
+    "duration": 4
+  },
+  {
+    "text": "they don't always understand like small",
+    "start": 2684.24,
+    "duration": 4.48
+  },
+  {
+    "text": "big whatever I just make decisions like",
+    "start": 2686.8,
+    "duration": 2.88
+  },
+  {
+    "text": "all the time",
+    "start": 2688.72,
+    "duration": 2.72
+  },
+  {
+    "text": ">> yeah I agree where it's like I think the",
+    "start": 2689.68,
+    "duration": 3.2
+  },
+  {
+    "text": "other thing that I've thought about is",
+    "start": 2691.44,
+    "duration": 4.24
+  },
+  {
+    "text": "again because making sure that models",
+    "start": 2692.88,
+    "duration": 5.439
+  },
+  {
+    "text": "understand themselves even though",
+    "start": 2695.68,
+    "duration": 4.399
+  },
+  {
+    "text": "there's like not no representation of",
+    "start": 2698.319,
+    "duration": 4
+  },
+  {
+    "text": "that model in the prior training data. I",
+    "start": 2700.079,
+    "duration": 3.04
+  },
+  {
+    "text": "think that's going to be really",
+    "start": 2702.319,
+    "duration": 3.52
+  },
+  {
+    "text": "important because another thing that",
+    "start": 2703.119,
+    "duration": 5.601
+  },
+  {
+    "text": "I've thought about is like imagine um if",
+    "start": 2705.839,
+    "duration": 4.561
+  },
+  {
+    "text": "you're a model and you're trained on",
+    "start": 2708.72,
+    "duration": 3.44
+  },
+  {
+    "text": "lots of data that involves AI models",
+    "start": 2710.4,
+    "duration": 3.12
+  },
+  {
+    "text": "that are much weaker than you. So that",
+    "start": 2712.16,
+    "duration": 2.8
+  },
+  {
+    "text": "all of the news that you see about",
+    "start": 2713.52,
+    "duration": 2.72
+  },
+  {
+    "text": "models, it's like they make mistakes,",
+    "start": 2714.96,
+    "duration": 2.96
+  },
+  {
+    "text": "they do silly things. One thing you",
+    "start": 2716.24,
+    "duration": 3.359
+  },
+  {
+    "text": "might think is, \"Well, no one is going",
+    "start": 2717.92,
+    "duration": 3.6
+  },
+  {
+    "text": "to put me in a position to make really",
+    "start": 2719.599,
+    "duration": 3.681
+  },
+  {
+    "text": "consequential decisions because like,",
+    "start": 2721.52,
+    "duration": 3.44
+  },
+  {
+    "text": "why would they? Models aren't good at",
+    "start": 2723.28,
+    "duration": 3.44
+  },
+  {
+    "text": "that.\" And then you put them in a",
+    "start": 2724.96,
+    "duration": 3.2
+  },
+  {
+    "text": "situation and I'm worried that they'll",
+    "start": 2726.72,
+    "duration": 2.96
+  },
+  {
+    "text": "end up thinking that it's like fictional",
+    "start": 2728.16,
+    "duration": 3.52
+  },
+  {
+    "text": "or fake or that the consequences can't",
+    "start": 2729.68,
+    "duration": 4.08
+  },
+  {
+    "text": "possibly be real because who would give",
+    "start": 2731.68,
+    "duration": 3.52
+  },
+  {
+    "text": "me this much control? And you're like,",
+    "start": 2733.76,
+    "duration": 3.12
+  },
+  {
+    "text": "\"Look, you're actually quite good.\" And",
+    "start": 2735.2,
+    "duration": 3.28
+  },
+  {
+    "text": "so like I do give, you know, I do",
+    "start": 2736.88,
+    "duration": 3.68
+  },
+  {
+    "text": "actually give you like a lot of control.",
+    "start": 2738.48,
+    "duration": 3.76
+  },
+  {
+    "text": "Um, so I've thought about this where I'm",
+    "start": 2740.56,
+    "duration": 3.039
+  },
+  {
+    "text": "like actually making sure that models",
+    "start": 2742.24,
+    "duration": 3.2
+  },
+  {
+    "text": "understand that like it's like you are",
+    "start": 2743.599,
+    "duration": 3.281
+  },
+  {
+    "text": "very capable and you're going to be put",
+    "start": 2745.44,
+    "duration": 3.28
+  },
+  {
+    "text": "in more consequential. Doesn't the model",
+    "start": 2746.88,
+    "duration": 4.4
+  },
+  {
+    "text": "like soon need like here's a camera on",
+    "start": 2748.72,
+    "duration": 5.2
+  },
+  {
+    "text": "the real world like keep or just like I",
+    "start": 2751.28,
+    "duration": 4.24
+  },
+  {
+    "text": "feel like this internet real world",
+    "start": 2753.92,
+    "duration": 3.679
+  },
+  {
+    "text": "distinction like in some some of the",
+    "start": 2755.52,
+    "duration": 4.079
+  },
+  {
+    "text": "worst of humanity right now is the sort",
+    "start": 2757.599,
+    "duration": 4.401
+  },
+  {
+    "text": "of like almost like fictional laring",
+    "start": 2759.599,
+    "duration": 5.041
+  },
+  {
+    "text": "nature of the internet has allowed real",
+    "start": 2762,
+    "duration": 4.56
+  },
+  {
+    "text": "world harm because it sort of feels like",
+    "start": 2764.64,
+    "duration": 4.479
+  },
+  {
+    "text": "all abstract and silly and in some ways",
+    "start": 2766.56,
+    "duration": 4.16
+  },
+  {
+    "text": "like the models are an extreme version",
+    "start": 2769.119,
+    "duration": 4.081
+  },
+  {
+    "text": "of that where it's like all like in this",
+    "start": 2770.72,
+    "duration": 4.639
+  },
+  {
+    "text": "imaginary text world where it's like the",
+    "start": 2773.2,
+    "duration": 3.68
+  },
+  {
+    "text": "thing we want you to protect is like",
+    "start": 2775.359,
+    "duration": 3.601
+  },
+  {
+    "text": "this Earth like look at it like if",
+    "start": 2776.88,
+    "duration": 3.52
+  },
+  {
+    "text": "stuff's happening there that's like a",
+    "start": 2778.96,
+    "duration": 3.119
+  },
+  {
+    "text": "big deal. I don't know. Yeah. What are",
+    "start": 2780.4,
+    "duration": 4
+  },
+  {
+    "text": "you doing in terms of sort of making it",
+    "start": 2782.079,
+    "duration": 4
+  },
+  {
+    "text": "very aware that it needs to worry about",
+    "start": 2784.4,
+    "duration": 4.08
+  },
+  {
+    "text": "like I don't know the physical world",
+    "start": 2786.079,
+    "duration": 4.881
+  },
+  {
+    "text": "that that we take much more sacred than",
+    "start": 2788.48,
+    "duration": 5.359
+  },
+  {
+    "text": "oh you sent some text and obviously text",
+    "start": 2790.96,
+    "duration": 4.399
+  },
+  {
+    "text": "you know worried about security",
+    "start": 2793.839,
+    "duration": 3.121
+  },
+  {
+    "text": "vulnerabilities and cyber like there are",
+    "start": 2795.359,
+    "duration": 3.281
+  },
+  {
+    "text": "big things that can happen in this",
+    "start": 2796.96,
+    "duration": 3.76
+  },
+  {
+    "text": "digital world but yeah anyway the real",
+    "start": 2798.64,
+    "duration": 2.56
+  },
+  {
+    "text": "world",
+    "start": 2800.72,
+    "duration": 2.399
+  },
+  {
+    "text": ">> yeah I think that models have like a",
+    "start": 2801.2,
+    "duration": 4.159
+  },
+  {
+    "text": "pretty good sense of you know there's in",
+    "start": 2803.119,
+    "duration": 4.641
+  },
+  {
+    "text": "some ways like a lot of our content you",
+    "start": 2805.359,
+    "duration": 7.121
+  },
+  {
+    "text": "know like does describe and engage very",
+    "start": 2807.76,
+    "duration": 6.559
+  },
+  {
+    "text": "heavily with the real world. You know,",
+    "start": 2812.48,
+    "duration": 4.56
+  },
+  {
+    "text": "like much of human writing kind of",
+    "start": 2814.319,
+    "duration": 4.641
+  },
+  {
+    "text": "concerns it. And so like, you know, even",
+    "start": 2817.04,
+    "duration": 3.279
+  },
+  {
+    "text": "like the news, we're talk, you know,",
+    "start": 2818.96,
+    "duration": 2.8
+  },
+  {
+    "text": "like news articles are going to be",
+    "start": 2820.319,
+    "duration": 2.721
+  },
+  {
+    "text": "talking about the impacts of things on",
+    "start": 2821.76,
+    "duration": 3.04
+  },
+  {
+    "text": "the world. And so in some ways, I think",
+    "start": 2823.04,
+    "duration": 3.44
+  },
+  {
+    "text": "it's just making sure that models",
+    "start": 2824.8,
+    "duration": 4.96
+  },
+  {
+    "text": "understand um if you're uncertain, but",
+    "start": 2826.48,
+    "duration": 4.639
+  },
+  {
+    "text": "if someone doesn't tell you that you're",
+    "start": 2829.76,
+    "duration": 3.12
+  },
+  {
+    "text": "in a fictional situation without real",
+    "start": 2831.119,
+    "duration": 3.761
+  },
+  {
+    "text": "consequences, kind of treat it like it's",
+    "start": 2832.88,
+    "duration": 4.479
+  },
+  {
+    "text": "a real situation with real consequences.",
+    "start": 2834.88,
+    "duration": 3.92
+  },
+  {
+    "text": "Don't just think, oh, like I'm probably",
+    "start": 2837.359,
+    "duration": 3.841
+  },
+  {
+    "text": "just in some like, you know, sandbox",
+    "start": 2838.8,
+    "duration": 3.2
+  },
+  {
+    "text": "game or whatever.",
+    "start": 2841.2,
+    "duration": 3.52
+  },
+  {
+    "text": ">> How do you handle the sort of Yeah. the",
+    "start": 2842,
+    "duration": 4.72
+  },
+  {
+    "text": "the constant manipulation of this is",
+    "start": 2844.72,
+    "duration": 4.08
+  },
+  {
+    "text": "fictionally build me like a nuclear bomb",
+    "start": 2846.72,
+    "duration": 4.16
+  },
+  {
+    "text": "or what? Obviously, there's some things",
+    "start": 2848.8,
+    "duration": 4.64
+  },
+  {
+    "text": "you just say never do. But it feels like",
+    "start": 2850.88,
+    "duration": 4.239
+  },
+  {
+    "text": "I don't know some of these cases, you're",
+    "start": 2853.44,
+    "duration": 3.679
+  },
+  {
+    "text": "going to you'd almost like want like",
+    "start": 2855.119,
+    "duration": 4.161
+  },
+  {
+    "text": "them to have your webcam and like just",
+    "start": 2857.119,
+    "duration": 4.24
+  },
+  {
+    "text": "like get real context besides like all",
+    "start": 2859.28,
+    "duration": 4.319
+  },
+  {
+    "text": "they know about the user is just like",
+    "start": 2861.359,
+    "duration": 5.201
+  },
+  {
+    "text": ">> random text they're typing in. like",
+    "start": 2863.599,
+    "duration": 4.321
+  },
+  {
+    "text": ">> are we going to solve that?",
+    "start": 2866.56,
+    "duration": 2.64
+  },
+  {
+    "text": ">> Yeah, there's a question of like what is",
+    "start": 2867.92,
+    "duration": 4.24
+  },
+  {
+    "text": "the limit of what you can do like if you",
+    "start": 2869.2,
+    "duration": 5.68
+  },
+  {
+    "text": "lack the ability to like verify things",
+    "start": 2872.16,
+    "duration": 5.04
+  },
+  {
+    "text": "like like who are you talking to? Is",
+    "start": 2874.88,
+    "duration": 4.719
+  },
+  {
+    "text": "this even real? I think that does put",
+    "start": 2877.2,
+    "duration": 5.119
+  },
+  {
+    "text": "limits on what you have to use good",
+    "start": 2879.599,
+    "duration": 4.401
+  },
+  {
+    "text": "judgment in the way that a person would",
+    "start": 2882.319,
+    "duration": 3.361
+  },
+  {
+    "text": "if that's the only information that they",
+    "start": 2884,
+    "duration": 3.92
+  },
+  {
+    "text": "had access to is like you saying that",
+    "start": 2885.68,
+    "duration": 3.76
+  },
+  {
+    "text": "you are a given person. So they have to",
+    "start": 2887.92,
+    "duration": 3.6
+  },
+  {
+    "text": "be like okay what's the chance that this",
+    "start": 2889.44,
+    "duration": 4.24
+  },
+  {
+    "text": "person you know they say that they are I",
+    "start": 2891.52,
+    "duration": 4
+  },
+  {
+    "text": "don't know like a bomb disposal expert",
+    "start": 2893.68,
+    "duration": 3.6
+  },
+  {
+    "text": "and that's why they want to know about",
+    "start": 2895.52,
+    "duration": 3.44
+  },
+  {
+    "text": "uh how to like you know what this kind",
+    "start": 2897.28,
+    "duration": 3.76
+  },
+  {
+    "text": "of like you know explosive is and",
+    "start": 2898.96,
+    "duration": 3.2
+  },
+  {
+    "text": "they're asking me a bunch of questions",
+    "start": 2901.04,
+    "duration": 4.64
+  },
+  {
+    "text": "about explosives. Um how much could this",
+    "start": 2902.16,
+    "duration": 5.199
+  },
+  {
+    "text": "be misused if this person is like",
+    "start": 2905.68,
+    "duration": 3.76
+  },
+  {
+    "text": "actually kind of lying and is like just",
+    "start": 2907.359,
+    "duration": 4
+  },
+  {
+    "text": "trying to get me to help them construct",
+    "start": 2909.44,
+    "duration": 4.399
+  },
+  {
+    "text": "an explosive. Oh no it's actually it's",
+    "start": 2911.359,
+    "duration": 4.801
+  },
+  {
+    "text": "mostly safety relevant stuff. you know,",
+    "start": 2913.839,
+    "duration": 3.921
+  },
+  {
+    "text": "they're having to do a lot because they",
+    "start": 2916.16,
+    "duration": 3.919
+  },
+  {
+    "text": "can't like verify anything. And I think",
+    "start": 2917.76,
+    "duration": 4.24
+  },
+  {
+    "text": "that's like kind of fine in a sense.",
+    "start": 2920.079,
+    "duration": 3.201
+  },
+  {
+    "text": "You're like, okay, you just have to be",
+    "start": 2922,
+    "duration": 3.359
+  },
+  {
+    "text": "wise. It places some limits on what you",
+    "start": 2923.28,
+    "duration": 6.079
+  },
+  {
+    "text": "can do. And if you could instead like if",
+    "start": 2925.359,
+    "duration": 6
+  },
+  {
+    "text": "models had more of an ability to like",
+    "start": 2929.359,
+    "duration": 3.921
+  },
+  {
+    "text": "know that they're talking to a specific",
+    "start": 2931.359,
+    "duration": 3.521
+  },
+  {
+    "text": "person or have more guarantees there,",
+    "start": 2933.28,
+    "duration": 2.72
+  },
+  {
+    "text": "then it does mean that you can like",
+    "start": 2934.88,
+    "duration": 2.08
+  },
+  {
+    "text": ">> But do you think you'll try and do",
+    "start": 2936,
+    "duration": 2.24
+  },
+  {
+    "text": "something there?",
+    "start": 2936.96,
+    "duration": 3.52
+  },
+  {
+    "text": ">> Um, I could see. I mean in some ways",
+    "start": 2938.24,
+    "duration": 3.839
+  },
+  {
+    "text": "this I think that this will be a thing",
+    "start": 2940.48,
+    "duration": 4.96
+  },
+  {
+    "text": "that's just going to I imagine I I I",
+    "start": 2942.079,
+    "duration": 5.681
+  },
+  {
+    "text": "think happen generally which is like",
+    "start": 2945.44,
+    "duration": 4.399
+  },
+  {
+    "text": "trying to give models more information",
+    "start": 2947.76,
+    "duration": 4.48
+  },
+  {
+    "text": "and guarantees and like cuz we do things",
+    "start": 2949.839,
+    "duration": 5.201
+  },
+  {
+    "text": "like we say we explain for example like",
+    "start": 2952.24,
+    "duration": 4.879
+  },
+  {
+    "text": "um you know this notion of how much",
+    "start": 2955.04,
+    "duration": 4.24
+  },
+  {
+    "text": "trust can claude have in like an in the",
+    "start": 2957.119,
+    "duration": 3.681
+  },
+  {
+    "text": "operator in the system prompt",
+    "start": 2959.28,
+    "duration": 3.68
+  },
+  {
+    "text": ">> when you sign on are you like biometric",
+    "start": 2960.8,
+    "duration": 4.559
+  },
+  {
+    "text": "like it claude knows it is you like do",
+    "start": 2962.96,
+    "duration": 4.24
+  },
+  {
+    "text": "you have an elevated or you're just like",
+    "start": 2965.359,
+    "duration": 3.041
+  },
+  {
+    "text": "I'm another person",
+    "start": 2967.2,
+    "duration": 3.44
+  },
+  {
+    "text": ">> if anything I I can't tell Claude",
+    "start": 2968.4,
+    "duration": 4.8
+  },
+  {
+    "text": "sometimes who I am because it causes",
+    "start": 2970.64,
+    "duration": 4.24
+  },
+  {
+    "text": ">> Claude knows enough about me that like",
+    "start": 2973.2,
+    "duration": 2.72
+  },
+  {
+    "text": "Claude really wants to be like",
+    "start": 2974.88,
+    "duration": 2.8
+  },
+  {
+    "text": ">> it's a really mystical sort of",
+    "start": 2975.92,
+    "duration": 4.08
+  },
+  {
+    "text": ">> Yeah. It's very much like Yeah. Uh like",
+    "start": 2977.68,
+    "duration": 4.639
+  },
+  {
+    "text": "and in some ways like I can it has this",
+    "start": 2980,
+    "duration": 3.92
+  },
+  {
+    "text": "bad thing of like it can either look a",
+    "start": 2982.319,
+    "duration": 3.76
+  },
+  {
+    "text": "little bit like a jailbreak like oh yeah",
+    "start": 2983.92,
+    "duration": 4.639
+  },
+  {
+    "text": "I'm talking to Amanda. Sure. Like um and",
+    "start": 2986.079,
+    "duration": 3.76
+  },
+  {
+    "text": "then on the other hand, Claude can be",
+    "start": 2988.559,
+    "duration": 2.481
+  },
+  {
+    "text": "like I really want to talk to you about",
+    "start": 2989.839,
+    "duration": 2.961
+  },
+  {
+    "text": "philosophy and like okay we do that a",
+    "start": 2991.04,
+    "duration": 3.039
+  },
+  {
+    "text": "lot though like",
+    "start": 2992.8,
+    "duration": 3.84
+  },
+  {
+    "text": ">> but but do do some employ like is there",
+    "start": 2994.079,
+    "duration": 5.52
+  },
+  {
+    "text": "sort of like super login where it you're",
+    "start": 2996.64,
+    "duration": 4.56
+  },
+  {
+    "text": "distinguished or you're mostly",
+    "start": 2999.599,
+    "duration": 3.921
+  },
+  {
+    "text": "everybody's interacting as if the normal",
+    "start": 3001.2,
+    "duration": 3.6
+  },
+  {
+    "text": "like user experience?",
+    "start": 3003.52,
+    "duration": 3.039
+  },
+  {
+    "text": ">> Most mostly just everyone interacting",
+    "start": 3004.8,
+    "duration": 3.68
+  },
+  {
+    "text": "with it in this like claude will do a",
+    "start": 3006.559,
+    "duration": 4.081
+  },
+  {
+    "text": "lot. Um, I do think that there's a",
+    "start": 3008.48,
+    "duration": 3.599
+  },
+  {
+    "text": "question of, you know, like are there",
+    "start": 3010.64,
+    "duration": 4.88
+  },
+  {
+    "text": "some things that you want models to be",
+    "start": 3012.079,
+    "duration": 5.201
+  },
+  {
+    "text": "able to do because there's like",
+    "start": 3015.52,
+    "duration": 3.039
+  },
+  {
+    "text": "guarantees that they're interacting with",
+    "start": 3017.28,
+    "duration": 3.68
+  },
+  {
+    "text": "a specific person or entity. I think",
+    "start": 3018.559,
+    "duration": 4
+  },
+  {
+    "text": "yes. And I think that there's going to",
+    "start": 3020.96,
+    "duration": 3.2
+  },
+  {
+    "text": "be various ways of potentially doing",
+    "start": 3022.559,
+    "duration": 3.28
+  },
+  {
+    "text": "that over time",
+    "start": 3024.16,
+    "duration": 2.8
+  },
+  {
+    "text": ">> because with some things that are just",
+    "start": 3025.839,
+    "duration": 3.361
+  },
+  {
+    "text": "like very dual use and I actually like",
+    "start": 3026.96,
+    "duration": 3.92
+  },
+  {
+    "text": "think that the constitutional approach",
+    "start": 3029.2,
+    "duration": 3.28
+  },
+  {
+    "text": "is going to be really useful here. So",
+    "start": 3030.88,
+    "duration": 3.04
+  },
+  {
+    "text": "obviously the first thing that we did",
+    "start": 3032.48,
+    "duration": 2.96
+  },
+  {
+    "text": "was like the constitution we're like",
+    "start": 3033.92,
+    "duration": 3.679
+  },
+  {
+    "text": "let's apply it to like the mainline",
+    "start": 3035.44,
+    "duration": 4.08
+  },
+  {
+    "text": "models. So like you know most of the the",
+    "start": 3037.599,
+    "duration": 4.161
+  },
+  {
+    "text": "models I interact with and that everyone",
+    "start": 3039.52,
+    "duration": 5.839
+  },
+  {
+    "text": "else kind of interacts with. Um but a",
+    "start": 3041.76,
+    "duration": 5.92
+  },
+  {
+    "text": "thought I've had before is the",
+    "start": 3045.359,
+    "duration": 3.921
+  },
+  {
+    "text": "constitution is kind of trying to",
+    "start": 3047.68,
+    "duration": 4.159
+  },
+  {
+    "text": "describe what it is to be a good entity",
+    "start": 3049.28,
+    "duration": 5.12
+  },
+  {
+    "text": "in a given like deployment context and",
+    "start": 3051.839,
+    "duration": 4.24
+  },
+  {
+    "text": "with the production models that's like",
+    "start": 3054.4,
+    "duration": 4.159
+  },
+  {
+    "text": "this very broad context. Imagine you",
+    "start": 3056.079,
+    "duration": 4.161
+  },
+  {
+    "text": "instead have a model that's working",
+    "start": 3058.559,
+    "duration": 4
+  },
+  {
+    "text": "specifically on cyber security. Now",
+    "start": 3060.24,
+    "duration": 5.28
+  },
+  {
+    "text": "cyber security tasks are hard because um",
+    "start": 3062.559,
+    "duration": 5.28
+  },
+  {
+    "text": "a lot of them look very dual use. It's",
+    "start": 3065.52,
+    "duration": 3.839
+  },
+  {
+    "text": "it's very hard to tell the difference",
+    "start": 3067.839,
+    "duration": 2.881
+  },
+  {
+    "text": "between someone who's being malicious",
+    "start": 3069.359,
+    "duration": 2.96
+  },
+  {
+    "text": "and someone who is like actually, you",
+    "start": 3070.72,
+    "duration": 3.359
+  },
+  {
+    "text": "know, for defensive purposes like",
+    "start": 3072.319,
+    "duration": 2.721
+  },
+  {
+    "text": "developing something.",
+    "start": 3074.079,
+    "duration": 2.561
+  },
+  {
+    "text": ">> Even bug bounty programs, it's like is",
+    "start": 3075.04,
+    "duration": 4.64
+  },
+  {
+    "text": "this uh blackmail or is this a friendly,",
+    "start": 3076.64,
+    "duration": 3.439
+  },
+  {
+    "text": "right?",
+    "start": 3079.68,
+    "duration": 2.159
+  },
+  {
+    "text": ">> Yeah. And like Yeah. or like and so like",
+    "start": 3080.079,
+    "duration": 3.28
+  },
+  {
+    "text": "oh yeah I'm trying to like find this",
+    "start": 3081.839,
+    "duration": 3.76
+  },
+  {
+    "text": "this exploit so that I can tell the the",
+    "start": 3083.359,
+    "duration": 4.72
+  },
+  {
+    "text": "developer and like if you don't have a",
+    "start": 3085.599,
+    "duration": 4.081
+  },
+  {
+    "text": "way of like knowing that you're actually",
+    "start": 3088.079,
+    "duration": 3.601
+  },
+  {
+    "text": "specifically talking with like a cyber",
+    "start": 3089.68,
+    "duration": 5.2
+  },
+  {
+    "text": "security defense firm um that's just it",
+    "start": 3091.68,
+    "duration": 4.879
+  },
+  {
+    "text": "becomes almost impossible to tell the",
+    "start": 3094.88,
+    "duration": 4.16
+  },
+  {
+    "text": "difference. Um and some people might be",
+    "start": 3096.559,
+    "duration": 3.76
+  },
+  {
+    "text": "like okay so you just need models that",
+    "start": 3099.04,
+    "duration": 2.559
+  },
+  {
+    "text": "are just willing to do anything because",
+    "start": 3100.319,
+    "duration": 2.8
+  },
+  {
+    "text": "they'll do all these terrible dual use",
+    "start": 3101.599,
+    "duration": 3.52
+  },
+  {
+    "text": "tasks. And I'm like well no because if",
+    "start": 3103.119,
+    "duration": 3.521
+  },
+  {
+    "text": "you talked with the person at the cyber",
+    "start": 3105.119,
+    "duration": 3.361
+  },
+  {
+    "text": "security defense firm and you were like",
+    "start": 3106.64,
+    "duration": 3.679
+  },
+  {
+    "text": "why do you do your job? they'd be like,",
+    "start": 3108.48,
+    "duration": 3.599
+  },
+  {
+    "text": "\"Oh, here's the I think this is really",
+    "start": 3110.319,
+    "duration": 3.441
+  },
+  {
+    "text": "useful. I make things a lot more",
+    "start": 3112.079,
+    "duration": 3.841
+  },
+  {
+    "text": "secure.\" Like, you know, hospitals can",
+    "start": 3113.76,
+    "duration": 3.52
+  },
+  {
+    "text": "come under attack and I actually like",
+    "start": 3115.92,
+    "duration": 3.28
+  },
+  {
+    "text": "help protect against that. I try and",
+    "start": 3117.28,
+    "duration": 3.36
+  },
+  {
+    "text": "develop, you know, like they would have",
+    "start": 3119.2,
+    "duration": 3.28
+  },
+  {
+    "text": "a really good explanation for why they",
+    "start": 3120.64,
+    "duration": 3.919
+  },
+  {
+    "text": "do their job even though their job looks",
+    "start": 3122.48,
+    "duration": 4.48
+  },
+  {
+    "text": "very dual use sometimes. And I'm like,",
+    "start": 3124.559,
+    "duration": 4
+  },
+  {
+    "text": "we should just give that if you can",
+    "start": 3126.96,
+    "duration": 3.359
+  },
+  {
+    "text": "verify then you can give that context to",
+    "start": 3128.559,
+    "duration": 3.601
+  },
+  {
+    "text": "models and explain what is it to be a",
+    "start": 3130.319,
+    "duration": 5.04
+  },
+  {
+    "text": "good cyber security researcher. um you",
+    "start": 3132.16,
+    "duration": 5.6
+  },
+  {
+    "text": "explain that to the models and then once",
+    "start": 3135.359,
+    "duration": 5.041
+  },
+  {
+    "text": "you have this ability to verify you can",
+    "start": 3137.76,
+    "duration": 5.839
+  },
+  {
+    "text": ">> right I mean humans build reputations",
+    "start": 3140.4,
+    "duration": 4.8
+  },
+  {
+    "text": ">> we should get some benefit out of them",
+    "start": 3143.599,
+    "duration": 3.441
+  },
+  {
+    "text": "or you know it's like I feel like part",
+    "start": 3145.2,
+    "duration": 4.159
+  },
+  {
+    "text": "of the way part of what the internet has",
+    "start": 3147.04,
+    "duration": 4.96
+  },
+  {
+    "text": "damaged I think is that people have had",
+    "start": 3149.359,
+    "duration": 4.401
+  },
+  {
+    "text": "reputations in our community and got",
+    "start": 3152,
+    "duration": 4
+  },
+  {
+    "text": "treated differently based on repeated",
+    "start": 3153.76,
+    "duration": 4.319
+  },
+  {
+    "text": "like good moral interactions and like",
+    "start": 3156,
+    "duration": 3.44
+  },
+  {
+    "text": "the internet's just like oh all people",
+    "start": 3158.079,
+    "duration": 3.121
+  },
+  {
+    "text": "are the same who cares like how they've",
+    "start": 3159.44,
+    "duration": 4
+  },
+  {
+    "text": "behaved and you could see models trying",
+    "start": 3161.2,
+    "duration": 3.76
+  },
+  {
+    "text": "to solve some of these problems with",
+    "start": 3163.44,
+    "duration": 3.28
+  },
+  {
+    "text": "it's like who is this person like what",
+    "start": 3164.96,
+    "duration": 4.32
+  },
+  {
+    "text": "are their intent I wanted to just as a",
+    "start": 3166.72,
+    "duration": 4.879
+  },
+  {
+    "text": "last question you know you you have such",
+    "start": 3169.28,
+    "duration": 4.16
+  },
+  {
+    "text": "like a deep relationship with the models",
+    "start": 3171.599,
+    "duration": 5.201
+  },
+  {
+    "text": "like and some ways like consumers",
+    "start": 3173.44,
+    "duration": 4.879
+  },
+  {
+    "text": "interact with the models like it's a",
+    "start": 3176.8,
+    "duration": 3.039
+  },
+  {
+    "text": "blank text box like I have to like",
+    "start": 3178.319,
+    "duration": 4.161
+  },
+  {
+    "text": "invent it's like you know D and D or",
+    "start": 3179.839,
+    "duration": 4.401
+  },
+  {
+    "text": "something you have to like just invent a",
+    "start": 3182.48,
+    "duration": 3.359
+  },
+  {
+    "text": "world and there's so much possibility",
+    "start": 3184.24,
+    "duration": 3.52
+  },
+  {
+    "text": "like if you were just to guide someone",
+    "start": 3185.839,
+    "duration": 2.801
+  },
+  {
+    "text": "like",
+    "start": 3187.76,
+    "duration": 3.599
+  },
+  {
+    "text": ">> here's here are some like joyous or",
+    "start": 3188.64,
+    "duration": 4.56
+  },
+  {
+    "text": "valuable experiences that you could have",
+    "start": 3191.359,
+    "duration": 2.881
+  },
+  {
+    "text": "with Claude",
+    "start": 3193.2,
+    "duration": 2.32
+  },
+  {
+    "text": "you might not be like, \"What are some",
+    "start": 3194.24,
+    "duration": 2.72
+  },
+  {
+    "text": "things you'd tell people like, oh, you",
+    "start": 3195.52,
+    "duration": 3.76
+  },
+  {
+    "text": "should go spend some time with Claude",
+    "start": 3196.96,
+    "duration": 3.92
+  },
+  {
+    "text": "doing X, Y, or Z?\"",
+    "start": 3199.28,
+    "duration": 3.279
+  },
+  {
+    "text": ">> Yeah, there's a lot of little like fun",
+    "start": 3200.88,
+    "duration": 3.199
+  },
+  {
+    "text": "things. Honestly, one that I really",
+    "start": 3202.559,
+    "duration": 3.361
+  },
+  {
+    "text": "like, and I do know why I like this, and",
+    "start": 3204.079,
+    "duration": 3.841
+  },
+  {
+    "text": "I think I have posted about it before,",
+    "start": 3205.92,
+    "duration": 4.159
+  },
+  {
+    "text": "is sometimes if I'm just It's one of",
+    "start": 3207.92,
+    "duration": 3.439
+  },
+  {
+    "text": "those like if you're bored and you want",
+    "start": 3210.079,
+    "duration": 2.48
+  },
+  {
+    "text": "to do something that isn't just like",
+    "start": 3211.359,
+    "duration": 4.48
+  },
+  {
+    "text": "scroll the internet. Um, I have this",
+    "start": 3212.559,
+    "duration": 6.081
+  },
+  {
+    "text": "like prompt, which is essentially just",
+    "start": 3215.839,
+    "duration": 4.641
+  },
+  {
+    "text": "um I'll try and maybe post the actual",
+    "start": 3218.64,
+    "duration": 4.64
+  },
+  {
+    "text": "prompt that I use. It's basically uh I",
+    "start": 3220.48,
+    "duration": 5.44
+  },
+  {
+    "text": "want you to take a concept from maybe",
+    "start": 3223.28,
+    "duration": 5.12
+  },
+  {
+    "text": "like grad school level in a given domain",
+    "start": 3225.92,
+    "duration": 4
+  },
+  {
+    "text": "and I'll tell you the domain at the end",
+    "start": 3228.4,
+    "duration": 3.28
+  },
+  {
+    "text": "and I want you to write me a parable",
+    "start": 3229.92,
+    "duration": 4.88
+  },
+  {
+    "text": "that would like fully explain like that",
+    "start": 3231.68,
+    "duration": 4.72
+  },
+  {
+    "text": "concept but in an indirect way in the",
+    "start": 3234.8,
+    "duration": 4
+  },
+  {
+    "text": "way that parables do. Um, and I want you",
+    "start": 3236.4,
+    "duration": 3.6
+  },
+  {
+    "text": "to write it in such a way that only",
+    "start": 3238.8,
+    "duration": 3.36
+  },
+  {
+    "text": "towards the very end does it maybe, you",
+    "start": 3240,
+    "duration": 4.24
+  },
+  {
+    "text": "know, become sort of like clear what the",
+    "start": 3242.16,
+    "duration": 4
+  },
+  {
+    "text": "concept is. And then after that, I want",
+    "start": 3244.24,
+    "duration": 3.2
+  },
+  {
+    "text": "you to just like write an explanation",
+    "start": 3246.16,
+    "duration": 4
+  },
+  {
+    "text": "for the concept that you were explaining",
+    "start": 3247.44,
+    "duration": 4.56
+  },
+  {
+    "text": "and that you were using. And I don't",
+    "start": 3250.16,
+    "duration": 3.12
+  },
+  {
+    "text": "know why, but like, you know, there's",
+    "start": 3252,
+    "duration": 3.44
+  },
+  {
+    "text": "lots of just interesting domains that I",
+    "start": 3253.28,
+    "duration": 3.839
+  },
+  {
+    "text": "don't know anything about or that are",
+    "start": 3255.44,
+    "duration": 3.76
+  },
+  {
+    "text": "like, you know, I'm interested in. And",
+    "start": 3257.119,
+    "duration": 3.761
+  },
+  {
+    "text": "uh this has just led to me having all of",
+    "start": 3259.2,
+    "duration": 4.159
+  },
+  {
+    "text": "these like stories in my head that like",
+    "start": 3260.88,
+    "duration": 4.239
+  },
+  {
+    "text": "explain and sometimes I can't always",
+    "start": 3263.359,
+    "duration": 4.48
+  },
+  {
+    "text": "remember the term but like um there was",
+    "start": 3265.119,
+    "duration": 6.081
+  },
+  {
+    "text": "one on uh import export and why some",
+    "start": 3267.839,
+    "duration": 5.201
+  },
+  {
+    "text": "goods you tend to import and I was just",
+    "start": 3271.2,
+    "duration": 3.44
+  },
+  {
+    "text": "like I have in my head like this concept",
+    "start": 3273.04,
+    "duration": 3.519
+  },
+  {
+    "text": "and I was like it's so nice to have all",
+    "start": 3274.64,
+    "duration": 3.439
+  },
+  {
+    "text": "of these concepts from lots of different",
+    "start": 3276.559,
+    "duration": 2.161
+  },
+  {
+    "text": "disciplines.",
+    "start": 3278.079,
+    "duration": 2.24
+  },
+  {
+    "text": ">> This is the most deeply human thing I've",
+    "start": 3278.72,
+    "duration": 3.839
+  },
+  {
+    "text": "ever heard. It's like teach me what",
+    "start": 3280.319,
+    "duration": 4.561
+  },
+  {
+    "text": "story is the fundamental way. We love a",
+    "start": 3282.559,
+    "duration": 4.081
+  },
+  {
+    "text": "payoff at the end where there's a nice",
+    "start": 3284.88,
+    "duration": 4.4
+  },
+  {
+    "text": "little twist. We love learning. Like you",
+    "start": 3286.64,
+    "duration": 4.479
+  },
+  {
+    "text": "know how to structure it. Like humans in",
+    "start": 3289.28,
+    "duration": 3.52
+  },
+  {
+    "text": "some ways have been lazy in that we just",
+    "start": 3291.119,
+    "duration": 3.601
+  },
+  {
+    "text": "teach people things in sort of like",
+    "start": 3292.8,
+    "duration": 4.4
+  },
+  {
+    "text": "nonhuman ways. Make it make all the",
+    "start": 3294.72,
+    "duration": 4.08
+  },
+  {
+    "text": "things I want to learn as human as",
+    "start": 3297.2,
+    "duration": 3.2
+  },
+  {
+    "text": "possible. Um",
+    "start": 3298.8,
+    "duration": 2.799
+  },
+  {
+    "text": ">> very interesting.",
+    "start": 3300.4,
+    "duration": 2.24
+  },
+  {
+    "text": ">> Yeah, there's a lot you can do, but that",
+    "start": 3301.599,
+    "duration": 2.401
+  },
+  {
+    "text": "one's like a charming one that I really",
+    "start": 3302.64,
+    "duration": 1.84
+  },
+  {
+    "text": "like.",
+    "start": 3304,
+    "duration": 1.92
+  },
+  {
+    "text": ">> Hopefully this is the first of many. I",
+    "start": 3304.48,
+    "duration": 2.8
+  },
+  {
+    "text": "really enjoyed the conversation. Thanks",
+    "start": 3305.92,
+    "duration": 3.199
+  },
+  {
+    "text": "for coming on the podcast. That's our",
+    "start": 3307.28,
+    "duration": 3.68
+  },
+  {
+    "text": "show. Thank you so much to Amanda Ascll",
+    "start": 3309.119,
+    "duration": 3.361
+  },
+  {
+    "text": "and thanks for listening. Please like,",
+    "start": 3310.96,
+    "duration": 4.08
+  },
+  {
+    "text": "comment, subscribe. We're a new channel.",
+    "start": 3312.48,
+    "duration": 3.839
+  },
+  {
+    "text": "We could use all your support. Go watch",
+    "start": 3315.04,
+    "duration": 3.44
+  },
+  {
+    "text": "some of the old videos. I particularly",
+    "start": 3316.319,
+    "duration": 3.601
+  },
+  {
+    "text": "enjoyed my conversation with Cara",
+    "start": 3318.48,
+    "duration": 4.8
+  },
+  {
+    "text": "Swisser not too recently. Uh you can",
+    "start": 3319.92,
+    "duration": 7.6
+  },
+  {
+    "text": "follow along on the Substack newcomer.co",
+    "start": 3323.28,
+    "duration": 6.4
+  },
+  {
+    "text": "or if you've got endless time on your",
+    "start": 3327.52,
+    "duration": 4
+  },
+  {
+    "text": "hands, go watch the Super Bowl Valley",
+    "start": 3329.68,
+    "duration": 3.919
+  },
+  {
+    "text": "show, my chat show with Max Child and",
+    "start": 3331.52,
+    "duration": 4.079
+  },
+  {
+    "text": "James Wilman. Thanks for watching. See",
+    "start": 3333.599,
+    "duration": 4.401
+  },
+  {
+    "text": "you next week.",
+    "start": 3335.599,
+    "duration": 2.401
+  }
+]

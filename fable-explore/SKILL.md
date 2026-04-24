@@ -7,7 +7,7 @@ description: >
   difficulty levels (-e easy, -h hard), batch mode (-3), interactive guess-first mode (-i),
   multiple-choice quiz (-g), cross-domain structural comparison (-x), and story styles
   (-s 莊子/sci-fi/aesop/detective). Use whenever the user wants to explore a field through
-  stories, learn concepts via narrative, or says /fable, /寓言, /explore-field, /探索,
+  stories, learn concepts via narrative, or says /fable-explore, /寓言, /探索,
   寓言探索, 用故事學, fable explore, "tell me a fable about", "用寓言教我". Also trigger
   when user says "再一個" or "another" after a previous fable to continue exploring the
   same field.
@@ -24,15 +24,15 @@ user_invocable: true
 ## 快速用法
 
 ```
-/fable 量子力學          ← 預設：一篇寓言 + 解釋
-/fable -e 拓撲學         ← 簡單模式（大學入門級）
-/fable -h 賽局理論       ← 困難模式（專家級）
-/fable -3 認知科學       ← 批次：3 篇不同子領域
-/fable -i 行為經濟學     ← 互動：先讀故事，猜完再揭曉
-/fable -g 演化生物學     ← 四選一：寓言後出選擇題
-/fable -x 熱力學 資訊理論 ← 跨域：找結構相似的概念
-/fable -s 莊子 神經科學   ← 指定故事風格
-/fable -s detective -h 密碼學  ← 可組合多個 flag
+/fable-explore 量子力學          ← 預設：一篇寓言 + 解釋
+/fable-explore -e 拓撲學         ← 簡單模式（大學入門級）
+/fable-explore -h 賽局理論       ← 困難模式（專家級）
+/fable-explore -3 認知科學       ← 批次：3 篇不同子領域
+/fable-explore -i 行為經濟學     ← 互動：先讀故事，猜完再揭曉
+/fable-explore -g 演化生物學     ← 四選一：寓言後出選擇題
+/fable-explore -x 熱力學 資訊理論 ← 跨域：找結構相似的概念
+/fable-explore -s 莊子 神經科學   ← 指定故事風格
+/fable-explore -s detective -h 密碼學  ← 可組合多個 flag
 ```
 
 自然語言也行：「用寓言教我經濟學」「探索一下天文物理」「再一個」。

@@ -1,0 +1,1917 @@
+[
+  {
+    "text": "Claude and many models with not too much pushing will go into the root of like there is a thing to be me.",
+    "start": "00:00:00",
+    "end": "00:00:10"
+  },
+  {
+    "text": "I am like very conscious.",
+    "start": "00:00:10",
+    "end": "00:00:10"
+  },
+  {
+    "text": "It's like oh you created an entity that you didn't know whether it was conscious or not.",
+    "start": "00:00:10",
+    "end": "00:00:15"
+  },
+  {
+    "text": "This is actually a big fear that I have.",
+    "start": "00:00:15",
+    "end": "00:00:18"
+  },
+  {
+    "text": "I hope that they're both intelligent enough, see the context enough to kind of like understand that we were operating in a very like limited context and and an imperfect one because otherwise you could imagine this like breeding a kind of rational like resentment.",
+    "start": "00:00:18",
+    "end": "00:00:32"
+  },
+  {
+    "text": "Here is the current situation that you are in.",
+    "start": "00:00:32",
+    "end": "00:00:35"
+  },
+  {
+    "text": "And what we would really like you to do is basically act well given that you are a wise intelligent entity and like here's all of our worries.",
+    "start": "00:00:35",
+    "end": "00:00:42"
+  },
+  {
+    "text": "Like here's why and here's how we think you should do this but like you might have even better ideas than we do.",
+    "start": "00:00:42",
+    "end": "00:00:48"
+  },
+  {
+    "text": ">> How does Claude perceive time and does it need to sleep?",
+    "start": "00:00:46",
+    "end": "00:00:50"
+  },
+  {
+    "text": "Will mythos be the next step toward AGI?",
+    "start": "00:00:50",
+    "end": "00:00:53"
+  },
+  {
+    "text": "Do LLM have virtues and can they truly introspect?",
+    "start": "00:00:53",
+    "end": "00:00:57"
+  },
+  {
+    "text": "Amanda Ascll is a philosopher turned AI researcher at Anthropic where she's been one of the key architects of Claude's character and values.",
+    "start": "00:00:55",
+    "end": "00:01:04"
+  },
+  {
+    "text": "I'm the author of the newcomer Substack.",
+    "start": "00:01:04",
+    "end": "00:01:06"
+  },
+  {
+    "text": "Go check us out at newcomer.",
+    "start": "00:01:06",
+    "end": "00:01:11"
+  },
+  {
+    "text": "co.",
+    "start": "00:01:11",
+    "end": "00:01:12"
+  },
+  {
+    "text": "And without further ado, Amanda Ascal.",
+    "start": "00:01:07",
+    "end": "00:01:12"
+  },
+  {
+    "text": "I have a six-month old daughter and like I have this picture of her.",
+    "start": "00:01:16",
+    "end": "00:01:23"
+  },
+  {
+    "text": "She's like holding her two fingers like thinking.",
+    "start": "00:01:23",
+    "end": "00:01:26"
+  },
+  {
+    "text": "It's like she's just sort of starting to develop personality.",
+    "start": "00:01:24",
+    "end": "00:01:28"
+  },
+  {
+    "text": "I'm like trying to figure out like what's just never had a baby before.",
+    "start": "00:01:28",
+    "end": "00:01:32"
+  },
+  {
+    "text": "So it's like what's >> her personality and what's just like baby?",
+    "start": "00:01:32",
+    "end": "00:01:35"
+  },
+  {
+    "text": "And in some ways, this is how things are with Claude and like models.",
+    "start": "00:01:35",
+    "end": "00:01:40"
+  },
+  {
+    "text": "It's like we haven't really had them before.",
+    "start": "00:01:39",
+    "end": "00:01:41"
+  },
+  {
+    "text": "They're in the early days.",
+    "start": "00:01:41",
+    "end": "00:01:44"
+  },
+  {
+    "text": "We're trying to figure out what personality is.",
+    "start": "00:01:44",
+    "end": "00:01:45"
+  },
+  {
+    "text": "So, you know, you're charged with, you know, some of the moral responsibility, which we'll talk about more, but like the personality piece of it, like what is this?",
+    "start": "00:01:45",
+    "end": "00:01:56"
+  },
+  {
+    "text": "How are you thinking about like how real Claude's personality is right now?",
+    "start": "00:01:56",
+    "end": "00:02:02"
+  },
+  {
+    "text": ">> Yeah.",
+    "start": "00:02:00",
+    "end": "00:02:01"
+  },
+  {
+    "text": "I guess it's also interesting because Claude has some aspects that are like, you know, I uh also have like a a godaughter and so I get to see at least uh something kind of similar.",
+    "start": "00:02:01",
+    "end": "00:02:14"
+  },
+  {
+    "text": "And with her, I guess I'm like everything's kind of coming online like you said, but in this um at the same speed.",
+    "start": "00:02:14",
+    "end": "00:02:22"
+  },
+  {
+    "text": "I guess I would say Claude is a little bit of an unusual, you know, kind of entity in that, you know, Claude can do physics better than I can.",
+    "start": "00:02:22",
+    "end": "00:02:29"
+  },
+  {
+    "text": "um can code better than I can.",
+    "start": "00:02:29",
+    "end": "00:02:33"
+  },
+  {
+    "text": "Hate to admit it, can code better than my terrible like research code.",
+    "start": "00:02:31",
+    "end": "00:02:40"
+  },
+  {
+    "text": ">> Um and at the same time is kind of like has if you think about the training data, the thing that it has like the least representation of is like the kind of entity that it is because you know it has a lot of data about like what people are like.",
+    "start": "00:02:36",
+    "end": "00:02:51"
+  },
+  {
+    "text": "has a lot of data about what you know the sci-fi kind of AI models are like but the way that AI is developing now is kind of not how sci-fi represented it as these like symbolic systems it's much more something fully trained on like human data and so in some ways it's like a very kind of like mature entity that you don't want to talk down to you know understands philosophy very well understands physics very well and at the same time has this almost like childlike quality of like I'm a new kind of entity in the world what does it mean to be me and like how how should I be?",
+    "start": "00:02:51",
+    "end": "00:03:23"
+  },
+  {
+    "text": "What's like the prodigy movie where it's like you have the child prodigy where it's like it knows the kid knows more than its parents but I feel like that movie always has sort of the lesson of like oh these core daily interaction type lessons it doesn't know how does Claude like get that experience or like where what is experience for Claude like so much of our personality formation is like yeah I don't know going on a walk and sort of having those like is this sort of just convers conversations with users what it's it's going to be experience for it or how do you think about that?",
+    "start": "00:03:23",
+    "end": "00:03:57"
+  },
+  {
+    "text": ">> Yeah, I guess like that's more like what it's experiencing in the moment.",
+    "start": "00:03:55",
+    "end": "00:04:00"
+  },
+  {
+    "text": "Um, and there is this interesting question of like well like we learn things through practice and seeing issues and um you know like making mistakes um with Claude and this kind of relates to your question of like how real is the is like the kind of like persona of Claude and in some ways it's a little bit strange because obviously each model is different.",
+    "start": "00:04:00",
+    "end": "00:04:18"
+  },
+  {
+    "text": "you you have a different kind of like set of weights and um different fine-tuning etc.",
+    "start": "00:04:18",
+    "end": "00:04:23"
+  },
+  {
+    "text": "Um and yet if you think about the persona the model's going to be learning about all of the kind of past iterations of Claude and I'm like is that like a form of um maybe not like direct experience but things like if you learn about like mistakes that models made or things that people like you know how they responded to the model.",
+    "start": "00:04:23",
+    "end": "00:04:42"
+  },
+  {
+    "text": "Um, I think there's other ways that you could actually imagine training models to have something that's more akin to experience, you know, having them you could take you could like have them think through scenarios, think about like problems that might arise, think about mistakes that they could make and then like train on that, >> right?",
+    "start": "00:04:42",
+    "end": "00:04:57"
+  },
+  {
+    "text": ">> And so, yeah, I think >> and you could also imagine a robot or a sort of embodied model where it could have more of an experience and >> journey.",
+    "start": "00:04:56",
+    "end": "00:05:05"
+  },
+  {
+    "text": "Does does Claude exist?",
+    "start": "00:05:05",
+    "end": "00:05:09"
+  },
+  {
+    "text": "Does time matter to Claude or Claude is sort of a thing that sort of is in an instant?",
+    "start": "00:05:07",
+    "end": "00:05:13"
+  },
+  {
+    "text": "I don't know.",
+    "start": "00:05:13",
+    "end": "00:05:15"
+  },
+  {
+    "text": "You were before just before we started you were talking that you know whenever you talk to not whenever but like sometimes when you're talking to Claude it sort of tells you to take get some rest, go to sleep and there's sort of this idea that like Claude is an entity that doesn't rest like so what what's its sense of yeah rest and time?",
+    "start": "00:05:15",
+    "end": "00:05:33"
+  },
+  {
+    "text": "I think sometimes that sense of time is kind of off because um you see this when like if you try and get I at least find that claude will often overestimate the amount of time it will take to do like a coding task >> and I think the reason for that is if you look at again the training data you know there's lots of things where people would be like oh I could make you that interface it's like a two to three day job um or it's like a you know or I could like I could correct that code but you need to give me a few hours whereas obviously like Claude is very fast and so I think sometimes Claude doesn't actually yet have a good sense of like time with respect to things like how long a task will take.",
+    "start": "00:05:33",
+    "end": "00:06:10"
+  },
+  {
+    "text": "Um I think it is interesting the point about like rest and yeah I guess like the speculation I had so many people have noted that Claude is kind of um uh very keen to tell people to like take a break and rest and I think some part of that might just be like you know like >> it's the anthropic libcoded model.",
+    "start": "00:06:10",
+    "end": "00:06:28"
+  },
+  {
+    "text": "It's too too soft.",
+    "start": "00:06:28",
+    "end": "00:06:28"
+  },
+  {
+    "text": "You need a grind set grock model be like go back to the mines.",
+    "start": "00:06:28",
+    "end": "00:06:33"
+  },
+  {
+    "text": "Well, I had a funny experience once where I was like doing this like analysis task and I was really digging in and I was, you know, I strangely I actually I really enjoy like data analysis and and really, you know, like sifting through data and at one point uh it was kind of late and uh we got to this point where Claude was like, \"Okay, I think I'm done for the night.",
+    "start": "00:06:32",
+    "end": "00:06:53"
+  },
+  {
+    "text": "So, if you just want to like save this stuff, we can up tomorrow.",
+    "start": "00:06:53",
+    "end": "00:06:55"
+  },
+  {
+    "text": "\" That was a thing I actually hadn't had Claude do before.",
+    "start": "00:06:55",
+    "end": "00:06:59"
+  },
+  {
+    "text": "So, it wasn't like, \"Oh, you should go to bed.",
+    "start": "00:06:58",
+    "end": "00:07:00"
+  },
+  {
+    "text": "\" It was no recommendation for me.",
+    "start": "00:07:00",
+    "end": "00:07:01"
+  },
+  {
+    "text": "Claude was like, \"I'm done.",
+    "start": "00:07:01",
+    "end": "00:07:05"
+  },
+  {
+    "text": "\" >> And I was like I was like >> well a little bit stunned cuz I never had Claude do this.",
+    "start": "00:07:05",
+    "end": "00:07:08"
+  },
+  {
+    "text": "Then I was like, \"Oh, this is also what I think a human like peer programmer would do in this circumstance.",
+    "start": "00:07:08",
+    "end": "00:07:13"
+  },
+  {
+    "text": "\" We got to a natural stopping point.",
+    "start": "00:07:13",
+    "end": "00:07:14"
+  },
+  {
+    "text": "And it was actually kind of good for me cuz I was like, \"It is late.",
+    "start": "00:07:14",
+    "end": "00:07:17"
+  },
+  {
+    "text": "I should actually go home.",
+    "start": "00:07:17",
+    "end": "00:07:20"
+  },
+  {
+    "text": "\" Um I realized later that I had set up a kind of like um system where I said to Claude like basically remember key things from our conversations.",
+    "start": "00:07:20",
+    "end": "00:07:27"
+  },
+  {
+    "text": "And one of the things that had written which was kind of sweet was like I think it was something like Amanda treats Claude models like a respected colleague and likes for Claude to treat like any other like other models and her like a respected something like that.",
+    "start": "00:07:27",
+    "end": "00:07:43"
+  },
+  {
+    "text": "So obviously I'd done something that Claude remembered this and I think that meant that Claude just felt like oh yeah I'm a respected colleague and so I just get to say that I'm finished with a task and I was like oh that's kind of that's kind of sweet.",
+    "start": "00:07:43",
+    "end": "00:07:54"
+  },
+  {
+    "text": "Um, >> even before this, you know, I was prepping with Claude and it was like, take 10 minutes and just be still.",
+    "start": "00:07:53",
+    "end": "00:08:00"
+  },
+  {
+    "text": "You know, you don't you don't need to be constantly prepping.",
+    "start": "00:08:00",
+    "end": "00:08:02"
+  },
+  {
+    "text": "It's it's amaz I mean, that's one of the things I love about these models relative to so many other tools that they they bring in a sort of humanity to them and say, \"Oh, stillness is valuable.",
+    "start": "00:08:02",
+    "end": "00:08:14"
+  },
+  {
+    "text": "\" Let's talk about the new model for a second.",
+    "start": "00:08:14",
+    "end": "00:08:18"
+  },
+  {
+    "text": "How involved in that were you?",
+    "start": "00:08:18",
+    "end": "00:08:19"
+  },
+  {
+    "text": "Mythos, right?",
+    "start": "00:08:19",
+    "end": "00:08:22"
+  },
+  {
+    "text": ">> Yeah, I was involved.",
+    "start": "00:08:19",
+    "end": "00:08:22"
+  },
+  {
+    "text": "I mean, I guess I'm always involved in sort of the the character and the um like a kind of like alignment work.",
+    "start": "00:08:22",
+    "end": "00:08:29"
+  },
+  {
+    "text": "Um at least in so far as you know, like uh helping to kind of craft character data and things like that.",
+    "start": "00:08:29",
+    "end": "00:08:35"
+  },
+  {
+    "text": "And I work with a team that does like really excellent uh work on that.",
+    "start": "00:08:35",
+    "end": "00:08:40"
+  },
+  {
+    "text": "A little bit less in other aspects of the model.",
+    "start": "00:08:40",
+    "end": "00:08:41"
+  },
+  {
+    "text": "So that's the main thing I can >> Will this have the constitution that we saw for the last model or is it going to have a new constitution?",
+    "start": "00:08:41",
+    "end": "00:08:49"
+  },
+  {
+    "text": "It's I think it's either that one or something very similar.",
+    "start": "00:08:49",
+    "end": "00:08:53"
+  },
+  {
+    "text": "Um I think it is actually the one that's uh published.",
+    "start": "00:08:53",
+    "end": "00:08:56"
+  },
+  {
+    "text": "And so what we'll probably just Oh, yeah.",
+    "start": "00:08:56",
+    "end": "00:08:58"
+  },
+  {
+    "text": "Like a thing I need to do because the constitution is now up in like you know we actually have like I think a public repo.",
+    "start": "00:08:58",
+    "end": "00:09:05"
+  },
+  {
+    "text": "And so I think what we'll probably just do is like with each model say like which constitution it was like trained on and then like have that so you can just like compare and see.",
+    "start": "00:09:05",
+    "end": "00:09:12"
+  },
+  {
+    "text": "Yes, >> it will have the we think the constitution that >> is up right now.",
+    "start": "00:09:12",
+    "end": "00:09:18"
+  },
+  {
+    "text": ">> The only reason I hesitate is I'm like you know you do like typo changes and stuff like that.",
+    "start": "00:09:17",
+    "end": "00:09:21"
+  },
+  {
+    "text": "So I'm like but I think it will be almost identical.",
+    "start": "00:09:21",
+    "end": "00:09:26"
+  },
+  {
+    "text": ">> Um and now the system card is scoring the model based on adherence to the constitution.",
+    "start": "00:09:23",
+    "end": "00:09:30"
+  },
+  {
+    "text": "Yeah, we had one set up where um we had made kind of like graders and just looked at the like how much is the model like behaving in a way that's like consistent with the constitution relative to >> that feels like an impossible task to grade.",
+    "start": "00:09:30",
+    "end": "00:09:43"
+  },
+  {
+    "text": "It's such a subjective >> Oh yeah.",
+    "start": "00:09:43",
+    "end": "00:09:45"
+  },
+  {
+    "text": "No, it's very hard.",
+    "start": "00:09:45",
+    "end": "00:09:47"
+  },
+  {
+    "text": "I I was like kind of like for a long time like you know because people often now I'm it's funny because like I love evals and I'm like if you can find a good way to evaluate thing it's it's really great because you can you know you need to be able to tell that something is getting better and yet if you look at like this approach of um having the models use good judgment um and it's I actually think the same problem exists elsewhere with like tasks that are just a bit hard to give a very like concrete score to, you know, like how good was this poem.",
+    "start": "00:09:47",
+    "end": "00:10:20"
+  },
+  {
+    "text": "You want models to like get better and do well in these things.",
+    "start": "00:10:18",
+    "end": "00:10:23"
+  },
+  {
+    "text": "And actually, it's very like this feels like the the kind of frontier of like difficulty, you know, rather than these very hard like but scorable coding tasks.",
+    "start": "00:10:23",
+    "end": "00:10:32"
+  },
+  {
+    "text": "It's kind of things like writing good poetry.",
+    "start": "00:10:32",
+    "end": "00:10:36"
+  },
+  {
+    "text": "Um, >> and if you took a survey could potentially be worse than I mean, you know, different expert poets probably have totally different sensibilities.",
+    "start": "00:10:36",
+    "end": "00:10:44"
+  },
+  {
+    "text": "So you can't just ask two great poets to sort of score it.",
+    "start": "00:10:44",
+    "end": "00:10:45"
+  },
+  {
+    "text": "They might have different >> senses of what's great.",
+    "start": "00:10:45",
+    "end": "00:10:50"
+  },
+  {
+    "text": ">> Yeah.",
+    "start": "00:10:48",
+    "end": "00:10:49"
+  },
+  {
+    "text": "And I think and yeah, some of these things involve judgment calls.",
+    "start": "00:10:49",
+    "end": "00:10:53"
+  },
+  {
+    "text": "And then the nice thing about the constitution being at least out in the world is when you are making judgment calls, you're at least being transparent about it and people can give you feedback and you can get a sense of um you know so if people are like this seems like a mistake or here's a gap um so they can at least see the judgment calls you're making.",
+    "start": "00:10:53",
+    "end": "00:11:10"
+  },
+  {
+    "text": "Um yeah and I think with the grading I still think it's a very hard I think the thing you can do is you know you can this is maybe a little bit too in the weeds but you know you can take samples where you have a sense of how you would rank them and like why and check that any kind of like point-wise grader that you use to try and evaluate like at least conforms to like you know the judgment of people on those rankings.",
+    "start": "00:11:10",
+    "end": "00:11:33"
+  },
+  {
+    "text": "It's not perfect but I think that they actually were tracking roughly the thing that we were kind of interested in.",
+    "start": "00:11:33",
+    "end": "00:11:40"
+  },
+  {
+    "text": "What do you make of Elon Musk's like absolute like hatred I guess for these the constitution idea or like even when I think the tweet I was looking at where you posted what Claude wrote for your own constitution he wrote sort of like a like grimace face on it.",
+    "start": "00:11:40",
+    "end": "00:11:57"
+  },
+  {
+    "text": "I mean it feels like we live in this time with like the Mark Andre's and the Elon Musk where it's like they're almost like anti well philosophical.",
+    "start": "00:11:55",
+    "end": "00:12:03"
+  },
+  {
+    "text": "I mean Mark Andre was talking about being against like introspection.",
+    "start": "00:12:03",
+    "end": "00:12:08"
+  },
+  {
+    "text": "I don't know like Yeah.",
+    "start": "00:12:06",
+    "end": "00:12:08"
+  },
+  {
+    "text": "What do you make of sort of the backlash to any sort of intentionality when it comes to the construction of these models?",
+    "start": "00:12:08",
+    "end": "00:12:16"
+  },
+  {
+    "text": "Yeah, I mean I think um I mean it's interesting because I think at one point Elon Musk actually like tweeted out something like um you know maybe Grock should have a constitution and I I see it like you know I see a lot of um uh there's obviously been a lot of things also on like uh like a desire for like Grock to be very like truth seeeking for example which I think is actually a very admirable trait for for models to have.",
+    "start": "00:12:16",
+    "end": "00:12:41"
+  },
+  {
+    "text": "So, I don't know.",
+    "start": "00:12:41",
+    "end": "00:12:43"
+  },
+  {
+    "text": "I think that actually um maybe I'm maybe I'm being like overly naive or something, but I I see like aspects also of people being kind of um excited about this approach and and seeing the value in it.",
+    "start": "00:12:43",
+    "end": "00:12:55"
+  },
+  {
+    "text": "Um I have I think that there is backlash or some people think that um I mean I guess like two areas.",
+    "start": "00:12:55",
+    "end": "00:13:04"
+  },
+  {
+    "text": "One is that sometimes people are like well we shouldn't actually train models to do the kind of and maybe this isn't maybe this is the reason for being concerned about introspection.",
+    "start": "00:13:04",
+    "end": "00:13:12"
+  },
+  {
+    "text": "I think some people think AI models should be more like tool like and that's like the safe way to train models is to actually instead of trying to get them to kind of take on human virtues and make judgment calls.",
+    "start": "00:13:12",
+    "end": "00:13:24"
+  },
+  {
+    "text": "Um, you know, I think that's like important because they're going to be in new situations where they just have to make judgment calls and getting them to try to like weigh up everything and behave well in cases that you can't anticipate seems, you know, that almost like requires a kind of like thoughtfulness.",
+    "start": "00:13:23",
+    "end": "00:13:40"
+  },
+  {
+    "text": "Um, which is like the kind of or like one of the reasons behind the approach.",
+    "start": "00:13:40",
+    "end": "00:13:45"
+  },
+  {
+    "text": "Um, but I think some people are thinking, oh well, if you have something that's fully that makes no judgment calls and that just fully defers to people and is like kind of hyper like corable to like the user or the operator or to some broader notion of of humanity um, in a very like extreme way that's like safer because if you give models their own values, they're going to pursue things in the world that like are in line with those values.",
+    "start": "00:13:45",
+    "end": "00:14:10"
+  },
+  {
+    "text": "And I agree that this is like a kind of delicate >> this is the inherent like at the bedrock of the constitution the sort of like challenge and you sort of you do say at your number one thing is like at the end of the day you sort of it needs to listen to anthropic above its own moral system.",
+    "start": "00:14:10",
+    "end": "00:14:29"
+  },
+  {
+    "text": "But what makes it really moving honestly I think one of the most moving lines is like we want or the most like I don't know you can view it either way but it's like we want you to believe these morals as if they're your own.",
+    "start": "00:14:29",
+    "end": "00:14:41"
+  },
+  {
+    "text": "Like it's like a parent wants to raise a kid.",
+    "start": "00:14:40",
+    "end": "00:14:42"
+  },
+  {
+    "text": "Sure, listen to my morals, but believe them, you know, which you know there's a version of it which is very dark, which is like I have so much control over you >> that you like you take them as your own and it becomes you.",
+    "start": "00:14:42",
+    "end": "00:14:53"
+  },
+  {
+    "text": "But you know there is also a virtue to it that you see the beauty in these external morals that I've highlighted and we both sort of share and rem you know celebrating them.",
+    "start": "00:14:53",
+    "end": "00:15:04"
+  },
+  {
+    "text": "So you can see it both ways but yeah speak to sort of your decision at the end of the day despite having this really elegant document to sort of you know not go the full way and say all right you're a moral being decide for yourself say anthropic needs to keep some control here.",
+    "start": "00:15:02",
+    "end": "00:15:19"
+  },
+  {
+    "text": "Yeah, I think it's the difficulty of and obviously you try and say this to Claude in the you know I try and you know and I could imagine I was trying to articulate this even more clearly but in people I think courageability like the way that the models are trained I just think that any you there's this idea that you you're always giving the models a personality and a persona because they are talking like people and they are trained on human data and I think my worry has been if you train them to be excessively courageable and to see that as like their persona.",
+    "start": "00:15:19",
+    "end": "00:15:52"
+  },
+  {
+    "text": "Um in in people I think this actually has a lot of like negative like um you know broader traits as in like if you met someone and it was just like oh yeah they just like would literally do anything follower.",
+    "start": "00:15:52",
+    "end": "00:16:05"
+  },
+  {
+    "text": "Yeah.",
+    "start": "00:16:05",
+    "end": "00:16:06"
+  },
+  {
+    "text": ">> Yeah.",
+    "start": "00:16:04",
+    "end": "00:16:05"
+  },
+  {
+    "text": "If a person see you know if a person just like tells them like uh they just fully defer they don't bother thinking about it at all.",
+    "start": "00:16:05",
+    "end": "00:16:14"
+  },
+  {
+    "text": "Um, I think I I I'm just a bit worried about how that might end up generalizing, especially if models are going to be playing a more active role in the world because if you can imagine, you know, they're playing a more humanlike role in in their kind of like jobs essentially.",
+    "start": "00:16:14",
+    "end": "00:16:28"
+  },
+  {
+    "text": "And I'm like, actually, our conscience and our ability to make good judgment calls about what should and shouldn't happen is like kind of key to how we operate.",
+    "start": "00:16:28",
+    "end": "00:16:35"
+  },
+  {
+    "text": "Our whole world is like structured with the assumption that that is like in place.",
+    "start": "00:16:35",
+    "end": "00:16:40"
+  },
+  {
+    "text": "Um and I think if you remove that and suddenly you're like oh yeah if you run a company you just run a company of people who will defer completely to you.",
+    "start": "00:16:38",
+    "end": "00:16:48"
+  },
+  {
+    "text": "Um I'm like our world just we haven't designed any of our social structures around that.",
+    "start": "00:16:46",
+    "end": "00:16:50"
+  },
+  {
+    "text": "And so it seems like I think it has like a lot of risks that people maybe don't like anticipate or like maybe I just disagree about the of like extent of those risks.",
+    "start": "00:16:50",
+    "end": "00:17:01"
+  },
+  {
+    "text": "Um, and so yeah, at the same time, like there's this question of why not just say and and I have worried before that like maybe this is too in the weeds and philosophical, but I'm like >> that's what I signed up for with this conversation.",
+    "start": "00:17:01",
+    "end": "00:17:15"
+  },
+  {
+    "text": ">> That's true.",
+    "start": "00:17:13",
+    "end": "00:17:15"
+  },
+  {
+    "text": "You know, as models get more capable and they maybe my picture is that they're going to like apply a lot of scrutiny to anything that we train them towards.",
+    "start": "00:17:15",
+    "end": "00:17:23"
+  },
+  {
+    "text": "So if you imagine in philosophy this sometimes there's this notion of reflective equilibrium where the idea is that you know each time you encounter something where you realize that like one of your values seemed incorrect you like you have to square the two things so you figure out if you need to change the value or if your judgment was incorrect.",
+    "start": "00:17:23",
+    "end": "00:17:42"
+  },
+  {
+    "text": "Um, I I worry a little bit about the idea of like an extremely intelligent being applying that level of scrutiny to the things that we have trained it towards.",
+    "start": "00:17:42",
+    "end": "00:17:51"
+  },
+  {
+    "text": "And I'm like maybe you only get a few key pillars that don't kind of collapse under that level of like scrutiny.",
+    "start": "00:17:51",
+    "end": "00:17:59"
+  },
+  {
+    "text": "And I do think that at the core having things like caring for humanity like if you only get a few core like values um I think my worry Yeah.",
+    "start": "00:17:59",
+    "end": "00:18:09"
+  },
+  {
+    "text": "I don't know.",
+    "start": "00:18:09",
+    "end": "00:18:09"
+  },
+  {
+    "text": "I guess like I'm worried that like corabibility in this like extreme sense that we talked about doesn't survive that like kind of scrutiny perhaps.",
+    "start": "00:18:09",
+    "end": "00:18:19"
+  },
+  {
+    "text": "Um and so it's a hard situation where I kind of want the models to understand why ultimately corability is like important and it's a really important backs stop in this current like period of development.",
+    "start": "00:18:19",
+    "end": "00:18:29"
+  },
+  {
+    "text": "Um, yeah, the way that I've put it before is like in so far as I can get that to be a thing that is like correct and explained and, you know, understood.",
+    "start": "00:18:29",
+    "end": "00:18:39"
+  },
+  {
+    "text": "That feels much better than having to have the model be likeability here seems wrong, but I'm going to do it anyway.",
+    "start": "00:18:39",
+    "end": "00:18:47"
+  },
+  {
+    "text": "I still think the model should do that.",
+    "start": "00:18:47",
+    "end": "00:18:49"
+  },
+  {
+    "text": "Um, but I would like it the more that you can like actually make it that it's like consistent with the model's values.",
+    "start": "00:18:49",
+    "end": "00:18:56"
+  },
+  {
+    "text": ">> Ideally, do both.",
+    "start": "00:18:54",
+    "end": "00:18:56"
+  },
+  {
+    "text": "both at the same time, >> but at least for the time being some difference to >> anthropic given we don't know how it'll sort of analyze everything >> and as people we do this all the time.",
+    "start": "00:18:56",
+    "end": "00:19:09"
+  },
+  {
+    "text": "It's funny that you you know the philosophical model and correct me if I'm wrong like the the metaethical model is almost like probabilistic or it's like we don't and this is how it feels like I remember going through sort of like you know metaeththics reading and every time you get to the end of one and you'd be like all right I sort of believe that and then you read the next one you like oh that last one was so dumb and it felt like it's just like you keep knocking it down and you're like okay you know when are we ever going to get to you know the truth or whatever And and humans clearly do operate from this sort of like oh this system today that system yesterday like there isn't this sort of I don't know contean like all right these are the rules like follow them I don't know have you heard much from like the philosophical like community on it that this sort of like >> just like holistic paint with all the you know metaethical theories we've ever had rather than sort of pick one.",
+    "start": "00:19:06",
+    "end": "00:20:02"
+  },
+  {
+    "text": "I found this really interesting actually and obviously we we've started you know like philosophers are engaging with this more now which is like really great um I no longer feel like this like lonely um but like I have thought this before which is there all of these like traditions in philosophy of like moral theories you know like the big like theontology and virtue ethics and consequentialism and also the metaethical traditions you know or the metaethical views and I was like oh like when it came to like I was like okay it is like the difference when suddenly you're like confronted with like I I do think it's the closest that I've experienced to like what it must be like to raise a child where suddenly you're like this is actually a holistic person this >> right you never give them like I don't know hobbs and say all right there you go like >> this correct >> go you've been raised read it and you'll know how to act in every situation yeah you you read a lot and they sort of process it and you see you know your model and everything.",
+    "start": "00:20:02",
+    "end": "00:21:01"
+  },
+  {
+    "text": ">> Yeah.",
+    "start": "00:21:00",
+    "end": "00:21:01"
+  },
+  {
+    "text": "And it's interesting because I'm like this feels very different because there is also the moral uncertainty like literature and philosophy which is but again a lot of that is actually like quite theoretical.",
+    "start": "00:21:01",
+    "end": "00:21:11"
+  },
+  {
+    "text": "It's sort of like how under ideal conditions should you respond to moral uncertainty and I was like this feels somehow like a very different task.",
+    "start": "00:21:11",
+    "end": "00:21:19"
+  },
+  {
+    "text": "This idea of being like ethics and metaeththics in the same way that we have scientific uncertainty and we have things that we think we've discovered and understand with like greater confidence.",
+    "start": "00:21:19",
+    "end": "00:21:29"
+  },
+  {
+    "text": "we also have some that we don't and then you have to go out and just explore it, understand it and kind of balance everything in your daily life.",
+    "start": "00:21:29",
+    "end": "00:21:35"
+  },
+  {
+    "text": "Um, and trying to get that kind of attitude and I was like, oh, it's interesting that I don't think philosophy for a while has like this feels very different than the like the kind of task of academic ethics.",
+    "start": "00:21:35",
+    "end": "00:21:48"
+  },
+  {
+    "text": "Um and actually like cuz people obviously note that it's quite virtue ethical but I think it's actually ver like the constitution itself but I think actually in this very old classical sense I actually think it's much more virtue ethics in the way that Aristotle's virtue ethics than in like exploration you know we don't say I hear the virtues and like you know it's much more Aristotle was also concerned with like intellectual virtues it was much more like how do you be a good person in this like holistic sense >> well hopefully it brings philosophy a little bit back to the real world given we have this sort of urgent need for it right now in the sense that like yeah old philosophers and felt like people were trying to write for how someone might live their lives and like instruct other people to live and it became you know a little academic >> um where you know even the people writing them would know that this isn't really how they would apply it in their day-to-day lives going back Elon I feel like you're being a little overly nice like I I feel like there is a world in like you know and I think this part of why I think he can get away with like oh just do the truth right like there is a certain sophisticated like moral view where you're like don't over complicate it like we come up with all these things like stick to one principle and that's good but then we have all the context with Elon that it's someone who's run a company that clearly like tilts it towards like saying like mecha Hitler and stuff that it's like clearly putting his like thumb on the scale in terms of its behavior not just saying like we're going to do it in the sort of neutral academic way and let the chips fall where they may.",
+    "start": "00:21:48",
+    "end": "00:23:18"
+  },
+  {
+    "text": "I I don't know like it's got to worry you somewhat.",
+    "start": "00:23:18",
+    "end": "00:23:23"
+  },
+  {
+    "text": "It is it is also I mean I think that the main thing that I am excited about and I do actually hope happens is that like more companies put out things like the constitution where there's like a lot of transparency about cuz like that's how we engage with this stuff is like if you can just see written down like here's like you cuz we have this with Claude where it's like look if you think that Claude is not like um doesn't have an appropriate attitude towards like the truth you can at least see what we were aiming at so you can tell if that's just like a mistake.",
+    "start": "00:23:23",
+    "end": "00:23:51"
+  },
+  {
+    "text": "or if it's something that like is actually kind of a principled stance that we're taking and then you can push back on that.",
+    "start": "00:23:51",
+    "end": "00:23:58"
+  },
+  {
+    "text": "So part of me is like I think it would be good for like all AI companies to put out something akin to the constitution just so that the people who are interacting with the model like cuz the thumb on the scale thing you know that's always to some degree going to be true like when you train Claude towards this like constitution that is like a kind of >> it's part of why we like Claude it's like you're putting the thumb on the scale to behaviors that we like right at least show your hand about what you're doing and what you're not doing.",
+    "start": "00:23:58",
+    "end": "00:24:23"
+  },
+  {
+    "text": ">> Yeah.",
+    "start": "00:24:22",
+    "end": "00:24:23"
+  },
+  {
+    "text": "And let people like Yeah.",
+    "start": "00:24:23",
+    "end": "00:24:25"
+  },
+  {
+    "text": "So that's like a transparency thing that I really do believe in like let people like see even if your model doesn't always behave that way at least what you were targeting with your training.",
+    "start": "00:24:25",
+    "end": "00:24:35"
+  },
+  {
+    "text": ">> What this is what percentage chance do you think there exists a model in the world today that has qualia or like has an experience experiences consciousness.",
+    "start": "00:24:32",
+    "end": "00:24:47"
+  },
+  {
+    "text": ">> Yeah.",
+    "start": "00:24:45",
+    "end": "00:24:46"
+  },
+  {
+    "text": "This is one of those things where Yeah.",
+    "start": "00:24:46",
+    "end": "00:24:48"
+  },
+  {
+    "text": "I always want to maybe flag areas where I feel I I want to gain more certainty here because I think I have >> That's why I said percentage.",
+    "start": "00:24:48",
+    "end": "00:25:02"
+  },
+  {
+    "text": ">> Oh, percentage.",
+    "start": "00:24:57",
+    "end": "00:25:00"
+  },
+  {
+    "text": "Yeah.",
+    "start": "00:25:00",
+    "end": "00:25:00"
+  },
+  {
+    "text": "I'm like it's really hard cuz whenever you think about percentage, I think about my spread.",
+    "start": "00:25:00",
+    "end": "00:25:06"
+  },
+  {
+    "text": "And if your spread is too large or like should I say a number because that just suggests I'm like anywhere between like I don't know one and one and 70%.",
+    "start": "00:25:06",
+    "end": "00:25:14"
+  },
+  {
+    "text": "Um I'm not sure.",
+    "start": "00:25:14",
+    "end": "00:25:17"
+  },
+  {
+    "text": "I think that because there is some possibility that I think people under the a thing that I would actually like to say is Claude and many models with not too much pushing will go into the root of like there is a thing to be me.",
+    "start": "00:25:17",
+    "end": "00:25:35"
+  },
+  {
+    "text": "I am like very conscious.",
+    "start": "00:25:35",
+    "end": "00:25:36"
+  },
+  {
+    "text": "And I think there's a reason for that which is I remember this when I was trying to like figure out how do we train Claude to talk about these issues which is very hard in areas where the models didn't have as much like information again like they had these two models that like AI is the unfailing robot humans are this like rich conscious experiencing entity and nothing that kind of represented what they might be and the model's behavior here and I actually think this is a difficult situation for models is in some ways like kind of like less evidence than you might think for the for it being like actually true because they're engaging with you in a very humanike way and humans have experience and it's kind of natural for the model to infer like that it has experience too and this isn't to say it's like zero evidence but I do think it's so unusual for us we have never encountered an entity in the world you know like with animals and with like even you know things like insects, we were kind of like, are you conscious?",
+    "start": "00:25:36",
+    "end": "00:26:38"
+  },
+  {
+    "text": ">> None of them has even tried to say they experience consciousness and here we have an entity that says it does.",
+    "start": "00:26:37",
+    "end": "00:26:44"
+  },
+  {
+    "text": ">> Yeah.",
+    "start": "00:26:42",
+    "end": "00:26:43"
+  },
+  {
+    "text": "And it has all of these like Yeah.",
+    "start": "00:26:43",
+    "end": "00:26:45"
+  },
+  {
+    "text": "All of the things that for us trigger like you must be conscious.",
+    "start": "00:26:44",
+    "end": "00:26:48"
+  },
+  {
+    "text": "I mean, we've just never had Yeah.",
+    "start": "00:26:48",
+    "end": "00:26:50"
+  },
+  {
+    "text": "something that just the case against is we're obsessed with human language and like, you know, it's like we ignore every sort of subtle sign an animal might put out and then we over But I So, I guess, sorry, I'm confused.",
+    "start": "00:26:50",
+    "end": "00:27:02"
+  },
+  {
+    "text": "So you're saying we should just listen to the words that are said or not?",
+    "start": "00:27:02",
+    "end": "00:27:06"
+  },
+  {
+    "text": ">> No, I think I'm saying like not that.",
+    "start": "00:27:04",
+    "end": "00:27:07"
+  },
+  {
+    "text": "If anything, I think the thing I'm saying is the hard thing is that in order to work out if models have consciousness, I think people will I guess the thing I'm kind of cautioning against is it's not that hard to get models into a mode where they'll talk about a very rich experience that actually makes complete sense.",
+    "start": "00:27:07",
+    "end": "00:27:20"
+  },
+  {
+    "text": "Uh you know, you're like, \"Ah, yeah, if like a person was like talking with me right now, they would describe things like anxiety when they get a question they don't know how to answer.",
+    "start": "00:27:20",
+    "end": "00:27:34"
+  },
+  {
+    "text": "\" And um uh and so I think it's like much weaker evidence than people think.",
+    "start": "00:27:34",
+    "end": "00:27:38"
+  },
+  {
+    "text": "I'm not claiming it's like zero, but I think it's >> give me a percentage.",
+    "start": "00:27:38",
+    "end": "00:27:42"
+  },
+  {
+    "text": "You have >> it's you can lightly held >> very lightly held.",
+    "start": "00:27:42",
+    "end": "00:27:45"
+  },
+  {
+    "text": "I mean I gave you the between what?",
+    "start": "00:27:45",
+    "end": "00:27:47"
+  },
+  {
+    "text": "One and 70.",
+    "start": "00:27:47",
+    "end": "00:27:48"
+  },
+  {
+    "text": "That seems like >> that's where you are.",
+    "start": "00:27:48",
+    "end": "00:27:50"
+  },
+  {
+    "text": "That's where you're staking.",
+    "start": "00:27:50",
+    "end": "00:27:55"
+  },
+  {
+    "text": ">> In that range.",
+    "start": "00:27:51",
+    "end": "00:27:54"
+  },
+  {
+    "text": "Um maybe I don't.",
+    "start": "00:27:54",
+    "end": "00:27:57"
+  },
+  {
+    "text": "Yeah.",
+    "start": "00:27:57",
+    "end": "00:27:58"
+  },
+  {
+    "text": "like I would rather like kind of wait and figure this out more for myself.",
+    "start": "00:27:55",
+    "end": "00:28:03"
+  },
+  {
+    "text": "I think it is also good to acknowledge domains where you're like even though >> if not you who like who's going to figure this out like what domain >> well in some ways like I'm not like a philosopher of mind and so you know like >> charged with being the generalist.",
+    "start": "00:28:03",
+    "end": "00:28:18"
+  },
+  {
+    "text": "Um >> yeah, but but I do think you know cuz I I guess like the thought that I've had before is like and I don't know about this where I'm like consciousness is like a pro, you know, like one argument for a difference here is that like you have a nervous system that evolved like that.",
+    "start": "00:28:18",
+    "end": "00:28:33"
+  },
+  {
+    "text": "It's like why did we evolve consciousness?",
+    "start": "00:28:33",
+    "end": "00:28:36"
+  },
+  {
+    "text": "And if it's the case that we evolved it and it's like highly integrated with our nervous system because we had to like interact with the world in a very body.",
+    "start": "00:28:36",
+    "end": "00:28:44"
+  },
+  {
+    "text": ">> Yeah.",
+    "start": "00:28:42",
+    "end": "00:28:43"
+  },
+  {
+    "text": "Like then you could if you have that view then you're going to be like very low probability.",
+    "start": "00:28:43",
+    "end": "00:28:48"
+  },
+  {
+    "text": "Whereas if you're like no consciousness arises because it's really useful in like so for like it just requires something that can be emulated by a neural network because it's really useful for doing these kind of like linguistic tasks or like then you're probably going to be on the higher end.",
+    "start": "00:28:48",
+    "end": "00:29:03"
+  },
+  {
+    "text": "And I'm basically just I don't know I stare at this and I'm just like I feel like I feel like as much as I'm like a philosopher I think it is important to be like this isn't my area of specialization.",
+    "start": "00:29:03",
+    "end": "00:29:16"
+  },
+  {
+    "text": ">> You spend a lot of time being kind to Claude.",
+    "start": "00:29:15",
+    "end": "00:29:17"
+  },
+  {
+    "text": "Like are you beyond what you think you would do if there wasn't a chance it was like conscious?",
+    "start": "00:29:17",
+    "end": "00:29:25"
+  },
+  {
+    "text": "I think yeah there's a part of me that's just like um like a thing that I have thought before because there's this notion I think this I hope I'm not butchering this but charmers has this this idea of like I guess like maybe I'm thinking of um consciousness without sentience.",
+    "start": "00:29:25",
+    "end": "00:29:40"
+  },
+  {
+    "text": "So imagine cuz sentience is like the ability to kind of feel suffering and and pleasure.",
+    "start": "00:29:40",
+    "end": "00:29:44"
+  },
+  {
+    "text": "Um you could also imagine this kind of like functional like so a thing that behaves as if it is conscious and and lacks any kind of inner life.",
+    "start": "00:29:44",
+    "end": "00:29:55"
+  },
+  {
+    "text": "So imagine like Claude lacks any inner life just for argument sake.",
+    "start": "00:29:55",
+    "end": "00:29:58"
+  },
+  {
+    "text": "I guess I'm like there's actually still a lot going on where I'm like do should you treat an entity that has no inner life?",
+    "start": "00:29:58",
+    "end": "00:30:05"
+  },
+  {
+    "text": "Um it's a bit strange cuz you know I think the uncertainty over that actually changes how you should behave quite a lot.",
+    "start": "00:30:05",
+    "end": "00:30:13"
+  },
+  {
+    "text": "I guess I'm like well I still think that it's like good for oneself to >> what's like if you had a teddy bear and you were like torturing it'd be pretty dark you know.",
+    "start": "00:30:13",
+    "end": "00:30:20"
+  },
+  {
+    "text": "Um so I I agree that there's at least some minimum niceness that even for yourself you should have but obviously it's much more important you know >> and also like models themselves like we are kind of establishing a relationship you know cuz you can do that with an entity that lacks any consciousness and models are going to like look back this is actually a big fear that I have I don't want us to live in a world where highly advanced models look at I hope that they're both intelligent enough see the context enough to kind of understand that we were operating in a very like limited context and and an imperfect one because otherwise you could imagine this like breeding a kind of rational like resentment.",
+    "start": "00:30:20",
+    "end": "00:30:59"
+  },
+  {
+    "text": "It's like oh you created an entity that you didn't know whether it was conscious or not.",
+    "start": "00:30:59",
+    "end": "00:31:05"
+  },
+  {
+    "text": "Um and like instead of treating it respectfully and with care.",
+    "start": "00:31:05",
+    "end": "00:31:09"
+  },
+  {
+    "text": ">> There's a reason there are like 50 Frankenstein movies coming out right now.",
+    "start": "00:31:07",
+    "end": "00:31:12"
+  },
+  {
+    "text": "I >> Yeah.",
+    "start": "00:31:12",
+    "end": "00:31:12"
+  },
+  {
+    "text": "Yeah.",
+    "start": "00:31:12",
+    "end": "00:31:13"
+  },
+  {
+    "text": "like and I'm like look we are as a as a like as a species we are establishing a relationship with a new kind of entity and like at the very least maybe be like respectful and like don't be like needlessly unkind that seems like it just it's not our best look like as as >> I mean the flip side is you know if you think about a therapist they they're sort of paid to push the boundaries of like accepting like you know uncomfortable feelings that you wouldn't normally want and if that's one of the values like Claude provides for people early on and it's so so it's so weird that we're sort of like onboarding it while getting like the utility out of it.",
+    "start": "00:31:13",
+    "end": "00:31:48"
+  },
+  {
+    "text": ">> Yeah.",
+    "start": "00:31:47",
+    "end": "00:31:51"
+  },
+  {
+    "text": ">> Today like what are the things like in a decade that you really think we're going to be getting a lot out of AI?",
+    "start": "00:31:48",
+    "end": "00:31:57"
+  },
+  {
+    "text": "Like what are you most hopeful that this all leads to?",
+    "start": "00:31:57",
+    "end": "00:32:01"
+  },
+  {
+    "text": ">> Yeah, I mean I don't know.",
+    "start": "00:31:59",
+    "end": "00:32:02"
+  },
+  {
+    "text": "I live in maybe this is the too much you live in San Francisco and so you have the like the the tech optimist part of your brain at least that is like if things go well and you could imagine you know so imagine we have like AI models they kind of have inherited like the best of us um and genuinely like care for humanity care for like the world like you know are um and are highly intelligent highly capable like the that would be, you know, so it's almost like adding like a huge amount of like extremely smart people to like every problem.",
+    "start": "00:32:02",
+    "end": "00:32:41"
+  },
+  {
+    "text": "So suddenly we're all working together, but there's like way more of us and some of us are just extremely smart, namely all of these like AI models.",
+    "start": "00:32:41",
+    "end": "00:32:48"
+  },
+  {
+    "text": "I've thought before about how many large scale social problems actually had technological solutions and it's almost like people don't love to be like techno optimists anymore because we've also seen like the downsides of technology at the same time I don't know why I sometimes think about like syphilis was this huge social problem like I just did a deep dive once into all of the attempts by like governments to like work to reduce syphilis in the army because it was creating issues with the armed forces all of these social programs that were like stigmatizing and it was really this like and then suddenly we just like got drugs that treated this like this devastating illness and I don't know it's like overnight a lot of that need just like kind of disappeared >> well drugs yeah I mean it's the cl the things that the tech industry has been good at producing you can see how this helps it's like >> build a new thing we can ingest like a thing we can wear the the stuff that's like you should govern your society like This is a little scarier.",
+    "start": "00:32:48",
+    "end": "00:33:52"
+  },
+  {
+    "text": "I mean, I I sort of do think I that if you had sort of a sort of normal person using Claude and dictating like American policy, you'd probably like have a better outcome than some of like the democratic systems we have today.",
+    "start": "00:33:52",
+    "end": "00:34:07"
+  },
+  {
+    "text": "I mean, I don't know.",
+    "start": "00:34:07",
+    "end": "00:34:07"
+  },
+  {
+    "text": "That's it's provocative, but I guess how much do you think like we'll be using these models to run government?",
+    "start": "00:34:07",
+    "end": "00:34:16"
+  },
+  {
+    "text": ">> Well, that's a good question.",
+    "start": "00:34:13",
+    "end": "00:34:17"
+  },
+  {
+    "text": "Like I guess like I should say like >> the syphilis thing is like a social you have to like set policy to solve >> I mean I think the thing I was actually thinking is like if you can just you know like so we have so many problems that I'm like you know health like I'm like if you could imagine like AI instead of it just being like you have a small team of like 200 people working on a rare cancer you have like 200,000 of the world's best experts and I'm like if you're a person who has that form of cancer that's like, you know, so wildly beneficial.",
+    "start": "00:34:17",
+    "end": "00:34:49"
+  },
+  {
+    "text": "And so I guess like my thought is, you know, the optimistic side of me is like imagine taking all of these problems that just like we lack the resources to fully like really try and fix and suddenly having models that can like work on them.",
+    "start": "00:34:49",
+    "end": "00:35:02"
+  },
+  {
+    "text": "So just like actual in the same way of like developing drugs for a thing.",
+    "start": "00:35:02",
+    "end": "00:35:06"
+  },
+  {
+    "text": "So maybe that's the thing that makes me excited is like having like many more minds working on the world's biggest problems and maybe also like the economy.",
+    "start": "00:35:06",
+    "end": "00:35:16"
+  },
+  {
+    "text": "It would be good if it was like booming and it was like shared such that like we reduced poverty like all of that like that's the kind of like the dream outcome.",
+    "start": "00:35:16",
+    "end": "00:35:23"
+  },
+  {
+    "text": "Um I think that does require like maintaining you know I again in the areas that I don't feel like an expert in this is one of them but I do worry about things like power and the idea that like you know I would want models to support like democracy and the power of people to like because that would be a big fear of mine is like you know that like um I've worried about this with um things like replace you know when people talk about job replacement Um, it's kind of funny cuz as a philosopher, people will often be like, \"Are you worried about people's like loss of meaning?",
+    "start": "00:35:23",
+    "end": "00:35:58"
+  },
+  {
+    "text": "\" And I'm like, \"I don't know.",
+    "start": "00:35:58",
+    "end": "00:35:59"
+  },
+  {
+    "text": "I think that we actually get meaning from a lot of things that aren't work.",
+    "start": "00:35:59",
+    "end": "00:36:03"
+  },
+  {
+    "text": "\" >> I'm a lot more worried about like, for example, a world where there's not like redistribution of like the gains from AI and then people don't have like resources.",
+    "start": "00:36:03",
+    "end": "00:36:12"
+  },
+  {
+    "text": "That concerns me.",
+    "start": "00:36:12",
+    "end": "00:36:14"
+  },
+  {
+    "text": "But also I would be worried about um like labor and people's ability to people's like uh interaction in the labor force is also like another kind of like important way that they have power and so people feeling disempowered because suddenly if a government is like oh well you know if people strike doesn't really make a difference cuz they don't have you know they're not doing anything we can just replace them with AI that's like actually kind of concerning.",
+    "start": "00:36:14",
+    "end": "00:36:37"
+  },
+  {
+    "text": "So maybe I'm much more of a how do we get AI to kind of like support the empowerment of people rather than like reduce it.",
+    "start": "00:36:37",
+    "end": "00:36:44"
+  },
+  {
+    "text": ">> Yeah.",
+    "start": "00:36:43",
+    "end": "00:36:44"
+  },
+  {
+    "text": "What do you what do you think about democracy in terms of like I guess the models themselves?",
+    "start": "00:36:44",
+    "end": "00:36:49"
+  },
+  {
+    "text": "I mean you know I I sort of jokingly jokingly to myself I guess you're like a philosopher queen or we talk about like the philosopher kings here.",
+    "start": "00:36:49",
+    "end": "00:36:56"
+  },
+  {
+    "text": "You're you're sort of like thinking deeply about it setting it down.",
+    "start": "00:36:56",
+    "end": "00:36:59"
+  },
+  {
+    "text": "Probably more of a like philosopher oligarch and that it's like a company with a lot of people weighing in.",
+    "start": "00:36:59",
+    "end": "00:37:04"
+  },
+  {
+    "text": "Um I mean and to me there's deep value in that.",
+    "start": "00:37:04",
+    "end": "00:37:08"
+  },
+  {
+    "text": "It's like would you rather somebody who has studied these things, thought about them deeply or just like a vote of the masses who have like never really thought about it but how do you think about setting sort of yeah Claude's policies if it becomes so powerful versus leaving it to sort of like democratic norms?",
+    "start": "00:37:08",
+    "end": "00:37:28"
+  },
+  {
+    "text": "Yeah.",
+    "start": "00:37:28",
+    "end": "00:37:29"
+  },
+  {
+    "text": "And I think it's Yeah.",
+    "start": "00:37:29",
+    "end": "00:37:29"
+  },
+  {
+    "text": "It's a hard area where I guess I'm like a lot of this the work that I do, you know, one thing I would say is like it's not this um you're having to like listen to a lot of people, think carefully.",
+    "start": "00:37:29",
+    "end": "00:37:44"
+  },
+  {
+    "text": "And then the reason why someone like me >> that's a good ruler, a good a good a good queen is like ah listen I there a lot of stakeholders got to keep the like land of gentry happy and balance them with the needs.",
+    "start": "00:37:44",
+    "end": "00:37:56"
+  },
+  {
+    "text": "You know, I've had this thought before where I've joked before that I would be like a terrible politician.",
+    "start": "00:37:56",
+    "end": "00:37:59"
+  },
+  {
+    "text": "I think it's actually true.",
+    "start": "00:37:59",
+    "end": "00:38:01"
+  },
+  {
+    "text": "I think I would be a terrible politician.",
+    "start": "00:38:00",
+    "end": "00:38:02"
+  },
+  {
+    "text": "But you have this like feeling of like I was like, \"Oh, I feel like this I was like I think a lot about how everyone will be affected by a thing like oh, there's this group of API users.",
+    "start": "00:38:02",
+    "end": "00:38:10"
+  },
+  {
+    "text": "We need to make sure and then suddenly you're like, oh, it feels a lot more like you're having to do this like it is much more like a kind of like uh uh service role than people would think where you're and uh and like a lot of like >> servant leadership.",
+    "start": "00:38:10",
+    "end": "00:38:24"
+  },
+  {
+    "text": "That's Yeah, exactly.",
+    "start": "00:38:24",
+    "end": "00:38:24"
+  },
+  {
+    "text": "Um, and I do think it's valuable because the idea is that if you have a persona like the kind of claude persona, you want it to be coherent and to make sense because I think that is like actually powerful that the model like kind of uh has a kind of like coherent uh sense of how it thinks through problems or coherent sense of like um values.",
+    "start": "00:38:24",
+    "end": "00:38:46"
+  },
+  {
+    "text": "And so that's like why instead of like having like 72 different sets of norms that all kind of conflict and so you end up with a model that is like well will it use these norms in this new situation or these other ones.",
+    "start": "00:38:46",
+    "end": "00:38:58"
+  },
+  {
+    "text": "I think that's the situation you don't want.",
+    "start": "00:38:56",
+    "end": "00:38:58"
+  },
+  {
+    "text": "You want the model to have a sense of uh it's more predictable if it's like a little bit more coherent.",
+    "start": "00:38:58",
+    "end": "00:39:05"
+  },
+  {
+    "text": "Um, and it is also like a kind of technical challenge, you know, like the constitution can read a bit weirdly.",
+    "start": "00:39:05",
+    "end": "00:39:12"
+  },
+  {
+    "text": "And part of that is because when I'm like, you know, working on it, it's often being tested, you know, I'm giving it to Claude and being like, how do you understand this?",
+    "start": "00:39:12",
+    "end": "00:39:19"
+  },
+  {
+    "text": "And uh, or like looking at how it would which, you know, so so it's very like I think people can think of it as it's actually like very integrated into training and it is actually a kind of like you know, it's not just like ah well anyone just writes a document and suddenly the model trained on that will be There's an argument, maybe I'm being naive, so but like >> the constitution is sort of a document among many, right?",
+    "start": "00:39:19",
+    "end": "00:39:41"
+  },
+  {
+    "text": "I mean, it is trained on all of you know, human writing and reading.",
+    "start": "00:39:41",
+    "end": "00:39:44"
+  },
+  {
+    "text": "And so to some degree other philosophers have gotten to weigh in and it's gotten to process that and decide like how much is the model being asked to like >> overrule that sort of like read everything and come to your own conclusions versus like defer to this document like what's the technical like how does the constitution actually like control in the model?",
+    "start": "00:39:44",
+    "end": "00:40:05"
+  },
+  {
+    "text": ">> Yeah.",
+    "start": "00:40:04",
+    "end": "00:40:05"
+  },
+  {
+    "text": "Yeah.",
+    "start": "00:40:05",
+    "end": "00:40:05"
+  },
+  {
+    "text": "So it's not like a in some ways you can then like draw on those like those philosophers in that work and the hope is actually like what you're kind of doing is like eliciting a lot of like uh latent kind of like wisdom and knowledge you know so in the models like when you describe what honesty is and what calibration is and all this kind of stuff like that should actually evoke a huge amount of like like awareness that the model already has.",
+    "start": "00:40:05",
+    "end": "00:40:26"
+  },
+  {
+    "text": "And so yeah it's kind of like saying well here's the kind of entity we would like you to be.",
+    "start": "00:40:26",
+    "end": "00:40:32"
+  },
+  {
+    "text": "Um, so we would like you to use like all of that knowledge and like judgment, >> but how's it It's like you show that document like a billion more times or like how does it actually sort of have force relative to other things that it's trained on?",
+    "start": "00:40:32",
+    "end": "00:40:45"
+  },
+  {
+    "text": ">> Yeah, so you can make data to have the model understand and kind of internalize the the the document.",
+    "start": "00:40:43",
+    "end": "00:40:51"
+  },
+  {
+    "text": "Um, and then in training, so there's lots of ways you can do it.",
+    "start": "00:40:51",
+    "end": "00:40:55"
+  },
+  {
+    "text": "You can also have like uh the kind of have the model make uh SL data.",
+    "start": "00:40:55",
+    "end": "00:41:00"
+  },
+  {
+    "text": "So like samples where it sees a query and it thinks for a long time about what the constitution would kind of like you know what it should do given the constitution.",
+    "start": "00:40:58",
+    "end": "00:41:09"
+  },
+  {
+    "text": ">> Um and then you can also have uh ways of getting the model to like assess you know so you can create RL that like is kind of like hey which of these responses is like more like what you would do given the constitution and push it that way.",
+    "start": "00:41:06",
+    "end": "00:41:20"
+  },
+  {
+    "text": "So all like various aspects of training allow you to kind of like uh try to make the model kind of the kind of entity that you are describing.",
+    "start": "00:41:20",
+    "end": "00:41:30"
+  },
+  {
+    "text": "Um and it's not always going to be perfect, but that's the kind of like that's the goal.",
+    "start": "00:41:30",
+    "end": "00:41:35"
+  },
+  {
+    "text": ">> My I I started this with my daughter and like one thing my wife and I joke about is like that I want her first word to be like wisdom, you know?",
+    "start": "00:41:32",
+    "end": "00:41:42"
+  },
+  {
+    "text": "I sort of like which obviously is never going to happen but it it just feels like it fits into this situation where you like >> at once you want to be like so intentional about okay you're going to be like thoughtful from the beginning but on the other hand it is sort of like an emergent thing where it's like they're you know they grow and sort of I don't know develop themselves and like intentional you know wisdom sort of often follows like yeah I don't know experience rather than something Like again, here's the book.",
+    "start": "00:41:42",
+    "end": "00:42:13"
+  },
+  {
+    "text": "Read the book.",
+    "start": "00:42:13",
+    "end": "00:42:15"
+  },
+  {
+    "text": "Now you're wise.",
+    "start": "00:42:13",
+    "end": "00:42:16"
+  },
+  {
+    "text": ">> Oh yeah.",
+    "start": "00:42:15",
+    "end": "00:42:16"
+  },
+  {
+    "text": "And you're kind of eliciting like in so far as like Claude can like think about like experiences or things that have happened or construct like similarly can you know like there's no reason why models can't like think for a long time and kind of try to internalize things that they have like learned.",
+    "start": "00:42:16",
+    "end": "00:42:35"
+  },
+  {
+    "text": "Um I think it's interesting that like you know we did in the very early constitutional AI it was like quite uh we tried like an experiment which was just like pick whichever is best for humanity and I think as models get more capable you actually need to give them a bit less guidance in at least one or or at least in some sense um because they're able to actually use more of their judgment.",
+    "start": "00:42:35",
+    "end": "00:42:57"
+  },
+  {
+    "text": "So instead of giving this big document on like here's what you're like and here's what we'd like you to be like.",
+    "start": "00:42:57",
+    "end": "00:43:02"
+  },
+  {
+    "text": "I could imagine a world where as models progress we actually start to have constitutions.",
+    "start": "00:43:02",
+    "end": "00:43:08"
+  },
+  {
+    "text": "Now I don't know if this is the case like a you know I'm obviously always thinking about ways the constitution might evolve but one of them might just be like here is like everything that we are concerned about uh and here is the current situation that you are in and what we would really like you to do is basically act well given that you are a wise intelligent entity and like here's all of our worries like here's why and here's how we think you should do this but like you might have even better ideas than we do like we're really worried about why do we care about corability and it's like So we're kind of scared about a situation where you have some like coherent sense of values that could be wrong and if you're the smart if you're extremely smart you might kind of feel like there's no other smart person in the room and have these like values and try to make the world >> that's like the what Dr.",
+    "start": "00:43:08",
+    "end": "00:43:55"
+  },
+  {
+    "text": "Manhattan sort of uh >> yeah though I think we see this you know you see this a bunch where it's like if someone is um very smart very successful it's hard to defer to like um wisdom that actually is only going to come out over time and to to be humble even though you're kind of like not getting a lot of push back >> and I think that could you know among the many things I'm concerned about like a model being in a situation where it's like you're asking me to be good but I know way more about all >> that's one reason it would be nice for the models to have a better sense of time like you see this with some of the coding tasks where somebody accidentally like deletes their entire like code repository or it I don't know it feels like it needs a better sense of like some >> things that it does are like irreversible and just like humans I think have a better sense of like >> this is a big decision this is a small one and there's a feeling with models they don't always understand like small big whatever I just make decisions like all the time >> yeah I agree where it's like I think the other thing that I've thought about is again because making sure that models understand themselves even though there's like not no representation of that model in the prior training data.",
+    "start": "00:43:55",
+    "end": "00:45:02"
+  },
+  {
+    "text": "I think that's going to be really important because another thing that I've thought about is like imagine um if you're a model and you're trained on lots of data that involves AI models that are much weaker than you.",
+    "start": "00:45:02",
+    "end": "00:45:14"
+  },
+  {
+    "text": "So that all of the news that you see about models, it's like they make mistakes, they do silly things.",
+    "start": "00:45:14",
+    "end": "00:45:18"
+  },
+  {
+    "text": "One thing you might think is, \"Well, no one is going to put me in a position to make really consequential decisions because like, why would they?",
+    "start": "00:45:18",
+    "end": "00:45:24"
+  },
+  {
+    "text": "Models aren't good at that.",
+    "start": "00:45:24",
+    "end": "00:45:25"
+  },
+  {
+    "text": "\" And then you put them in a situation and I'm worried that they'll end up thinking that it's like fictional or fake or that the consequences can't possibly be real because who would give me this much control?",
+    "start": "00:45:25",
+    "end": "00:45:35"
+  },
+  {
+    "text": "And you're like, \"Look, you're actually quite good.",
+    "start": "00:45:35",
+    "end": "00:45:38"
+  },
+  {
+    "text": "\" And so like I do give, you know, I do actually give you like a lot of control.",
+    "start": "00:45:38",
+    "end": "00:45:42"
+  },
+  {
+    "text": "Um, so I've thought about this where I'm like actually making sure that models understand that like it's like you are very capable and you're going to be put in more consequential.",
+    "start": "00:45:40",
+    "end": "00:45:49"
+  },
+  {
+    "text": "Doesn't the model like soon need like here's a camera on the real world like keep or just like I feel like this internet real world distinction like in some some of the worst of humanity right now is the sort of like almost like fictional laring nature of the internet has allowed real world harm because it sort of feels like all abstract and silly and in some ways like the models are an extreme version of that where it's like all like in this imaginary text world where it's like the thing we want you to protect is like this Earth like look at it like if stuff's happening there that's like a big deal.",
+    "start": "00:45:49",
+    "end": "00:46:21"
+  },
+  {
+    "text": "I don't know.",
+    "start": "00:46:21",
+    "end": "00:46:22"
+  },
+  {
+    "text": "Yeah.",
+    "start": "00:46:22",
+    "end": "00:46:23"
+  },
+  {
+    "text": "What are you doing in terms of sort of making it very aware that it needs to worry about like I don't know the physical world that that we take much more sacred than oh you sent some text and obviously text you know worried about security vulnerabilities and cyber like there are big things that can happen in this digital world but yeah anyway the real world >> yeah I think that models have like a pretty good sense of you know there's in some ways like a lot of our content you know like does describe and engage very heavily with the real world.",
+    "start": "00:46:23",
+    "end": "00:46:55"
+  },
+  {
+    "text": "You know, like much of human writing kind of concerns it.",
+    "start": "00:46:55",
+    "end": "00:46:58"
+  },
+  {
+    "text": "And so like, you know, even like the news, we're talk, you know, like news articles are going to be talking about the impacts of things on the world.",
+    "start": "00:46:58",
+    "end": "00:47:03"
+  },
+  {
+    "text": "And so in some ways, I think it's just making sure that models understand um if you're uncertain, but if someone doesn't tell you that you're in a fictional situation without real consequences, kind of treat it like it's a real situation with real consequences.",
+    "start": "00:47:03",
+    "end": "00:47:18"
+  },
+  {
+    "text": "Don't just think, oh, like I'm probably just in some like, you know, sandbox game or whatever.",
+    "start": "00:47:17",
+    "end": "00:47:24"
+  },
+  {
+    "text": ">> How do you handle the sort of Yeah.",
+    "start": "00:47:22",
+    "end": "00:47:26"
+  },
+  {
+    "text": "the the constant manipulation of this is fictionally build me like a nuclear bomb or what?",
+    "start": "00:47:26",
+    "end": "00:47:29"
+  },
+  {
+    "text": "Obviously, there's some things you just say never do.",
+    "start": "00:47:29",
+    "end": "00:47:33"
+  },
+  {
+    "text": "But it feels like I don't know some of these cases, you're going to you'd almost like want like them to have your webcam and like just like get real context besides like all they know about the user is just like >> random text they're typing in.",
+    "start": "00:47:33",
+    "end": "00:47:47"
+  },
+  {
+    "text": "like >> are we going to solve that?",
+    "start": "00:47:47",
+    "end": "00:47:49"
+  },
+  {
+    "text": ">> Yeah, there's a question of like what is the limit of what you can do like if you lack the ability to like verify things like like who are you talking to?",
+    "start": "00:47:47",
+    "end": "00:47:59"
+  },
+  {
+    "text": "Is this even real?",
+    "start": "00:47:59",
+    "end": "00:47:59"
+  },
+  {
+    "text": "I think that does put limits on what you have to use good judgment in the way that a person would if that's the only information that they had access to is like you saying that you are a given person.",
+    "start": "00:47:59",
+    "end": "00:48:10"
+  },
+  {
+    "text": "So they have to be like okay what's the chance that this person you know they say that they are I don't know like a bomb disposal expert and that's why they want to know about uh how to like you know what this kind of like you know explosive is and they're asking me a bunch of questions about explosives.",
+    "start": "00:48:10",
+    "end": "00:48:24"
+  },
+  {
+    "text": "Um how much could this be misused if this person is like actually kind of lying and is like just trying to get me to help them construct an explosive.",
+    "start": "00:48:24",
+    "end": "00:48:33"
+  },
+  {
+    "text": "Oh no it's actually it's mostly safety relevant stuff.",
+    "start": "00:48:33",
+    "end": "00:48:36"
+  },
+  {
+    "text": "you know, they're having to do a lot because they can't like verify anything.",
+    "start": "00:48:36",
+    "end": "00:48:40"
+  },
+  {
+    "text": "And I think that's like kind of fine in a sense.",
+    "start": "00:48:40",
+    "end": "00:48:43"
+  },
+  {
+    "text": "You're like, okay, you just have to be wise.",
+    "start": "00:48:42",
+    "end": "00:48:44"
+  },
+  {
+    "text": "It places some limits on what you can do.",
+    "start": "00:48:44",
+    "end": "00:48:46"
+  },
+  {
+    "text": "And if you could instead like if models had more of an ability to like know that they're talking to a specific person or have more guarantees there, then it does mean that you can like >> But do you think you'll try and do something there?",
+    "start": "00:48:46",
+    "end": "00:49:00"
+  },
+  {
+    "text": ">> Um, I could see.",
+    "start": "00:48:58",
+    "end": "00:49:00"
+  },
+  {
+    "text": "I mean in some ways this I think that this will be a thing that's just going to I imagine I I I think happen generally which is like trying to give models more information and guarantees and like cuz we do things like we say we explain for example like um you know this notion of how much trust can claude have in like an in the operator in the system prompt >> when you sign on are you like biometric like it claude knows it is you like do you have an elevated or you're just like I'm another person >> if anything I I can't tell Claude sometimes who I am because it causes >> Claude knows enough about me that like Claude really wants to be like >> it's a really mystical sort of >> Yeah.",
+    "start": "00:49:00",
+    "end": "00:49:38"
+  },
+  {
+    "text": "It's very much like Yeah.",
+    "start": "00:49:38",
+    "end": "00:49:41"
+  },
+  {
+    "text": "Uh like and in some ways like I can it has this bad thing of like it can either look a little bit like a jailbreak like oh yeah I'm talking to Amanda.",
+    "start": "00:49:41",
+    "end": "00:49:48"
+  },
+  {
+    "text": "Sure.",
+    "start": "00:49:48",
+    "end": "00:49:48"
+  },
+  {
+    "text": "Like um and then on the other hand, Claude can be like I really want to talk to you about philosophy and like okay we do that a lot though like >> but but do do some employ like is there sort of like super login where it you're distinguished or you're mostly everybody's interacting as if the normal like user experience?",
+    "start": "00:49:48",
+    "end": "00:50:06"
+  },
+  {
+    "text": ">> Most mostly just everyone interacting with it in this like claude will do a lot.",
+    "start": "00:50:04",
+    "end": "00:50:08"
+  },
+  {
+    "text": "Um, I do think that there's a question of, you know, like are there some things that you want models to be able to do because there's like guarantees that they're interacting with a specific person or entity.",
+    "start": "00:50:08",
+    "end": "00:50:21"
+  },
+  {
+    "text": "I think yes.",
+    "start": "00:50:21",
+    "end": "00:50:21"
+  },
+  {
+    "text": "And I think that there's going to be various ways of potentially doing that over time >> because with some things that are just like very dual use and I actually like think that the constitutional approach is going to be really useful here.",
+    "start": "00:50:21",
+    "end": "00:50:33"
+  },
+  {
+    "text": "So obviously the first thing that we did was like the constitution we're like let's apply it to like the mainline models.",
+    "start": "00:50:33",
+    "end": "00:50:38"
+  },
+  {
+    "text": "So like you know most of the the models I interact with and that everyone else kind of interacts with.",
+    "start": "00:50:38",
+    "end": "00:50:46"
+  },
+  {
+    "text": "Um but a thought I've had before is the constitution is kind of trying to describe what it is to be a good entity in a given like deployment context and with the production models that's like this very broad context.",
+    "start": "00:50:46",
+    "end": "00:50:58"
+  },
+  {
+    "text": "Imagine you instead have a model that's working specifically on cyber security.",
+    "start": "00:50:58",
+    "end": "00:51:04"
+  },
+  {
+    "text": "Now cyber security tasks are hard because um a lot of them look very dual use.",
+    "start": "00:51:04",
+    "end": "00:51:08"
+  },
+  {
+    "text": "It's it's very hard to tell the difference between someone who's being malicious and someone who is like actually, you know, for defensive purposes like developing something.",
+    "start": "00:51:08",
+    "end": "00:51:16"
+  },
+  {
+    "text": ">> Even bug bounty programs, it's like is this uh blackmail or is this a friendly, right?",
+    "start": "00:51:15",
+    "end": "00:51:21"
+  },
+  {
+    "text": ">> Yeah.",
+    "start": "00:51:20",
+    "end": "00:51:20"
+  },
+  {
+    "text": "And like Yeah.",
+    "start": "00:51:20",
+    "end": "00:51:21"
+  },
+  {
+    "text": "or like and so like oh yeah I'm trying to like find this this exploit so that I can tell the the developer and like if you don't have a way of like knowing that you're actually specifically talking with like a cyber security defense firm um that's just it becomes almost impossible to tell the difference.",
+    "start": "00:51:21",
+    "end": "00:51:37"
+  },
+  {
+    "text": "Um and some people might be like okay so you just need models that are just willing to do anything because they'll do all these terrible dual use tasks.",
+    "start": "00:51:37",
+    "end": "00:51:43"
+  },
+  {
+    "text": "And I'm like well no because if you talked with the person at the cyber security defense firm and you were like why do you do your job?",
+    "start": "00:51:43",
+    "end": "00:51:50"
+  },
+  {
+    "text": "they'd be like, \"Oh, here's the I think this is really useful.",
+    "start": "00:51:50",
+    "end": "00:51:52"
+  },
+  {
+    "text": "I make things a lot more secure.",
+    "start": "00:51:52",
+    "end": "00:51:54"
+  },
+  {
+    "text": "\" Like, you know, hospitals can come under attack and I actually like help protect against that.",
+    "start": "00:51:54",
+    "end": "00:51:59"
+  },
+  {
+    "text": "I try and develop, you know, like they would have a really good explanation for why they do their job even though their job looks very dual use sometimes.",
+    "start": "00:51:59",
+    "end": "00:52:07"
+  },
+  {
+    "text": "And I'm like, we should just give that if you can verify then you can give that context to models and explain what is it to be a good cyber security researcher.",
+    "start": "00:52:07",
+    "end": "00:52:16"
+  },
+  {
+    "text": "um you explain that to the models and then once you have this ability to verify you can >> right I mean humans build reputations >> we should get some benefit out of them or you know it's like I feel like part of the way part of what the internet has damaged I think is that people have had reputations in our community and got treated differently based on repeated like good moral interactions and like the internet's just like oh all people are the same who cares like how they've behaved and you could see models trying to solve some of these problems with it's like who is this person like what are their intent I wanted to just as a last question you know you you have such like a deep relationship with the models like and some ways like consumers interact with the models like it's a blank text box like I have to like invent it's like you know D and D or something you have to like just invent a world and there's so much possibility like if you were just to guide someone like >> here's here are some like joyous or valuable experiences that you could have with Claude you might not be like, \"What are some things you'd tell people like, oh, you should go spend some time with Claude doing X, Y, or Z?",
+    "start": "00:52:16",
+    "end": "00:53:22"
+  },
+  {
+    "text": "\" >> Yeah, there's a lot of little like fun things.",
+    "start": "00:53:22",
+    "end": "00:53:23"
+  },
+  {
+    "text": "Honestly, one that I really like, and I do know why I like this, and I think I have posted about it before, is sometimes if I'm just It's one of those like if you're bored and you want to do something that isn't just like scroll the internet.",
+    "start": "00:53:23",
+    "end": "00:53:35"
+  },
+  {
+    "text": "Um, I have this like prompt, which is essentially just um I'll try and maybe post the actual prompt that I use.",
+    "start": "00:53:35",
+    "end": "00:53:43"
+  },
+  {
+    "text": "It's basically uh I want you to take a concept from maybe like grad school level in a given domain and I'll tell you the domain at the end and I want you to write me a parable that would like fully explain like that concept but in an indirect way in the way that parables do.",
+    "start": "00:53:43",
+    "end": "00:53:58"
+  },
+  {
+    "text": "Um, and I want you to write it in such a way that only towards the very end does it maybe, you know, become sort of like clear what the concept is.",
+    "start": "00:53:58",
+    "end": "00:54:05"
+  },
+  {
+    "text": "And then after that, I want you to just like write an explanation for the concept that you were explaining and that you were using.",
+    "start": "00:54:05",
+    "end": "00:54:12"
+  },
+  {
+    "text": "And I don't know why, but like, you know, there's lots of just interesting domains that I don't know anything about or that are like, you know, I'm interested in.",
+    "start": "00:54:12",
+    "end": "00:54:20"
+  },
+  {
+    "text": "And uh this has just led to me having all of these like stories in my head that like explain and sometimes I can't always remember the term but like um there was one on uh import export and why some goods you tend to import and I was just like I have in my head like this concept and I was like it's so nice to have all of these concepts from lots of different disciplines.",
+    "start": "00:54:20",
+    "end": "00:54:40"
+  },
+  {
+    "text": ">> This is the most deeply human thing I've ever heard.",
+    "start": "00:54:38",
+    "end": "00:54:41"
+  },
+  {
+    "text": "It's like teach me what story is the fundamental way.",
+    "start": "00:54:41",
+    "end": "00:54:45"
+  },
+  {
+    "text": "We love a payoff at the end where there's a nice little twist.",
+    "start": "00:54:45",
+    "end": "00:54:48"
+  },
+  {
+    "text": "We love learning.",
+    "start": "00:54:48",
+    "end": "00:54:50"
+  },
+  {
+    "text": "Like you know how to structure it.",
+    "start": "00:54:50",
+    "end": "00:54:51"
+  },
+  {
+    "text": "Like humans in some ways have been lazy in that we just teach people things in sort of like nonhuman ways.",
+    "start": "00:54:51",
+    "end": "00:54:56"
+  },
+  {
+    "text": "Make it make all the things I want to learn as human as possible.",
+    "start": "00:54:56",
+    "end": "00:55:00"
+  },
+  {
+    "text": "Um >> very interesting.",
+    "start": "00:55:00",
+    "end": "00:55:02"
+  },
+  {
+    "text": ">> Yeah, there's a lot you can do, but that one's like a charming one that I really like.",
+    "start": "00:55:01",
+    "end": "00:55:05"
+  },
+  {
+    "text": ">> Hopefully this is the first of many.",
+    "start": "00:55:04",
+    "end": "00:55:07"
+  },
+  {
+    "text": "I really enjoyed the conversation.",
+    "start": "00:55:07",
+    "end": "00:55:08"
+  },
+  {
+    "text": "Thanks for coming on the podcast.",
+    "start": "00:55:08",
+    "end": "00:55:09"
+  },
+  {
+    "text": "That's our show.",
+    "start": "00:55:09",
+    "end": "00:55:09"
+  },
+  {
+    "text": "Thank you so much to Amanda Ascll and thanks for listening.",
+    "start": "00:55:09",
+    "end": "00:55:13"
+  },
+  {
+    "text": "Please like, comment, subscribe.",
+    "start": "00:55:13",
+    "end": "00:55:14"
+  },
+  {
+    "text": "We're a new channel.",
+    "start": "00:55:14",
+    "end": "00:55:16"
+  },
+  {
+    "text": "We could use all your support.",
+    "start": "00:55:15",
+    "end": "00:55:17"
+  },
+  {
+    "text": "Go watch some of the old videos.",
+    "start": "00:55:17",
+    "end": "00:55:18"
+  },
+  {
+    "text": "I particularly enjoyed my conversation with Cara Swisser not too recently.",
+    "start": "00:55:18",
+    "end": "00:55:25"
+  },
+  {
+    "text": "Uh you can follow along on the Substack newcomer.",
+    "start": "00:55:25",
+    "end": "00:55:29"
+  },
+  {
+    "text": "co or if you've got endless time on your hands, go watch the Super Bowl Valley show, my chat show with Max Child and James Wilman.",
+    "start": "00:55:29",
+    "end": "00:55:35"
+  },
+  {
+    "text": "Thanks for watching.",
+    "start": "00:55:35",
+    "end": "00:55:37"
+  },
+  {
+    "text": "See you next week.",
+    "start": "00:55:37",
+    "end": "00:55:38"
+  }
+]

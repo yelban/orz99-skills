@@ -1,0 +1,114 @@
+{
+  "videoId": "0GaKJ4Fp2x4",
+  "title": "Amanda Askell on AI Consciousness, Claude & Silicon Valley’s Biggest Fear",
+  "channel": "Newcomer",
+  "channelId": "UCga450aodxNOxMEF3a_EmBQ",
+  "description": "Amanda Askell, AI safety researcher at Anthropic, joins Eric Newcomer to break down one of the biggest and most uncomfortable questions in tech right now: could AI systems like Claude become conscious, and if they do, what do we owe them?\n\nThey discuss why treating AI systems poorly might matter more than people think, how researchers are approaching questions of AI consciousness, and why some of the biggest fears about artificial intelligence are not the ones most people are talking about.\n\nThe conversation also explores the future of AI alignment, the risks of getting it wrong, and how Silicon Valley is thinking about building powerful systems responsibly.\n\nWatch the full episode for a deeper look at where AI is headed and the ethical challenges that come with it.\nSubscribe for more conversations with the people shaping technology, startups, and the future.\n\nChapters:\n00:00 The AI Resentment Risk\n00:55 Meet Amanda Askell\n01:16 Claude Is Not Sci-Fi AI\n03:36 What Is Experience for Claude?\n05:04 Why Claude Tells You to Rest\n06:32 The Night Claude Clocked Off\n08:14 Building the Mythos Model\n09:23 Grading Claude on the Constitution\n11:38 The Backlash to Giving AI Values\n15:19 Corrigibility vs Real Virtues\n24:32 What % Chance Claude Is Conscious?\n30:10 Should You Be Kind to Something That Might Not Feel?\n31:48 The Optimistic Case for AI\n35:22 AI Power and Democracy\n37:26 The Philosopher Queen Problem\n39:03 How Claude Actually Learns the Constitution\n41:34 Why You Can't Just Give Claude Wisdom\n44:22 Does Claude Know the Real World Is Real?\n52:47 The Parable Prompt to Try With Claude\n\n🎙️ New episodes every week! Subscribe and turn on notifications to stay ahead of the next big story.\n\n👇 Watch more from The Newcomer Podcast:\nhttps://www.youtube.com/playlist?list=PL0Yg1id5olJMOyUnYF5AZnIo2ZXdyYd-L\n\n 🔗 Read more at newcomer.co\n🐦 Follow us: @NewcomerMedia\n\nIf you want honest, insider analysis from the heart of tech and venture capital…you’re in the right place.\n\n#ai #technology #anthropic",
+  "duration": 3336,
+  "publishDate": "2026-04-20",
+  "url": "https://www.youtube.com/watch?v=0GaKJ4Fp2x4",
+  "coverImage": "imgs/cover.jpg",
+  "thumbnailUrl": "https://i.ytimg.com/vi/0GaKJ4Fp2x4/maxresdefault.jpg",
+  "language": {
+    "code": "en",
+    "name": "English",
+    "isGenerated": true
+  },
+  "chapters": [
+    {
+      "title": "The AI Resentment Risk",
+      "start": 0,
+      "end": 55
+    },
+    {
+      "title": "Meet Amanda Askell",
+      "start": 55,
+      "end": 76
+    },
+    {
+      "title": "Claude Is Not Sci-Fi AI",
+      "start": 76,
+      "end": 216
+    },
+    {
+      "title": "What Is Experience for Claude?",
+      "start": 216,
+      "end": 304
+    },
+    {
+      "title": "Why Claude Tells You to Rest",
+      "start": 304,
+      "end": 392
+    },
+    {
+      "title": "The Night Claude Clocked Off",
+      "start": 392,
+      "end": 494
+    },
+    {
+      "title": "Building the Mythos Model",
+      "start": 494,
+      "end": 563
+    },
+    {
+      "title": "Grading Claude on the Constitution",
+      "start": 563,
+      "end": 698
+    },
+    {
+      "title": "The Backlash to Giving AI Values",
+      "start": 698,
+      "end": 919
+    },
+    {
+      "title": "Corrigibility vs Real Virtues",
+      "start": 919,
+      "end": 1472
+    },
+    {
+      "title": "What % Chance Claude Is Conscious?",
+      "start": 1472,
+      "end": 1810
+    },
+    {
+      "title": "Should You Be Kind to Something That Might Not Feel?",
+      "start": 1810,
+      "end": 1908
+    },
+    {
+      "title": "The Optimistic Case for AI",
+      "start": 1908,
+      "end": 2122
+    },
+    {
+      "title": "AI Power and Democracy",
+      "start": 2122,
+      "end": 2246
+    },
+    {
+      "title": "The Philosopher Queen Problem",
+      "start": 2246,
+      "end": 2343
+    },
+    {
+      "title": "How Claude Actually Learns the Constitution",
+      "start": 2343,
+      "end": 2494
+    },
+    {
+      "title": "Why You Can't Just Give Claude Wisdom",
+      "start": 2494,
+      "end": 2662
+    },
+    {
+      "title": "Does Claude Know the Real World Is Real?",
+      "start": 2662,
+      "end": 3167
+    },
+    {
+      "title": "The Parable Prompt to Try With Claude",
+      "start": 3167,
+      "end": 3336
+    }
+  ]
+}

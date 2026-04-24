@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "deno-sandbox": {
+      "command": "deno",
+      "args": [
+        "run",
+        "--allow-net",
+        "--allow-write",
+        "--allow-run=deno",
+        "--deny-read",
+        "--deny-env",
+        "jsr:@cong/mcp-deno"
+      ]
+    },
+    "python-podman-sandbox": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/yelban/mcp-server-code-execution-mode",
+        "mcp-server-code-execution-mode",
+        "run"
+      ],
+      "env": {
+        "MCP_BRIDGE_RUNTIME": "podman"
+      }
+    },
+    "chrome-devtools": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "chrome-devtools-mcp@latest"
+      ]
+    },
+    "kiroku-memory": {
+      "command": "node",
+      "args": [
+        "/opt/homebrew/lib/node_modules/@kiroku/cli/dist/mcp.cjs"
+      ],
+      "env": {
+        "KIROKU_PROJECT_ID": "Users-orz99-zoo-orz99-skills",
+        "KIROKU_ROOT": "/opt/homebrew/lib/node_modules/@kiroku/cli"
+      }
+    }
+  }
+}

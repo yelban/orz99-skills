@@ -235,7 +235,7 @@ Claude Opus 擔任 PM 釐清需求、定位檔案，再交由 GPT-5.4（xhigh re
 靈感來源：Amanda Askell（Anthropic），2026 年 4 月 Newcomer Pod 訪談。
 
 **Triggers:**
-- `/fable <領域>`、`/寓言`、`/探索`
+- `/fable-explore <領域>`、`/寓言`、`/探索`
 - 「用寓言教我」「fable explore」「tell me a fable about」
 - 「再一個」「another」延續同一領域
 
